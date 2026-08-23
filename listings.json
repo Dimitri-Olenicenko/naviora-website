@@ -981,7 +981,7 @@
     "priceUsd": 648728,
     "sizeSqm": 88,
     "bedrooms": 0,
-    "handover": "",
+    "handover": "Q2 2028",
     "images": [
       "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-1.webp",
       "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-2.webp",
@@ -1002,7 +1002,8 @@
     "paymentPlan": "15% при бронировании / 85% в ходе строительства и после передачи (5% в течение 9 месяцев, по 1% в месяц)",
     "lat": null,
     "lng": null,
-    "address": "Majan, Дубай"
+    "address": "Majan, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/samana-barari-avenue.pdf"
   },
   {
     "id": "dubai-hq-by-rove",
@@ -1038,7 +1039,8 @@
     "paymentPlan": "15% при бронировании / 35% в ходе строительства (7 платежей) / 50% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Business Bay, Дубай"
+    "address": "Business Bay, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/hq-by-rove.pdf"
   },
   {
     "id": "dubai-azizi-emerald",
@@ -1074,7 +1076,8 @@
     "paymentPlan": "10% при бронировании / 30% в ходе строительства (3 платежа) / 60% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Dubai Healthcare City, Дубай"
+    "address": "Dubai Healthcare City, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/azizi-emerald.pdf"
   },
   {
     "id": "dubai-the-brooks-sobha-sanctuary",
@@ -1090,7 +1093,7 @@
     "priceUsd": 2001480,
     "sizeSqm": 385,
     "bedrooms": 5,
-    "handover": "",
+    "handover": "Q3 2029",
     "images": [
       "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
       "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-2.webp",
@@ -1111,7 +1114,8 @@
     "paymentPlan": "20% при бронировании / 40% в ходе строительства (4 платежа) / 40% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Sobha Sanctuary, Дубай"
+    "address": "Sobha Sanctuary, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/the-brooks-sobha-sanctuary.pdf"
   },
   {
     "id": "dubai-hayat-6-dubai-south",
@@ -1127,7 +1131,7 @@
     "priceUsd": 1616065,
     "sizeSqm": 457,
     "bedrooms": 5,
-    "handover": "",
+    "handover": "Q3 2028",
     "images": [
       "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-1.webp",
       "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-2.webp",
@@ -1149,7 +1153,8 @@
     "paymentPlan": "5% при бронировании / 35% в ходе строительства / 30% при передаче / 30% в течение 24 месяцев после передачи",
     "lat": null,
     "lng": null,
-    "address": "Dubai South, Madinat Al Mataar, Дубай"
+    "address": "Dubai South, Madinat Al Mataar, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/hayat-6-dubai-south.pdf"
   },
   {
     "id": "dubai-athlon-by-aldar",
@@ -1187,7 +1192,8 @@
     "paymentPlan": "10% при бронировании / 50% в ходе строительства / 40% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Arabian Ranches 3, Wadi Al Safa 5, Дубай"
+    "address": "Arabian Ranches 3, Wadi Al Safa 5, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/athlon-by-aldar.pdf"
   },
   {
     "id": "dubai-serro-2-the-heights",
@@ -1226,7 +1232,8 @@
     "paymentPlan": "10% при бронировании / 70% в ходе строительства (7 платежей) / 20% при передаче",
     "lat": null,
     "lng": null,
-    "address": "The Heights, Al Yalayis 5, Дубай"
+    "address": "The Heights, Al Yalayis 5, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/serro-2-the-heights.pdf"
   },
   {
     "id": "dubai-residences-difc-zabeel",
@@ -1265,7 +1272,8 @@
     "paymentPlan": "5% при бронировании / 45% в ходе строительства (8 платежей) / 50% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Zabeel, Za'abeel, Дубай"
+    "address": "Zabeel, Za'abeel, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/residences-difc-zabeel.pdf"
   },
   {
     "id": "dubai-eywa-business-bay",
@@ -1304,7 +1312,8 @@
     "paymentPlan": "10% при бронировании / 40% в ходе строительства (4 платежа) / 50% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Business Bay, Дубай"
+    "address": "Business Bay, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/eywa-business-bay.pdf"
   },
   {
     "id": "dubai-aeon-creek-harbour",
@@ -1341,6 +1350,242 @@
     "paymentPlan": "10% при бронировании / 80% в ходе строительства / 10% при передаче",
     "lat": null,
     "lng": null,
-    "address": "Dubai Creek Harbour, Al Kheeran 1, Дубай"
+    "address": "Dubai Creek Harbour, Al Kheeran 1, Дубай",
+    "pdfUrl": "/naviora-website/assets/brochures/aeon-creek-harbour.pdf"
+  },
+  {
+    "id": "abudhabi-manchester-city-yas-residences",
+    "slug": "manchester-city-yas-residences",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Manchester City Yas Residences by Ohana",
+    "developer": "Ohana Developments",
+    "district": "Yas Island",
+    "city": "Абу-Даби",
+    "priceUsd": 857726,
+    "sizeSqm": 122,
+    "bedrooms": 2,
+    "handover": "Q4 2029",
+    "images": [
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-1.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-2.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-3.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-4.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-5.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-6.webp",
+      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-7.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Первое в мире жильё под брендом Manchester City на Yas Island. Набережная Yas Canal, футбольная академия клуба на территории, более половины площади — зелёные зоны и wellness.",
+    "highlights": [
+      "Брендированный проект Manchester City",
+      "Академия Manchester City на территории комплекса",
+      "Квартиры, таунхаусы, твин-виллы и виллы 2–5 спален",
+      "Более 50% территории — зелёные зоны и рекреация",
+      "Набережная Yas Canal, кристальная лагуна"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "10% при бронировании / 30% в ходе строительства / 60% при передаче",
+    "lat": null,
+    "lng": null,
+    "address": "Yas Island, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/manchester-city-yas-residences.pdf"
+  },
+  {
+    "id": "abudhabi-fairmont-marina-residences",
+    "slug": "fairmont-marina-residences",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "secondary",
+    "type": "apartment",
+    "title": "Fairmont Marina Residences",
+    "developer": "National Investment",
+    "district": "Al Kasir",
+    "city": "Абу-Даби",
+    "priceUsd": 1156224,
+    "sizeSqm": 141,
+    "bedrooms": 2,
+    "handover": "Сдан (Q2 2021)",
+    "images": [
+      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-1.webp",
+      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-2.webp",
+      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-3.webp",
+      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-4.webp",
+      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-5.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Брендированные резиденции Fairmont на набережной Персидского залива: башни-близнецы с аркой, доступ к инфраструктуре курорта Fairmont Marina и привилегии в 110+ отелях Fairmont, Raffles и Swissôtel.",
+    "highlights": [
+      "Готов — сдан в 2021, 100% готовности",
+      "Меблированные резиденции, кухня в комплекте",
+      "Инфинити-бассейн, спа Willow Stream, теннис",
+      "Привилегии в 110+ отелях Fairmont / Raffles / Swissôtel",
+      "Рассрочка 20/80 на 3 года после передачи"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "20% при бронировании / 80% в течение 3 лет после передачи (13,33% каждые 6 мес.)",
+    "lat": null,
+    "lng": null,
+    "address": "Al Kasir, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/fairmont-marina-residences.pdf"
+  },
+  {
+    "id": "abudhabi-beach-house-fahid",
+    "slug": "beach-house-fahid",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "The Beach House Fahid",
+    "developer": "ALDAR",
+    "district": "Fahid Island",
+    "city": "Абу-Даби",
+    "priceUsd": 1339825,
+    "sizeSqm": 137,
+    "bedrooms": 2,
+    "handover": "Q3 2029",
+    "images": [
+      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-1.webp",
+      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-2.webp",
+      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-3.webp",
+      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-4.webp",
+      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-5.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Прибрежный комплекс на Fahid Island в нескольких шагах от берега: два резорт-бассейна, коворкинг-лаунжи, променад Coral Drive с ретейлом и ресторанами.",
+    "highlights": [
+      "Остров Fahid — новая закрытая локация Абу-Даби",
+      "Два резорт-бассейна, два спортзала",
+      "Променад Coral Drive, бутиковый ретейл",
+      "Полуменблированные квартиры, кухня с техникой",
+      "Сервисный сбор 32 AED/кв. фут"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "10% при бронировании / 30% в ходе строительства / 60% при передаче",
+    "lat": null,
+    "lng": null,
+    "address": "Fahid Island, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/beach-house-fahid.pdf"
+  },
+  {
+    "id": "abudhabi-river-cove-sobha-city-ad",
+    "slug": "river-cove-sobha-city-ad",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "River Cove Residences at Sobha City",
+    "developer": "Sobha",
+    "district": "Al Bahya",
+    "city": "Абу-Даби",
+    "priceUsd": 1073628,
+    "sizeSqm": 144,
+    "bedrooms": 2,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-1.webp",
+      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-2.webp",
+      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-3.webp",
+      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-4.webp",
+      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-5.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Две башни вдоль променада в Sobha City: виды на каналы и озеленение, панорамное остекление, балконы. Квартиры и дуплексы 1–4 спальни.",
+    "highlights": [
+      "Две башни вдоль набережного променада",
+      "Панорамное остекление от пола до потолка",
+      "Беговые и велодорожки, открытые спортзалы",
+      "Зоны медитации и тай-чи, йога-дек",
+      "Амфитеатр, площадки для детей, общественные лаунжи"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "20% при бронировании / 40% в ходе строительства (8 платежей) / 40% при передаче",
+    "lat": null,
+    "lng": null,
+    "address": "Al Bahya, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/river-cove-sobha-city-ad.pdf"
+  },
+  {
+    "id": "abudhabi-the-terraces-sobha-city-ad",
+    "slug": "the-terraces-sobha-city-ad",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "villa",
+    "title": "The Terraces at Sobha City",
+    "developer": "Sobha",
+    "district": "Al Bahya",
+    "city": "Абу-Даби",
+    "priceUsd": 1386607,
+    "sizeSqm": 240,
+    "bedrooms": 3,
+    "handover": "Q4 2029",
+    "images": [
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp",
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp",
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp",
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.",
+    "highlights": [
+      "Садовые виллы с приватными садами и террасами",
+      "Отдельные виллы с лифтом, бассейном и крытой парковкой",
+      "Парки, велодорожки, мультиспортивные корты",
+      "Зоны медитации и йоги, амфитеатр",
+      "Сервисный сбор 5 AED/кв. фут"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "20% при бронировании / 40% в ходе строительства (8 платежей) / 40% при передаче",
+    "lat": null,
+    "lng": null,
+    "address": "Al Bahya, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/the-terraces-sobha-city-ad.pdf"
+  },
+  {
+    "id": "abudhabi-al-ghadeer-gardens",
+    "slug": "al-ghadeer-gardens",
+    "country": "abudhabi",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "villa",
+    "title": "Al Ghadeer Gardens",
+    "developer": "ALDAR",
+    "district": "Al Ghadeer",
+    "city": "Абу-Даби",
+    "priceUsd": 913838,
+    "sizeSqm": 204,
+    "bedrooms": 4,
+    "handover": "Q4 2030",
+    "images": [
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-1.webp",
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-2.webp",
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-3.webp",
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp",
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-5.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Виллы и таунхаусы 2–4 спальни на границе Абу-Даби и Дубая: резорт-бассейн, водная горка, падел-корт, школа на территории комьюнити.",
+    "highlights": [
+      "На границе Абу-Даби и Дубая, рядом Al Maktoum International",
+      "Виллы и таунхаусы 2–4 спальни от 2 198 кв. футов",
+      "Резорт-бассейн, splash pad, водная горка",
+      "Падел-корт, спортплощадки, ивент-лужайка",
+      "Школа и комьюнити-центр со спортзалом на территории"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "5% при бронировании / 50% в ходе строительства (6 платежей) / 45% при передаче",
+    "lat": null,
+    "lng": null,
+    "address": "Al Ghadeer, Абу-Даби",
+    "pdfUrl": "/naviora-website/assets/brochures/al-ghadeer-gardens.pdf"
   }
 ]
