@@ -410,8 +410,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "20% при бронировании / 40% в ходе строительства (6 платежей) / 40% в течение 3 лет после передачи (12 платежей)",
-    "lat": null,
-    "lng": null,
+    "lat": 25.0969029,
+    "lng": 55.3720924,
     "address": "Dubai Land Residence Complex, Dubai Residence Complex, Дубай"
   },
   {
@@ -447,8 +447,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "15% при бронировании / 85% в ходе строительства и после передачи (5% в течение 9 месяцев, по 1% в месяц)",
-    "lat": null,
-    "lng": null,
+    "lat": 25.0918203,
+    "lng": 55.3107432,
     "address": "Majan, Дубай",
     "pdfUrl": "/naviora-website/assets/brochures/samana-barari-avenue.pdf"
   },
@@ -521,8 +521,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "10% при бронировании / 30% в ходе строительства (3 платежа) / 60% при передаче",
-    "lat": null,
-    "lng": null,
+    "lat": 25.2331875,
+    "lng": 55.3218125,
     "address": "Dubai Healthcare City, Дубай",
     "pdfUrl": "/naviora-website/assets/brochures/azizi-emerald.pdf"
   },
@@ -795,8 +795,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "10% при бронировании / 80% в ходе строительства / 10% при передаче",
-    "lat": null,
-    "lng": null,
+    "lat": 25.2063979,
+    "lng": 55.3518043,
     "address": "Dubai Creek Harbour, Al Kheeran 1, Дубай",
     "pdfUrl": "/naviora-website/assets/brochures/aeon-creek-harbour.pdf"
   },
@@ -809,7 +809,7 @@
     "type": "apartment",
     "title": "Manchester City Yas Residences by Ohana",
     "developer": "Ohana Developments",
-    "district": "Yas Island",
+    "district": "Yas Island, Yas Canal",
     "city": "Абу-Даби",
     "priceUsd": 857726,
     "sizeSqm": 122,
@@ -836,9 +836,9 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "10% при бронировании / 30% в ходе строительства / 60% при передаче",
-    "lat": null,
-    "lng": null,
-    "address": "Yas Island, Абу-Даби",
+    "lat": 24.478224,
+    "lng": 54.619008,
+    "address": "Yas Island, Yas Canal, Абу-Даби",
     "pdfUrl": "/naviora-website/assets/brochures/manchester-city-yas-residences.pdf"
   },
   {
@@ -875,8 +875,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "20% при бронировании / 80% в течение 3 лет после передачи (13,33% каждые 6 мес.)",
-    "lat": null,
-    "lng": null,
+    "lat": 24.4814131,
+    "lng": 54.3209175,
     "address": "Al Kasir, Абу-Даби",
     "pdfUrl": "/naviora-website/assets/brochures/fairmont-marina-residences.pdf"
   },
@@ -1050,7 +1050,17 @@
     "sizeSqm": 49,
     "bedrooms": 0,
     "handover": "Q1 2029",
-    "images": [],
+    "images": [
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-2.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-3.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-4.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-5.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-6.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-7.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-8.jpg",
+      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg"
+    ],
     "featured": false,
     "shortDescription": "Офисная башня на Al Reem Island в периметре ADGM: 133 офиса на 24 этажах, площади от 532 до 2 520 кв. футов. Свободная планировка, фрихолд для иностранных покупателей.",
     "highlights": [
@@ -1063,8 +1073,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "Уточняется у застройщика",
-    "lat": 24.4939983,
-    "lng": 54.4005613,
+    "lat": 24.494079,
+    "lng": 54.400688,
     "address": "Al Reem Island, City of Lights, Абу-Даби"
   },
   {
@@ -1095,8 +1105,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "Вторичный рынок — оплата по договору",
-    "lat": 24.4990673,
-    "lng": 54.4031393,
+    "lat": 24.4989329,
+    "lng": 54.4031167,
     "address": "Al Reem Island, Абу-Даби"
   },
   {
@@ -1127,8 +1137,8 @@
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "Вторичный рынок — оплата по договору",
-    "lat": 24.4996841,
-    "lng": 54.4030025,
+    "lat": 24.4963445,
+    "lng": 54.4046392,
     "address": "Al Reem Island, Абу-Даби"
   },
   {

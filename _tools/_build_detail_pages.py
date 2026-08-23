@@ -123,6 +123,30 @@ def page(item: dict, css: str) -> str:
             'border-bottom:11px solid transparent;margin-left:4px"></span></span>'
             '</div></section>')
 
+    # Map, shown only where the pin resolved to the building itself. An
+    # OpenStreetMap embed needs no API key and loads no Google tracking; the
+    # link out to Google Maps is what people actually use for directions.
+    mapsec = ""
+    lat, lng = item.get("lat"), item.get("lng")
+    if lat and lng:
+        d = 0.004
+        bbox = f"{lng-d},{lat-d/2},{lng+d},{lat+d/2}"
+        mapsec = (
+            '<section style="margin-top:2.5rem">'
+            '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
+            '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">06</span>'
+            '<h2 style="font-size:1.25rem;margin:0">На карте</h2></div>'
+            f'<iframe title="Карта: {esc(item["title"])}" loading="lazy" '
+            'style="width:100%;height:340px;border:1px solid rgba(13,27,42,.15)" '
+            f'src="https://www.openstreetmap.org/export/embed.html?bbox={bbox}'
+            f'&amp;layer=mapnik&amp;marker={lat},{lng}"></iframe>'
+            f'<p style="font-size:.85rem;color:#66758a;margin:.75rem 0 0">'
+            f'{esc(item.get("address") or item.get("district") or "")} · '
+            f'<a href="https://www.google.com/maps/search/?api=1&amp;query={lat},{lng}" '
+            'target="_blank" rel="noopener noreferrer" '
+            'style="color:#8a6e2a">Открыть в Google Maps →</a></p>'
+            '</section>')
+
     deck = ""
     pdf = item.get("pdfUrl") or item.get("brochure")
     if pdf:
@@ -222,6 +246,7 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
   {'<section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0">' + hi + '</ul></section>' if hi else ''}
   {video}
   {deck}
+  {mapsec}
 </div>
 <aside class="nv-side"><div class="nv-card">
   <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#66758a">Цена от</div>
