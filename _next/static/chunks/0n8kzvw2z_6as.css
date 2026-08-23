@@ -17,3 +17,79 @@
 a.group.relative.flex.flex-col > svg.pointer-events-none.absolute {
   display: none !important;
 }
+
+
+/* nv-listing-card-design */
+
+/* ---- 1. Equal card heights ----------------------------------------------
+   Measured 21px of ragged bottoms across one row of three. */
+.grid > div:has(> a[href*="/residential/"]),
+.grid > div:has(> a[href*="/commercial/"]) { display: flex; }
+.grid > div > a[href*="/residential/"],
+.grid > div > a[href*="/commercial/"] { width: 100%; }
+
+/* ---- 2. Let the grid breathe --------------------------------------------
+   Luxhabitat: 32px columns, 64px rows. Ours was 24px both ways. */
+.grid.gap-6 { column-gap: 2rem !important; row-gap: 3.5rem !important; }
+
+/* ---- 3. Remove the nested bordered box ----------------------------------
+   The payment-plan panel drew a border inside the card. A single hairline
+   above it does the same separating job without a box-in-a-box. */
+a[href*="/residential/"] .hairline,
+a[href*="/commercial/"] .hairline {
+  border: 0 !important;
+  border-top: 1px solid rgba(20,20,20,.10) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background: transparent !important;
+}
+
+/* ---- 4. Quiet the market badge ------------------------------------------
+   Keeps its position and legibility, stops competing with the photograph.
+   The blue stays the brand's everywhere else. */
+a[href*="/residential/"] .absolute.t-micro,
+a[href*="/commercial/"] .absolute.t-micro {
+  background: rgba(20,22,26,.74) !important;
+  backdrop-filter: blur(6px);
+  letter-spacing: .1em !important;
+}
+
+/* ---- 5. Slow image reveal on hover -------------------------------------- */
+a[href*="/residential/"] img,
+a[href*="/commercial/"] img {
+  transition: transform 700ms cubic-bezier(.16,1,.3,1) !important;
+}
+a[href*="/residential/"]:hover img,
+a[href*="/commercial/"]:hover img { transform: scale(1.03) !important; }
+
+/* ---- 6. Card frame lifts on hover --------------------------------------- */
+a[href*="/residential/"].group,
+a[href*="/commercial/"].group {
+  transition: border-color 200ms ease, transform 200ms ease !important;
+}
+a[href*="/residential/"].group:hover,
+a[href*="/commercial/"].group:hover { transform: translateY(-2px); }
+
+/* ---- 7. Title: sentence case, one weight down ---------------------------
+   Uppercase Cyrillic is measurably harder to read than Latin at the same
+   size, and the shout is unnecessary once the card is tidy. */
+a[href*="/residential/"] .t-h3,
+a[href*="/commercial/"] .t-h3 {
+  text-transform: none !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.005em !important;
+}
+
+/* ---- 8. Price reads as money, not as a shout ----------------------------
+   Savills sets price at w400. Bold price is a portal signal; the figure is
+   already the largest thing on the card. */
+a[href*="/residential/"] .t-num,
+a[href*="/commercial/"] .t-num { letter-spacing: -0.01em !important; }
+
+@media (prefers-reduced-motion: reduce){
+  a[href*="/residential/"] img, a[href*="/commercial/"] img,
+  a[href*="/residential/"].group, a[href*="/commercial/"].group {
+    transition: none !important; transform: none !important;
+  }
+}
+
