@@ -17,25 +17,57 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# slug -> {videos: [(id, caption)], deck: (drive_id, label)}
+# slug -> {videos: [(id, caption)], deck: (pdf_url, label)}
+#
+# Decks point at our own compressed copies under assets/brochures rather than
+# the developer's Google Drive links. Drive serves a virus-scan interstitial
+# for files this size instead of the PDF, and the originals are 12-49MB where
+# ours are 1-15MB. The English variant of each deck was identified by
+# rendering page 2 and reading it — the PDFs are image-only, so filenames and
+# text extraction give no clue which language is which.
+BROCHURE = "/naviora-website/assets/brochures/%s.pdf"
+
 MEDIA = {
     "vr-vake-sky-tower": {
         "videos": [("Qg98xW1adOo", "VR Vake Sky Tower — презентация проекта"),
                    ("_QALYuZ5WfU", "Night View 360° — панорама"),
                    ("rnCvO9X-mwY", "Fashion Avenue")],
-        "deck": ("1Vo1dHd9PrTs-6Zs6-Zgu52wHvT4fkEQQ", "VR Vake Sky Tower"),
+        "deck": (BROCHURE % "vr-vake-sky-tower", "VR Vake Sky Tower"),
     },
     "vr-krtsanisi-resort-residence": {
         "videos": [("f2GmxSxcqwo", "VR Krtsanisi Resort Residence — презентация"),
                    ("2-C2F2mxFPM", "Ход строительства"),
                    ("wIG1M4tQR1c", "Строительство премиум-фазы")],
-        "deck": ("1PVzWRZ2JEwsGJiHEqvC1t1gV7KlXILdb", "VR Krtsanisi Resort Residence"),
+        "deck": (BROCHURE % "vr-krtsanisi-resort-residence",
+                 "VR Krtsanisi Resort Residence"),
     },
     "vr-shekvetili-forest-beach": {
         "videos": [("iysxeXK6Kwc", "VR Shekvetili Forest~Beach — презентация"),
                    ("yMusyW6A780", "Строительство первой очереди"),
                    ("x9Kouz1BdXQ", "Первая очередь — ход работ")],
-        "deck": ("1SHShW369Va1OfCMhMXmccS0i6-129wvz", "VR Shekvetili Forest~Beach"),
+        "deck": (BROCHURE % "vr-shekvetili-forest-beach",
+                 "VR Shekvetili Forest~Beach"),
+    },
+    "vr-multifunctional-building": {
+        "videos": [("ZbjPm9Gn_qM", "Multifunctional Building — 5★ апартаменты")],
+        "deck": (BROCHURE % "vr-multifunctional-building",
+                 "VR Multifunctional Building"),
+    },
+    "sairme-villa-residence": {
+        "videos": [("zMlOu1tD1AY", "Sairme Villa Residence — завершённый проект")],
+        "deck": (BROCHURE % "sairme-villa-residence", "Sairme Villa Residence"),
+    },
+    "vr-resort-tbilisi": {
+        "videos": [("LSZ5PfXRdTs", "VR Resort — «Дыши, живи, отдыхай»")],
+        "deck": (BROCHURE % "vr-resort-tbilisi", "VR Resort"),
+    },
+    "vr-apartments-tbilisi": {
+        "videos": [("y5o3twCzjOE", "Villa Residence Apartments")],
+        "deck": None,
+    },
+    "vr-royal-townhouse": {
+        "videos": [("PBaZzU8gpKo", "Крцаниси Вилла Резиденс — таунхаусы")],
+        "deck": None,
     },
 }
 
@@ -112,7 +144,7 @@ SCRIPT_TMPL = """<script id="nv-media">
     if (!col.querySelector('[data-nv-media="deck"]') && DECK){
       var d = section('05', 'Презентация', 'deck');
       d.body.innerHTML =
-        '<a href="https://drive.google.com/file/d/' + DECK[0] + '/view" target="_blank" '
+        '<a href="' + DECK[0] + '" target="_blank" '
         + 'rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:.5rem;'
         + 'border-bottom:1px solid #C9A84C;padding-bottom:2px;font-weight:600;'
         + 'text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#8a6e2a;'
@@ -157,9 +189,12 @@ for slug, media in MEDIA.items():
         html = re.sub(r'<script>document\.querySelectorAll\("\[data-yt\]"\).*?</script>', "",
                       html, flags=re.S)
 
+        # Two completed projects publish videos but no downloadable deck; the
+        # script skips the Презентация section when DECK is null.
+        deck = media.get("deck")
         script = SCRIPT_TMPL % {
             "videos": js_arr(media["videos"]),
-            "deck": '["%s","%s"]' % media["deck"],
+            "deck": '["%s","%s"]' % deck if deck else "null",
         }
         html = html.replace("</body>", script + "</body>", 1)
 
