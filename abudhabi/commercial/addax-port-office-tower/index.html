@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- nv-generated-detail-page -->
 <html lang="ru">
 <head>
 <meta charset="utf-8">
@@ -63,6 +64,7 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
   </section>
   <section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0"><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Готовое здание, офисы в продаже сейчас</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Площади от 1 625 до 17 894 кв. футов</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Около 16 лотов на рынке — крупнейший выбор в эмирате</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Al Reem Island, юрисдикция ADGM</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Фрихолд для иностранных покупателей</span></li></ul></section>
   
+  
 </div>
 <aside class="nv-side"><div class="nv-card">
   <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#66758a">Цена от</div>
@@ -83,5 +85,30 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
   <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
   <a href="/naviora-website/abudhabi/commercial/">← Все объекты: Абу-Даби, коммерческая</a>
 </div></footer>
+<script>
+// Swap the poster for the real player only once the visitor asks for it.
+(function () {
+  function play(box) {
+    var id = box.getAttribute('data-yt');
+    if (!id || box.dataset.loaded) return;
+    box.dataset.loaded = '1';
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id +
+            '?autoplay=1&rel=0&modestbranding=1';
+    f.title = 'Видео проекта';
+    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    f.setAttribute('style',
+      'position:absolute;inset:0;width:100%;height:100%;border:0');
+    box.appendChild(f);
+  }
+  document.querySelectorAll('.nv-yt').forEach(function (box) {
+    box.addEventListener('click', function () { play(box); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(box); }
+    });
+  });
+})();
+</script>
 </body>
 </html>

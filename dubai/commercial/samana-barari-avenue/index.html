@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- nv-generated-detail-page -->
 <html lang="ru">
 <head>
 <meta charset="utf-8">
@@ -62,6 +63,7 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
     <p style="color:rgba(13,27,42,.8)">Премиальный бизнес-парк в Majan на Sheikh Mohammed bin Zayed Road: офисы и стрит-ретейл, панорамное остекление, гибкие условия аренды и покупки.</p>
   </section>
   <section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0"><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">57 офисов от 952 кв. футов, 17 ретейл-юнитов</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Витрины первой линии с высоким пешеходным трафиком</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Энергоэффективная архитектура, панорамное остекление</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">VIP-зона высадки, скоростной интернет, парковка</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span><span style="color:rgba(13,27,42,.8)">Рассрочка 15/85 с платежами после передачи</span></li></ul></section>
+  
   <section style="margin-top:2.5rem"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">05</span><h2 style="font-size:1.25rem;margin:0">Презентация</h2></div><a href="/naviora-website/assets/brochures/samana-barari-avenue.pdf" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:.5rem;border-bottom:1px solid #c9a84c;padding-bottom:2px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#8a6e2a;text-decoration:none">Скачать презентацию — PDF →</a></section>
 </div>
 <aside class="nv-side"><div class="nv-card">
@@ -83,5 +85,30 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
   <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
   <a href="/naviora-website/dubai/commercial/">← Все объекты: Дубай, коммерческая</a>
 </div></footer>
+<script>
+// Swap the poster for the real player only once the visitor asks for it.
+(function () {
+  function play(box) {
+    var id = box.getAttribute('data-yt');
+    if (!id || box.dataset.loaded) return;
+    box.dataset.loaded = '1';
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id +
+            '?autoplay=1&rel=0&modestbranding=1';
+    f.title = 'Видео проекта';
+    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    f.setAttribute('style',
+      'position:absolute;inset:0;width:100%;height:100%;border:0');
+    box.appendChild(f);
+  }
+  document.querySelectorAll('.nv-yt').forEach(function (box) {
+    box.addEventListener('click', function () { play(box); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(box); }
+    });
+  });
+})();
+</script>
 </body>
 </html>

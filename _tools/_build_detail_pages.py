@@ -27,6 +27,10 @@ COUNTRY = {
     "georgia": ("Тбилиси", "georgia"),
 }
 PURPOSE = {"residential": "Жилая", "commercial": "Коммерческая"}
+
+# Stamped into every page this script writes, so a later run can tell its own
+# output apart from the pages Next.js exported and refresh only its own.
+MARKER = "<!-- nv-generated-detail-page -->"
 TYPE_RU = {"apartment": "Апартаменты", "villa": "Вилла", "office": "Офис",
            "retail": "Ритейл", "townhouse": "Таунхаус"}
 MARKET_RU = {"offplan": "Первичный рынок", "secondary": "Вторичный рынок"}
@@ -43,6 +47,10 @@ def esc(s) -> str:
 
 
 def money(n) -> str:
+    # Some listings (mostly Armenian ones) have no published price. Show that
+    # honestly rather than rendering "$ 0".
+    if not n:
+        return "Цена по запросу"
     return f"$ {n:,}".replace(",", " ")
 
 
@@ -92,17 +100,46 @@ def page(item: dict, css: str) -> str:
         f'<span style="color:rgba(13,27,42,.8)">{esc(h)}</span></li>'
         for h in (item.get("highlights") or []))
 
+    # A YouTube facade: no iframe until the visitor clicks, so the page stays
+    # light and nothing is requested from Google on load.
+    video = ""
+    vid = item.get("videoId")
+    if vid:
+        video = (
+            '<section style="margin-top:2.5rem">'
+            '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
+            '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">04</span>'
+            '<h2 style="font-size:1.25rem;margin:0">Видео проекта</h2></div>'
+            f'<div class="nv-yt" data-yt="{esc(vid)}" role="button" tabindex="0" '
+            'aria-label="Смотреть видео проекта" '
+            'style="position:relative;width:100%;padding-top:56.25%;cursor:pointer;'
+            'background:#0d1b2a;overflow:hidden">'
+            f'<img src="https://i.ytimg.com/vi/{esc(vid)}/hqdefault.jpg" alt="" loading="lazy" '
+            'style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85">'
+            '<span aria-hidden="true" style="position:absolute;left:50%;top:50%;'
+            'transform:translate(-50%,-50%);width:68px;height:48px;background:#c9a84c;'
+            'border-radius:10px;display:flex;align-items:center;justify-content:center">'
+            '<span style="border-left:18px solid #0d1b2a;border-top:11px solid transparent;'
+            'border-bottom:11px solid transparent;margin-left:4px"></span></span>'
+            '</div></section>')
+
     deck = ""
-    if item.get("pdfUrl"):
+    pdf = item.get("pdfUrl") or item.get("brochure")
+    if pdf:
+        item = {**item, "pdfUrl": pdf}
+        # Not every attached PDF is a sales deck — Skyline publishes only its
+        # construction permit — so the link text is per-listing where given.
+        label = item.get("brochureLabel") or "Скачать презентацию — PDF →"
+        heading = "Документы" if item.get("brochureLabel") else "Презентация"
         deck = (
             '<section style="margin-top:2.5rem">'
             '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
             '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">05</span>'
-            '<h2 style="font-size:1.25rem;margin:0">Презентация</h2></div>'
+            f'<h2 style="font-size:1.25rem;margin:0">{esc(heading)}</h2></div>'
             f'<a href="{esc(item["pdfUrl"])}" target="_blank" rel="noopener noreferrer" '
             'style="display:inline-flex;align-items:center;gap:.5rem;border-bottom:1px solid #c9a84c;'
             'padding-bottom:2px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;'
-            'font-size:.82rem;color:#8a6e2a;text-decoration:none">Скачать презентацию — PDF →</a>'
+            f'font-size:.82rem;color:#8a6e2a;text-decoration:none">{esc(label)}</a>'
             '</section>')
 
     ld = {
@@ -119,6 +156,7 @@ def page(item: dict, css: str) -> str:
                      "latitude": item["lat"], "longitude": item["lng"]}
 
     return f"""<!DOCTYPE html>
+{MARKER}
 <html lang="ru">
 <head>
 <meta charset="utf-8">
@@ -182,6 +220,7 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
     <p style="color:rgba(13,27,42,.8)">{esc(item.get('shortDescription',''))}</p>
   </section>
   {'<section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0">' + hi + '</ul></section>' if hi else ''}
+  {video}
   {deck}
 </div>
 <aside class="nv-side"><div class="nv-card">
@@ -203,6 +242,31 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
   <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
   <a href="{BASE}/{cslug}/{item['purpose']}/">← Все объекты: {esc(cname)}, {esc(purpose).lower()}</a>
 </div></footer>
+<script>
+// Swap the poster for the real player only once the visitor asks for it.
+(function () {{
+  function play(box) {{
+    var id = box.getAttribute('data-yt');
+    if (!id || box.dataset.loaded) return;
+    box.dataset.loaded = '1';
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id +
+            '?autoplay=1&rel=0&modestbranding=1';
+    f.title = 'Видео проекта';
+    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    f.setAttribute('style',
+      'position:absolute;inset:0;width:100%;height:100%;border:0');
+    box.appendChild(f);
+  }}
+  document.querySelectorAll('.nv-yt').forEach(function (box) {{
+    box.addEventListener('click', function () {{ play(box); }});
+    box.addEventListener('keydown', function (e) {{
+      if (e.key === 'Enter' || e.key === ' ') {{ e.preventDefault(); play(box); }}
+    }});
+  }});
+}})();
+</script>
 </body>
 </html>
 """
@@ -221,13 +285,24 @@ def main():
                                 encoding="utf-8", errors="replace").read())
             break
 
-    made = removed = 0
+    made = refreshed = removed = 0
     for item in listings:
         _, cslug = COUNTRY[item["country"]]
         d = os.path.join(ROOT, cslug, item["purpose"], item["slug"])
         f = os.path.join(d, "index.html")
+
         if os.path.exists(f):
-            continue          # keep the app's own pages
+            # Never touch a page Next.js exported — those are the app's own and
+            # rewriting them would replace a live React route with a static
+            # stub. Our own pages carry the marker and can be regenerated
+            # freely, which is how new video/brochure blocks reach them.
+            existing = open(f, encoding="utf-8", errors="replace").read()
+            if MARKER not in existing:
+                continue
+            open(f, "w", encoding="utf-8").write(page(item, css))
+            refreshed += 1
+            continue
+
         os.makedirs(d, exist_ok=True)
         open(f, "w", encoding="utf-8").write(page(item, css))
         print(f"  + {cslug}/{item['purpose']}/{item['slug']}")

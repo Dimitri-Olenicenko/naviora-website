@@ -37,60 +37,6 @@
     "address": "Арабкир, Ереван"
   },
   {
-    "id": "evn-r-001",
-    "slug": "kentron-northern-avenue",
-    "country": "armenia",
-    "purpose": "residential",
-    "market": "secondary",
-    "type": "apartment",
-    "title": "3 комнаты, Северный проспект",
-    "district": "Кентрон",
-    "city": "Ереван",
-    "priceUsd": 395000,
-    "sizeSqm": 129,
-    "bedrooms": 3,
-    "yieldPct": 6.4,
-    "images": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
-    ],
-    "featured": true,
-    "shortDescription": "Квартира на Северном проспекте — центральная пешеходная улица Еревана. Готова к заселению, юридически проверена.",
-    "highlights": [
-      "Северный проспект",
-      "Готова к заселению",
-      "Проверена юридически"
-    ],
-    "lat": 40.1834,
-    "lng": 44.5138
-  },
-  {
-    "id": "evn-r-003",
-    "slug": "vahagni-villa",
-    "country": "armenia",
-    "purpose": "residential",
-    "market": "secondary",
-    "type": "villa",
-    "title": "Особняк, квартал Ваагни",
-    "district": "Ваагни",
-    "city": "Ереван",
-    "priceUsd": 850000,
-    "sizeSqm": 420,
-    "bedrooms": 5,
-    "images": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80"
-    ],
-    "featured": true,
-    "shortDescription": "Частный дом в закрытом квартале Ваагни — престижный жилой район Еревана. Собственный участок и парковка.",
-    "highlights": [
-      "Закрытый квартал",
-      "Свой участок",
-      "Престижный район"
-    ],
-    "lat": 40.2115,
-    "lng": 44.4732
-  },
-  {
     "id": "tbs-vr-vr-vake-sky-tower",
     "slug": "vr-vake-sky-tower",
     "country": "georgia",
@@ -127,7 +73,9 @@
     "sizeFrom": true,
     "lat": 41.7093,
     "lng": 44.7637,
-    "address": "проспект Чавчавадзе 49, Ваке, Тбилиси"
+    "address": "проспект Чавчавадзе 49, Ваке, Тбилиси",
+    "videoId": "Qg98xW1adOo",
+    "brochure": "/naviora-website/assets/brochures/vr-vake-sky-tower.pdf"
   },
   {
     "id": "tbs-vr-vr-krtsanisi-resort-residence",
@@ -168,7 +116,9 @@
     "sizeFrom": true,
     "lat": 41.6731,
     "lng": 44.8172,
-    "address": "ул. Григола Волского 7, Крцаниси, Тбилиси"
+    "address": "ул. Григола Волского 7, Крцаниси, Тбилиси",
+    "videoId": "f2GmxSxcqwo",
+    "brochure": "/naviora-website/assets/brochures/vr-krtsanisi-resort-residence.pdf"
   },
   {
     "id": "tbs-vr-vr-multifunctional-building",
@@ -207,7 +157,9 @@
     "sizeFrom": true,
     "lat": 41.6738,
     "lng": 44.8185,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "videoId": "ZbjPm9Gn_qM",
+    "brochure": "/naviora-website/assets/brochures/vr-multifunctional-building.pdf"
   },
   {
     "id": "tbs-vr-vr-shekvetili-forest-beach",
@@ -246,7 +198,9 @@
     "sizeFrom": true,
     "lat": 41.9289,
     "lng": 41.7693,
-    "address": "Шекветили, побережье Чёрного моря"
+    "address": "Шекветили, побережье Чёрного моря",
+    "videoId": "iysxeXK6Kwc",
+    "brochure": "/naviora-website/assets/brochures/vr-shekvetili-forest-beach.pdf"
   },
   {
     "id": "tbs-vr-vr-royal-townhouse",
@@ -282,7 +236,8 @@
     ],
     "lat": 41.6722,
     "lng": 44.8158,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "videoId": "PBaZzU8gpKo"
   },
   {
     "id": "tbs-vr-vr-apartments-tbilisi",
@@ -316,7 +271,8 @@
     ],
     "lat": 41.6744,
     "lng": 44.8163,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "videoId": "y5o3twCzjOE"
   },
   {
     "id": "tbs-vr-vr-resort-tbilisi",
@@ -353,7 +309,9 @@
     ],
     "lat": 41.6717,
     "lng": 44.819,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "videoId": "LSZ5PfXRdTs",
+    "brochure": "/naviora-website/assets/brochures/vr-resort-tbilisi.pdf"
   },
   {
     "id": "tbs-vr-sairme-villa-residence",
@@ -390,7 +348,9 @@
     ],
     "lat": 41.6749,
     "lng": 44.8201,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "videoId": "zMlOu1tD1AY",
+    "brochure": "/naviora-website/assets/brochures/sairme-villa-residence.pdf"
   },
   {
     "id": "tbs-vr-vr-office-center-apartments",
@@ -419,144 +379,6 @@
     "lat": 41.6726,
     "lng": 44.8145,
     "address": "Крцаниси, Тбилиси"
-  },
-  {
-    "id": "tbs-r-001",
-    "slug": "vake-apartment",
-    "country": "georgia",
-    "purpose": "residential",
-    "market": "secondary",
-    "type": "apartment",
-    "title": "2 комнаты, Ваке",
-    "district": "Ваке",
-    "city": "Тбилиси",
-    "priceUsd": 165000,
-    "sizeSqm": 84,
-    "bedrooms": 2,
-    "yieldPct": 7.1,
-    "images": [
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
-    ],
-    "featured": true,
-    "shortDescription": "Квартира в Ваке — исторически самый престижный жилой район Тбилиси. Рядом парк и посольский квартал.",
-    "highlights": [
-      "Престижный район",
-      "Рядом парк Ваке",
-      "Готова к заселению"
-    ],
-    "lat": 41.7093,
-    "lng": 44.7561
-  },
-  {
-    "id": "tbs-c-001",
-    "slug": "tbilisi-office-building",
-    "country": "georgia",
-    "purpose": "commercial",
-    "market": "secondary",
-    "type": "office",
-    "title": "Офисное здание, Сабуртало",
-    "district": "Сабуртало",
-    "city": "Тбилиси",
-    "priceUsd": 1450000,
-    "sizeSqm": 980,
-    "bedrooms": null,
-    "yieldPct": 9.6,
-    "images": [
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80"
-    ],
-    "featured": true,
-    "shortDescription": "Отдельно стоящее офисное здание с арендаторами. Возможна реновация и репозиционирование.",
-    "highlights": [
-      "Отдельное здание",
-      "Действующие арендаторы",
-      "Потенциал реновации"
-    ],
-    "lat": 41.7268,
-    "lng": 44.7486
-  },
-  {
-    "id": "evn-r-002",
-    "slug": "arabkir-new-build",
-    "country": "armenia",
-    "purpose": "residential",
-    "market": "offplan",
-    "type": "apartment",
-    "title": "Жилой комплекс, Арабкир",
-    "developer": "Sunday Towers",
-    "district": "Арабкир",
-    "city": "Ереван",
-    "priceUsd": 148000,
-    "priceFrom": true,
-    "sizeSqm": 72,
-    "bedrooms": 2,
-    "handover": "Q3 2027",
-    "paymentPlan": "50/50",
-    "images": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80"
-    ],
-    "featured": false,
-    "shortDescription": "Новостройка в Арабкире — спокойный зелёный район с развитой инфраструктурой. Планировки от 1 до 3 комнат.",
-    "highlights": [
-      "Зелёный район",
-      "Рассрочка 50/50",
-      "Сдача Q3 2027"
-    ],
-    "lat": 40.2035,
-    "lng": 44.4981
-  },
-  {
-    "id": "evn-c-001",
-    "slug": "kentron-office-floor",
-    "country": "armenia",
-    "purpose": "commercial",
-    "market": "secondary",
-    "type": "office",
-    "title": "Офисный этаж, Кентрон",
-    "district": "Кентрон",
-    "city": "Ереван",
-    "priceUsd": 520000,
-    "sizeSqm": 240,
-    "bedrooms": null,
-    "yieldPct": 8.5,
-    "images": [
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=80"
-    ],
-    "featured": false,
-    "shortDescription": "Офисное помещение в центре Еревана с действующими арендаторами. Стабильный арендный поток.",
-    "highlights": [
-      "Действующие арендаторы",
-      "Центр города",
-      "Доходность ~8.5%"
-    ],
-    "lat": 40.1811,
-    "lng": 44.5121
-  },
-  {
-    "id": "evn-c-002",
-    "slug": "yerevan-retail-unit",
-    "country": "armenia",
-    "purpose": "commercial",
-    "market": "secondary",
-    "type": "retail",
-    "title": "Торговое помещение, проспект Маштоца",
-    "district": "Кентрон",
-    "city": "Ереван",
-    "priceUsd": 310000,
-    "sizeSqm": 96,
-    "bedrooms": null,
-    "yieldPct": 9.2,
-    "images": [
-      "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=1200&q=80"
-    ],
-    "featured": false,
-    "shortDescription": "Помещение на первой линии проспекта Маштоца — один из главных торговых коридоров Еревана.",
-    "highlights": [
-      "Первая линия",
-      "Высокий трафик",
-      "Доходность ~9.2%"
-    ],
-    "lat": 40.1799,
-    "lng": 44.5065
   },
   {
     "id": "dubai-09-life-residences",
@@ -1306,5 +1128,319 @@
     "lat": 24.4996841,
     "lng": 54.4030025,
     "address": "Al Reem Island, Абу-Даби"
+  },
+  {
+    "id": "armenia-five-towers",
+    "slug": "five-towers",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Five Towers",
+    "developer": "Armconstruct",
+    "district": "Ajapnyak, Gevorg Chaush 95",
+    "city": "Ереван",
+    "priceUsd": 106005,
+    "priceNote": "AMD→USD @ 383",
+    "sizeSqm": 52,
+    "bedrooms": 1,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/five-towers/five-towers-1.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-2.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-3.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-4.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-5.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-6.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-10.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Комплекс из пяти корпусов по 23 этажа. В четырёх из пяти зданий предусмотрено по три коммерческих этажа — магазины, супермаркеты и сервисы прямо в комплексе.",
+    "highlights": [
+      "Пять корпусов по 23 этажа",
+      "Три коммерческих этажа в четырёх зданиях",
+      "Детский сад и бизнес-центр на территории",
+      "Теннисный корт, футбольное поле, современный зал",
+      "Зарядные станции для электромобилей"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.2114372,
+    "lng": 44.4629873,
+    "address": "Ajapnyak, Gevorg Chaush 95, Ереван"
+  },
+  {
+    "id": "armenia-atlantis-prime",
+    "slug": "atlantis-prime",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Atlantis Prime",
+    "developer": "Armconstruct",
+    "district": "Arabkir, Malkhasyants lane 3",
+    "city": "Ереван",
+    "priceUsd": 111227,
+    "priceNote": "AMD→USD @ 383",
+    "sizeSqm": 59,
+    "bedrooms": 1,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-1.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-2.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-3.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-4.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-5.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-6.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-7.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-8.jpeg"
+    ],
+    "featured": false,
+    "shortDescription": "Премиальный комплекс в Арабкире рядом с Atlantis Yerevan: 17 надземных этажей, панорамное остекление в пол, виды на Арарат, проспект Комитаса и Разданское ущелье.",
+    "highlights": [
+      "17 надземных этажей, премиум-класс",
+      "Панорамные окна в пол",
+      "Виды на Арарат и Разданское ущелье",
+      "Рядом с Atlantis Yerevan, район Арабкир",
+      "56 квартир уже забронировано"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.2110339,
+    "lng": 44.5075671,
+    "address": "Arabkir, Malkhasyants lane 3, Ереван"
+  },
+  {
+    "id": "armenia-atlantis-yerevan",
+    "slug": "atlantis-yerevan",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Atlantis Yerevan",
+    "developer": "Armconstruct",
+    "district": "Arabkir, Malkhasyants lane 6",
+    "city": "Ереван",
+    "priceUsd": null,
+    "priceNote": "Цена по запросу",
+    "sizeSqm": null,
+    "bedrooms": 2,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-1.webp",
+      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-2.webp",
+      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-3.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Три корпуса премиум-класса в Арабкире с крупными витражными окнами. Проект позиционируется и как жильё, и как инвестиционный объект.",
+    "highlights": [
+      "Три корпуса премиум-класса",
+      "Большие витражные панорамные окна",
+      "Район Арабкир, Malkhasyants 6",
+      "Полная отделка от застройщика",
+      "Закрытая территория с инфраструктурой"
+    ],
+    "priceFrom": false,
+    "sizeFrom": false,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.2112377,
+    "lng": 44.5086793,
+    "address": "Arabkir, Malkhasyants lane 6, Ереван"
+  },
+  {
+    "id": "armenia-komitas-60",
+    "slug": "komitas-60",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Komitas 60",
+    "developer": "Armconstruct",
+    "district": "Arabkir, Komitas Avenue 60",
+    "city": "Ереван",
+    "priceUsd": 1436031,
+    "priceNote": "AMD→USD @ 383",
+    "sizeSqm": null,
+    "bedrooms": 3,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/komitas-60/komitas-60-1.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Премиальный жилой комплекс на проспекте Комитаса — одной из главных магистралей Еревана, в сложившемся районе Арабкир.",
+    "highlights": [
+      "Проспект Комитаса — центральная локация",
+      "Премиум-класс, район Арабкир",
+      "Сложившаяся городская инфраструктура",
+      "Собственная коммерческая часть"
+    ],
+    "priceFrom": true,
+    "sizeFrom": false,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.205799,
+    "lng": 44.5234798,
+    "address": "Arabkir, Komitas Avenue 60, Ереван"
+  },
+  {
+    "id": "armenia-davit-bek-290",
+    "slug": "davit-bek-290",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Davit Bek 290",
+    "developer": "Armconstruct",
+    "district": "Nor Nork, 5th massif",
+    "city": "Ереван",
+    "priceUsd": null,
+    "priceNote": "Цена по запросу",
+    "sizeSqm": null,
+    "bedrooms": 2,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-1.webp",
+      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-2.webp",
+      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-3.webp",
+      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-4.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Комплекс в самом высоком жилом районе Еревана — 5-й массив Нор Норка. Высокая сейсмоустойчивость, чистый воздух, виды на Арарат и церковь Сурб Саркис.",
+    "highlights": [
+      "Самая высокая жилая точка Еревана",
+      "Высокая сейсмоустойчивость",
+      "Виды на Арарат и Сурб Саркис",
+      "291 квартира уже продана",
+      "Пересечение улиц Микояна и Давид Бека"
+    ],
+    "priceFrom": false,
+    "sizeFrom": false,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.1844287,
+    "lng": 44.5624304,
+    "address": "Nor Nork, 5th massif, Ереван"
+  },
+  {
+    "id": "armenia-slavik-chiloyan-17",
+    "slug": "slavik-chiloyan-17",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Slavik Chiloyan 17",
+    "developer": "Armconstruct",
+    "district": "Arabkir, Slavik Chiloyan 17",
+    "city": "Ереван",
+    "priceUsd": null,
+    "priceNote": "Цена по запросу",
+    "sizeSqm": null,
+    "bedrooms": 2,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-1.webp",
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-2.webp",
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-3.webp",
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-4.webp",
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-5.webp",
+      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-6.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Жилой комплекс в Арабкире на улице Славика Чилояна.",
+    "highlights": [
+      "Район Арабкир",
+      "Застройщик Armconstruct",
+      "Собственная территория"
+    ],
+    "priceFrom": false,
+    "sizeFrom": false,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.2005717,
+    "lng": 44.5097329,
+    "address": "Arabkir, Slavik Chiloyan 17, Ереван"
+  },
+  {
+    "id": "armenia-zoravar-andranik-121-6",
+    "slug": "zoravar-andranik-121-6",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Zoravar Andranik 121/6",
+    "developer": "Armconstruct",
+    "district": "Malatia-Sebastia, Zoravar Andranik 121/6",
+    "city": "Ереван",
+    "priceUsd": null,
+    "priceNote": "Цена по запросу",
+    "sizeSqm": null,
+    "bedrooms": 2,
+    "handover": "",
+    "images": [
+      "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-1.webp",
+      "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-2.webp"
+    ],
+    "featured": false,
+    "shortDescription": "Премиальный жилой комплекс в районе Малатия-Себастия на улице Зоравара Андраника.",
+    "highlights": [
+      "Район Малатия-Себастия",
+      "Премиум-класс",
+      "Застройщик Armconstruct"
+    ],
+    "priceFrom": false,
+    "sizeFrom": false,
+    "paymentPlan": "Уточняется у застройщика",
+    "lat": 40.1661068,
+    "lng": 44.4456212,
+    "address": "Malatia-Sebastia, Zoravar Andranik 121/6, Ереван"
+  },
+  {
+    "id": "armenia-skyline-yerevan",
+    "slug": "skyline-yerevan",
+    "country": "armenia",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "Skyline Yerevan",
+    "developer": "Renshin LLC",
+    "district": "Arabkir, Orbeli Brothers 23/27/29",
+    "city": "Ереван",
+    "priceUsd": 95039,
+    "priceNote": "AMD→USD @ 383",
+    "sizeSqm": 26,
+    "bedrooms": 0,
+    "handover": "Q4 2028",
+    "images": [
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-1.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-2.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-3.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-4.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-5.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-6.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-7.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-8.webp"
+    ],
+    "featured": true,
+    "shortDescription": "Крупнейший проект «город в городе» в Ереване: 35 000 м² участка, более 250 000 м² застройки, пять корпусов, 20 000 м² озеленения. Архитектура Laguarda.Low (Нью-Йорк), конструктив Arup, интерьеры 1508 London.",
+    "highlights": [
+      "35 000 м² участка, 250 000+ м² застройки",
+      "Пять корпусов, более 2 га озеленения",
+      "Школа и детский сад, 12 точек ретейла и ресторанов",
+      "7 офисных и коворкинг-пространств",
+      "Электрошаттлы до центра каждые 30 минут",
+      "Рассрочка 20/80 без процентов до декабря 2028",
+      "Цена от 1 500 000 драм/м² (1 400 000 при полной оплате)"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "20% первый взнос / 80% равными платежами до декабря 2028 (без процентов)",
+    "lat": 40.1936935,
+    "lng": 44.4943577,
+    "address": "Arabkir, Orbeli Brothers 23/27/29, Ереван",
+    "videoId": "I9kxiFpYyxk",
+    "brochure": "/naviora-website/assets/brochures/skyline-yerevan-permit.pdf",
+    "brochureLabel": "Разрешение на строительство (N ՇԹ/3/7681-25) — PDF"
   }
 ]
