@@ -1,3 +1,7 @@
 
 # local tooling / backups (not part of the deployed site)
 listings.json.bak
+
+# source brochures — 319MB, too heavy for the repo (see _tools/_add_dubai_projects.py)
+/projects/
+listings.json.bak2
