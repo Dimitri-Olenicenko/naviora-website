@@ -10,5 +10,5 @@ class H(http.server.SimpleHTTPRequestHandler):
     def log_message(self, *a): pass
 os.chdir(ROOT)
 socketserver.TCPServer.allow_reuse_address = True
-with socketserver.TCPServer(("127.0.0.1", 8098), H) as s:
+with socketserver.TCPServer(("127.0.0.1", 8111), H) as s:
     s.serve_forever()

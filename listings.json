@@ -18,9 +18,11 @@
     "paymentPlan": "Уточняется у застройщика",
     "yieldPct": 9.9,
     "images": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&q=80"
+      "/naviora-website/assets/projects/five-towers/five-towers-1.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-2.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-3.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-4.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-5.webp"
     ],
     "featured": true,
     "shortDescription": "Крупнейшая площадь 1-го этажа в новом комплексе Five Towers по value-цене $1 360/м² — на 35–40% ниже новостроек Арабкира. Shell-помещение с гибкой планировкой: можно сдать целиком якорному арендатору или переоборудовать в бизнес-центр / сервисные офисы. Чистая доходность 9.9% годовых, совокупный ROI ~31.5% за 2 года.",
@@ -52,14 +54,14 @@
     "bedrooms": null,
     "handover": "2031",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-02-17/vrshekvetili-1-1-1771338230952.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/2-1782133555868.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/3-1782133567766.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/4-1782133579429.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/5-1782133590385.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/6-1782133600025.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/8-1782133615644.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-22/9-1782133633979.png"
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r1.jpg",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r2.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r3.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r4.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r5.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r6.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r7.png",
+      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r8.png"
     ],
     "featured": true,
     "shortDescription": "Самое высокое здание Грузии — 260 м, 70 этажей на проспекте Чавчавадзе в Ваке. Апартаменты от 38 м², самый высокий инфинити-бассейн в Закавказье, рестораны, ритейл, коворкинг и wellness. Сдача — 2031 год.",
@@ -93,14 +95,14 @@
     "bedrooms": null,
     "handover": "Фаза 5 — 2026, фаза 6 — 2029",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-30/screenshot-2026-06-30-at-11-13-00-1782803596467.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-06-30/screenshot-2026-06-30-at-10-49-09-1782802396370.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-05-15/extcam_20_r3-1778843360033.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-30/cam12_final-1777515519937.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-30/3-1777531983426.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-30/extcam_09_r2--2--1777532332676.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-30/4-1777532069657.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-30/extcam_08_r2--1--1777532308322.jpg"
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r1.png",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r2.png",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r3.png",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r4.jpg",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r5.png",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r6.jpg",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r7.png",
+      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r8.jpg"
     ],
     "featured": true,
     "shortDescription": "Курортно-жилой комплекс на 20 гектарах в дипломатическом районе Крцаниси: 70% территории — рекреация. Бассейны (45 м и 80-метровый инфинити), спа, теннис, падел, конюшни, школа и детский сад. Фазы 1–4 сданы.",
@@ -136,14 +138,14 @@
     "bedrooms": null,
     "handover": "Декабрь 2028",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_15-1784888963016.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_15-1784889145314.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_10-1784889219860.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_11_r2-1784889235294.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_12_r2-1784889251445.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_14_r2-1784889293091.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_13_r2-1784889307820.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_16_r2-1784889423220.png"
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r1.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r2.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r3.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r4.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r5.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r6.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r7.png",
+      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r8.png"
     ],
     "featured": true,
     "shortDescription": "Многофункциональное здание в составе VR Krtsanisi: апартаменты с гостиничным сервисом, ритейл и коворкинг. Формат для инвестора — сервисные апартаменты под управление с опцией обратного выкупа.",
@@ -177,14 +179,14 @@
     "bedrooms": null,
     "handover": "Строится",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-03-19/extcam_04_r5_1-1773902206540.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/15-1784099522122.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/7-1784099537754.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/3-1784099566562.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/1-1784099619261.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/17-1784099990680.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/16-1784099646502.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-15/2-1784099659550.jpg"
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r1.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r2.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r3.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r4.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r5.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r6.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r7.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r8.jpg"
     ],
     "featured": false,
     "shortDescription": "Курортный проект на Чёрном море: 40 гектаров, 1 200 метров береговой линии, инвестиция $600 млн. Первый в Грузии Café del Mar Beach Club. Апартаменты у моря в сосновом лесу Шекветили.",
@@ -218,13 +220,13 @@
     "bedrooms": null,
     "handover": "2026",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-04-29/----------1777426431820.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/townhouse_new-1764157313306.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/00-01-copy-1764158496070.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/00-02-copy-1764158503243.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/1900x1121-01-2-1764158511686.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/1900x1121-03-2-1764158521637.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/1900x1121-05-1-1764158532970.jpg"
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r1.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r2.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r3.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r4.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r5.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r6.jpg",
+      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r7.jpg"
     ],
     "featured": false,
     "shortDescription": "Таунхаусы с приватными дворами в составе курортного комплекса VR Krtsanisi: больше площади и уединения при полной клубной инфраструктуре — бассейны, спорт, охрана 24/7.",
@@ -255,11 +257,11 @@
     "bedrooms": null,
     "handover": "Сдан в 2020",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/projectslanding/VR-Apartments.jpg",
-      "https://vr.ge/api/media/serve/2026-02-03/5-1770122707994.jpg",
-      "https://vr.ge/api/media/serve/2026-02-03/4-1770122800980.jpg",
-      "https://vr.ge/api/media/serve/2026-02-04/1--5--1770202817070.jpg",
-      "https://vr.ge/api/media/serve/2026-02-04/7-1-1770202826819.jpg"
+      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r1.jpg",
+      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r2.jpg",
+      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r3.jpg",
+      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r4.jpg",
+      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r5.jpg"
     ],
     "featured": false,
     "shortDescription": "Завершённый жилой проект VR Holding — готовые квартиры в обжитой части комплекса. Подходит тем, кто хочет въехать сразу и без строительного риска.",
@@ -290,14 +292,14 @@
     "bedrooms": null,
     "handover": "Сдан в 2018",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/projectslanding/VR-Resort.jpg",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_12_r2-1784897554664.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-07-24/extcam_05_r3--1--1784896562304.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-05-01/5-1777617288781.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-05-01/8-1777617334643.png",
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/images/uploads/2026-05-01/14-1777617198871.png",
-      "https://vr.ge/api/media/serve/2026-02-17/w--44---2--1771328610638.jpg",
-      "https://vr.ge/api/media/serve/2025-11-26/w-45-1764159798456.jpg"
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r1.jpg",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r2.png",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r3.png",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r4.png",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r5.png",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r6.png",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r7.jpg",
+      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r8.jpg"
     ],
     "featured": false,
     "shortDescription": "Первая очередь курортной концепции VR — 27 квартир в готовом комплексе с полной инфраструктурой отдыха. Заявленная доходность застройщика ~14% годовых.",
@@ -329,14 +331,14 @@
     "bedrooms": null,
     "handover": "Сдан",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/projectslanding/Sairme-Villa-Residence.jpg",
-      "https://vr.ge/api/media/serve/2026-02-03/1-1770122898239.jpg",
-      "https://vr.ge/api/media/serve/2025-11-05/jkiifzg0bx-1762351701190.jpg",
-      "https://vr.ge/api/media/serve/2026-02-03/2-1770123129130.jpg",
-      "https://vr.ge/api/media/serve/2026-02-04/cpskuzg550-1770207432435.jpg",
-      "https://vr.ge/api/media/serve/2026-02-04/img_0046_-krtsanisi_-1770207443731.jpg",
-      "https://vr.ge/api/media/serve/2026-02-04/22-1770207481537.jpg",
-      "https://vr.ge/api/media/serve/2025-11-05/dy3iv53lpm-1762351772869.jpg"
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r1.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r2.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r3.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r4.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r5.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r6.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r7.jpg",
+      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r8.jpg"
     ],
     "featured": false,
     "shortDescription": "Завершённая вилла-резиденция VR Holding: 1 000 м² рекреационной территории, спокойное окружение и приватность в черте Тбилиси.",
@@ -368,8 +370,8 @@
     "bedrooms": null,
     "handover": "Сдан",
     "images": [
-      "https://vr-holding.fra1.cdn.digitaloceanspaces.com/projectslanding/Office-Center-Apartments.png",
-      "https://vr.ge/api/media/serve/2026-02-03/6-1770123332170.jpg"
+      "/naviora-website/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r1.png",
+      "/naviora-website/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r2.jpg"
     ],
     "featured": false,
     "shortDescription": "Готовый офисный центр с жилой составляющей от VR Holding — рабочие площади в сданном здании с действующей инфраструктурой комплекса.",
