@@ -1,120 +1,35 @@
-<!DOCTYPE html>
-<!-- nv-generated-detail-page -->
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>09 Life Residences — Dubai Land Residence Complex, Дубай | Naviora Group</title>
-<meta name="description" content="Современный жилой комплекс в Dubai Land: квартиры с полной меблировкой, встроенной техникой и системой «умный дом». Студии, 1–3 спальни. План оплаты с рассрочкой 3 года после перед">
-<link rel="canonical" href="https://olenicenko.com/naviora-website/dubai/residential/09-life-residences/">
-<link rel="icon" href="/naviora-website/favicon.png">
-<link rel="stylesheet" href="/naviora-website/_next/static/chunks/2j0_rt-itadid.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateListing", "name": "09 Life Residences", "url": "https://olenicenko.com/naviora-website/dubai/residential/09-life-residences/", "description": "Современный жилой комплекс в Dubai Land: квартиры с полной меблировкой, встроенной техникой и системой «умный дом». Студии, 1–3 спальни. План оплаты с рассрочкой 3 года после передачи.", "offers": {"@type": "Offer", "price": 186200, "priceCurrency": "USD", "availability": "https://schema.org/InStock"}, "geo": {"@type": "GeoCoordinates", "latitude": 25.0969029, "longitude": 55.3720924}}</script>
-<style>
-body{margin:0;background:#fff;color:#141414;
- font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
- line-height:1.6;-webkit-font-smoothing:antialiased}
-.nv-wrap{max-width:1120px;margin:0 auto;padding:0 1.5rem}
-.nv-top{border-bottom:1px solid rgba(20,20,20,.12);background:#FFFFFF}
-.nv-crumb{font-size:.75rem;color:#6b6f76;padding:.85rem 0}
-.nv-crumb a{color:#6b6f76;text-decoration:none}
-.nv-crumb a:hover{color:#0037FF}
-.nv-grid{display:grid;grid-template-columns:1fr;gap:2.5rem;padding:2.5rem 0 4rem}
-@media(min-width:960px){.nv-grid{grid-template-columns:1fr 340px}}
-.nv-side{align-self:start}
-@media(min-width:960px){.nv-side{position:sticky;top:1.5rem}}
-.nv-card{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}
-.nv-badge{display:inline-block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
- font-weight:700;color:#0037FF;background:rgba(0,55,255,.08);padding:.25rem .5rem}
-h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;letter-spacing:-.02em}
-.nv-price{font-size:1.9rem;font-weight:700;letter-spacing:-.02em}
-.nv-sec{margin-top:2.5rem}
-.nv-sec h2{font-size:1.25rem;margin:0}
-.nv-eyebrow{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
-.nv-btn{display:block;text-align:center;background:#0037FF;color:#141414;font-weight:700;
- text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.9rem;text-decoration:none;
- margin-top:1rem}
-.nv-btn:hover{background:#2a5bff}
-.nv-foot{border-top:1px solid rgba(20,20,20,.12);background:#141414;color:#FFFFFF;
- padding:2rem 0;margin-top:3rem;font-size:.85rem}
-.nv-foot a{color:#0037FF}
-</style>
-</head>
-<body>
-<div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb">
-<a href="/naviora-website/">Главная</a> / <a href="/naviora-website/dubai/residential/">Дубай</a>
- / <a href="/naviora-website/dubai/residential/">Жилая</a> / 09 Life Residences
-</nav></div></div>
+"""Add a finance/ROI block and a location block to every listing page.
 
-<main class="nv-wrap"><div class="nv-grid">
-<div>
-  <span class="nv-badge">Первичный рынок</span>
-  <h1>09 Life Residences</h1>
-  <p style="color:#6b6f76;margin:0 0 1.5rem">Dubai Land Residence Complex, Дубай</p>
-  
-  <section class="nv-sec">
-    <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">
-      <span class="nv-eyebrow">01</span><h2>Характеристики</h2></div>
-    <dl style="margin:0"><div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;border-bottom:1px solid rgba(20,20,20,.09)"><dt style="color:#6b6f76;font-size:.85rem">Площадь</dt><dd style="margin:0;text-align:right;font-weight:600">от 36 м²</dd></div><div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;border-bottom:1px solid rgba(20,20,20,.09)"><dt style="color:#6b6f76;font-size:.85rem">Тип объекта</dt><dd style="margin:0;text-align:right;font-weight:600">Апартаменты</dd></div><div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;border-bottom:1px solid rgba(20,20,20,.09)"><dt style="color:#6b6f76;font-size:.85rem">Район</dt><dd style="margin:0;text-align:right;font-weight:600">Dubai Land Residence Complex</dd></div><div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;border-bottom:1px solid rgba(20,20,20,.09)"><dt style="color:#6b6f76;font-size:.85rem">Застройщик</dt><dd style="margin:0;text-align:right;font-weight:600">Deniz Properties</dd></div><div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;border-bottom:1px solid rgba(20,20,20,.09)"><dt style="color:#6b6f76;font-size:.85rem">План оплаты</dt><dd style="margin:0;text-align:right;font-weight:600">20% при бронировании / 40% в ходе строительства (6 платежей) / 40% в течение 3 лет после передачи (12 платежей)</dd></div></dl>
-  </section>
-  <section class="nv-sec">
-    <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">
-      <span class="nv-eyebrow">02</span><h2>Описание</h2></div>
-    <p style="color:rgba(20,20,20,.78)">Современный жилой комплекс в Dubai Land: квартиры с полной меблировкой, встроенной техникой и системой «умный дом». Студии, 1–3 спальни. План оплаты с рассрочкой 3 года после передачи.</p>
-  </section>
-  <section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0"><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span><span style="color:rgba(20,20,20,.78)">Полная меблировка и встроенная кухонная техника</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span><span style="color:rgba(20,20,20,.78)">Система «умный дом» в каждой квартире</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span><span style="color:rgba(20,20,20,.78)">Рассрочка 40% на 3 года после передачи</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span><span style="color:rgba(20,20,20,.78)">Бассейн, спортзал, сауна, кинозал, баскетбольная площадка</span></li><li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span><span style="color:rgba(20,20,20,.78)">Dubai Land Residence Complex — парки, гольф, велодорожки</span></li></ul></section>
-  
-  
-</div>
-<aside class="nv-side"><div class="nv-card">
-  <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Цена от</div>
-  <div class="nv-price">$ 186 200</div>
-  <p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">
-    Пришлём полные материалы, актуальные планировки и условия оплаты.</p>
-  <a class="nv-btn" href="/naviora-website/contacts/">Запросить подборку</a>
-  <div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76">
-    <div>Телефон</div>
-    <a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a>
-    <div style="margin-top:.75rem">Почта</div>
-    <a href="mailto:info@naviora.group" style="color:#141414;text-decoration:none">info@naviora.group</a>
-  </div>
-</div></aside>
-</div></main>
+Two page types exist and both are covered here:
+  - 28 pages this toolchain generates (they carry the nv-generated marker)
+  - 10 pages Next.js exported, whose React content is rebuilt on hydration
 
-<footer class="nv-foot"><div class="nv-wrap">
-  <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
-  <a href="/naviora-website/dubai/residential/">← Все объекты: Дубай, жилая</a>
-</div></footer>
-<script>
-// Swap the poster for the real player only once the visitor asks for it.
-(function () {
-  function play(box) {
-    var id = box.getAttribute('data-yt');
-    if (!id || box.dataset.loaded) return;
-    box.dataset.loaded = '1';
-    var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + id +
-            '?autoplay=1&rel=0&modestbranding=1';
-    f.title = 'Видео проекта';
-    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
-    f.allowFullscreen = true;
-    f.setAttribute('style',
-      'position:absolute;inset:0;width:100%;height:100%;border:0');
-    box.appendChild(f);
-  }
-  document.querySelectorAll('.nv-yt').forEach(function (box) {
-    box.addEventListener('click', function () { play(box); });
-    box.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(box); }
-    });
-  });
-})();
-</script>
+For the exported pages nothing can be written into the HTML — React discards
+it — so the blocks are built by a script that runs after hydration and
+re-inserts them if React re-renders. That is the same approach already used
+for the VR video/deck sections, and it is the only one that survives here.
 
+Nothing existing is removed. The blocks are appended after the last content
+section, before "Похожие объекты" where that exists.
 
+On the numbers: no yield, rent or service charge is invented. The facts row
+shows only what the listing publishes (price, price per m², payment plan,
+handover). The calculator derives income from the *visitor's own* assumed
+rate against our real price, and says so — an honest computation from a
+stated assumption, not a claim about the asset. Where a developer has
+actually published a yield we show it and label it as theirs.
 
+Idempotent.
+"""
+import json
+import os
 
-<style id="nv-fin-style">
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+COUNTRY_SLUG = {"dubai": "dubai", "abudhabi": "abudhabi",
+                "armenia": "armenia", "georgia": "georgia"}
+MARK = "nv-finance-block"
+
+STYLE = """<style id="nv-fin-style">
 .nv-fin-sec{margin-top:3rem}
 .nv-fin-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
 .nv-fin-num{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
@@ -169,13 +84,15 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
 .nv-rel-p{font-size:1.05rem;font-weight:600;color:#141414}
 @media(max-width:640px){.nv-calc-in input{width:100%}.nv-calc-in label{flex:1 1 100%}
  .nv-cta{padding:1.75rem 1.25rem}.nv-cta-act{width:100%}.nv-cta-btn{flex:1;text-align:center}}
-</style><script id="nv-finance-block">
+</style>"""
+
+SCRIPT = """<script id="nv-finance-block">
 (function () {
-  var D = {"base": "/naviora-website", "similar": [{"href": "/naviora-website/dubai/residential/the-brooks-sobha-sanctuary/", "img": "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp", "title": "The Brooks at Sobha Sanctuary", "district": "Sobha Sanctuary", "price": 2001480}, {"href": "/naviora-website/dubai/residential/hayat-6-dubai-south/", "img": "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-1.webp", "title": "Hayat 6", "district": "Dubai South, Madinat Al Mataar", "price": 1616065}, {"href": "/naviora-website/dubai/residential/athlon-by-aldar/", "img": "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-1.webp", "title": "Athlon by Aldar", "district": "Arabian Ranches 3, Wadi Al Safa 5", "price": 3698511}], "price": 186200, "sqm": 36, "plan": "20% при бронировании / 40% в ходе строительства (6 платежей) / 40% в течение 3 лет после передачи (12 платежей)", "handover": "", "yield": null, "lat": 25.0969029, "lng": 55.3720924, "address": "Dubai Land Residence Complex, Dubai Residence Complex, Дубай"};
+  var D = __NV_DATA__;
   if (!D) return;
 
   function money(n) {
-    return '$ ' + Math.round(n).toLocaleString('ru-RU').replace(/\u00a0/g, ' ');
+    return '$ ' + Math.round(n).toLocaleString('ru-RU').replace(/\\u00a0/g, ' ');
   }
 
   // What this listing should show, given its data. Used as the guard so
@@ -337,6 +254,71 @@ h1{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;l
     requestAnimationFrame(function () { pending = false; build(); });
   }).observe(document.body, { childList: true, subtree: true });
 })();
-</script>
-</body>
-</html>
+</script>"""
+
+
+def main():
+    listings = json.load(open(os.path.join(ROOT, "listings.json"),
+                              encoding="utf-8"))
+    done = skipped = 0
+
+    for x in listings:
+        cslug = COUNTRY_SLUG[x["country"]]
+        path = os.path.join(ROOT, cslug, x["purpose"], x["slug"], "index.html")
+        if not os.path.isfile(path):
+            continue
+
+        # Up to three comparable listings: same country and purpose first,
+        # widening to same country only if that pool is empty. Listings with
+        # no image are skipped — a card with an empty frame looks broken.
+        pool = [y for y in listings
+                if y["slug"] != x["slug"] and y["country"] == x["country"]
+                and y["purpose"] == x["purpose"] and y.get("images")]
+        if not pool:
+            pool = [y for y in listings
+                    if y["slug"] != x["slug"] and y["country"] == x["country"]
+                    and y.get("images")]
+        similar = [{
+            "href": f'/naviora-website/{COUNTRY_SLUG[y["country"]]}/'
+                    f'{y["purpose"]}/{y["slug"]}/',
+            "img": y["images"][0],
+            "title": y["title"],
+            "district": y.get("district"),
+            "price": y.get("priceUsd"),
+        } for y in pool[:3]]
+
+        data = {
+            "base": "/naviora-website",
+            "similar": similar,
+            "price": x.get("priceUsd"),
+            "sqm": x.get("sizeSqm"),
+            "plan": x.get("paymentPlan"),
+            "handover": x.get("handover"),
+            "yield": x.get("yieldPct"),
+            "lat": x.get("lat"),
+            "lng": x.get("lng"),
+            "address": x.get("address") or x.get("district"),
+        }
+        if not (data["price"] or data["lat"] or data["similar"]):
+            skipped += 1
+            continue
+
+        html = open(path, encoding="utf-8", errors="replace").read()
+
+        # Drop any previous copy so re-running replaces rather than stacks.
+        import re
+        html = re.sub(r'<style id="nv-fin-style">.*?</style>', "", html, flags=re.S)
+        html = re.sub(r'<script id="nv-finance-block">.*?</script>', "", html, flags=re.S)
+
+        payload = STYLE + SCRIPT.replace(
+            "__NV_DATA__", json.dumps(data, ensure_ascii=False))
+        html = html.replace("</body>", payload + "\n</body>", 1)
+        open(path, "w", encoding="utf-8").write(html)
+        done += 1
+
+    print(f"pages with finance/location blocks: {done}")
+    print(f"skipped (no price and no pin): {skipped}")
+
+
+if __name__ == "__main__":
+    main()

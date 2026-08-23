@@ -9,6 +9,8 @@ class H(http.server.SimpleHTTPRequestHandler):
         return super().translate_path(path)
     def log_message(self, *a): pass
 os.chdir(ROOT)
-socketserver.TCPServer.allow_reuse_address = True
-with socketserver.TCPServer(("127.0.0.1", 8111), H) as s:
+class TS(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+with TS(("127.0.0.1", 8111), H) as s:
     s.serve_forever()

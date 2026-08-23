@@ -64,7 +64,7 @@ def page(item: dict, css: str) -> str:
     if imgs:
         main = esc(imgs[0])
         thumbs = "".join(
-            '<div style="aspect-ratio:4/3;overflow:hidden;background:#eef0f7">'
+            '<div style="aspect-ratio:4/3;overflow:hidden;background:#f2f2f0">'
             f'<img src="{esc(u)}" alt="" loading="lazy" '
             'style="width:100%;height:100%;object-fit:cover;cursor:pointer" '
             'onclick="document.getElementById(\'nv-main-img\').src=this.src"></div>'
@@ -72,7 +72,7 @@ def page(item: dict, css: str) -> str:
         )
         gallery = (
             '<div style="margin-bottom:2.5rem">'
-            '<div style="aspect-ratio:16/9;overflow:hidden;background:#eef0f7;margin-bottom:.75rem">'
+            '<div style="aspect-ratio:16/9;overflow:hidden;background:#f2f2f0;margin-bottom:.75rem">'
             f'<img id="nv-main-img" src="{main}" alt="{esc(item["title"])}" '
             'style="width:100%;height:100%;object-fit:cover"></div>'
             + (f'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));'
@@ -89,15 +89,15 @@ def page(item: dict, css: str) -> str:
              ("План оплаты", item.get("paymentPlan"))]
     spec_rows = "".join(
         f'<div style="display:flex;justify-content:space-between;gap:1.5rem;padding:.85rem 0;'
-        f'border-bottom:1px solid rgba(13,27,42,.08)">'
-        f'<dt style="color:#66758a;font-size:.85rem">{esc(k)}</dt>'
+        f'border-bottom:1px solid rgba(20,20,20,.09)">'
+        f'<dt style="color:#6b6f76;font-size:.85rem">{esc(k)}</dt>'
         f'<dd style="margin:0;text-align:right;font-weight:600">{esc(v)}</dd></div>'
         for k, v in specs if v)
 
     hi = "".join(
         f'<li style="display:flex;gap:.75rem;padding:.6rem 0"><span aria-hidden="true" '
-        'style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#c9a84c"></span>'
-        f'<span style="color:rgba(13,27,42,.8)">{esc(h)}</span></li>'
+        'style="margin-top:.55rem;flex:none;width:7px;height:7px;background:#0037FF"></span>'
+        f'<span style="color:rgba(20,20,20,.78)">{esc(h)}</span></li>'
         for h in (item.get("highlights") or []))
 
     # A YouTube facade: no iframe until the visitor clicks, so the page stays
@@ -108,18 +108,18 @@ def page(item: dict, css: str) -> str:
         video = (
             '<section style="margin-top:2.5rem">'
             '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
-            '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">04</span>'
+            '<span style="font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700">04</span>'
             '<h2 style="font-size:1.25rem;margin:0">Видео проекта</h2></div>'
             f'<div class="nv-yt" data-yt="{esc(vid)}" role="button" tabindex="0" '
             'aria-label="Смотреть видео проекта" '
             'style="position:relative;width:100%;padding-top:56.25%;cursor:pointer;'
-            'background:#0d1b2a;overflow:hidden">'
+            'background:#141414;overflow:hidden">'
             f'<img src="https://i.ytimg.com/vi/{esc(vid)}/hqdefault.jpg" alt="" loading="lazy" '
             'style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85">'
             '<span aria-hidden="true" style="position:absolute;left:50%;top:50%;'
-            'transform:translate(-50%,-50%);width:68px;height:48px;background:#c9a84c;'
+            'transform:translate(-50%,-50%);width:68px;height:48px;background:#0037FF;'
             'border-radius:10px;display:flex;align-items:center;justify-content:center">'
-            '<span style="border-left:18px solid #0d1b2a;border-top:11px solid transparent;'
+            '<span style="border-left:18px solid #141414;border-top:11px solid transparent;'
             'border-bottom:11px solid transparent;margin-left:4px"></span></span>'
             '</div></section>')
 
@@ -134,17 +134,17 @@ def page(item: dict, css: str) -> str:
         mapsec = (
             '<section style="margin-top:2.5rem">'
             '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
-            '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">06</span>'
+            '<span style="font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700">06</span>'
             '<h2 style="font-size:1.25rem;margin:0">На карте</h2></div>'
             f'<iframe title="Карта: {esc(item["title"])}" loading="lazy" '
-            'style="width:100%;height:340px;border:1px solid rgba(13,27,42,.15)" '
+            'style="width:100%;height:340px;border:1px solid rgba(20,20,20,.15)" '
             f'src="https://www.openstreetmap.org/export/embed.html?bbox={bbox}'
             f'&amp;layer=mapnik&amp;marker={lat},{lng}"></iframe>'
-            f'<p style="font-size:.85rem;color:#66758a;margin:.75rem 0 0">'
+            f'<p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">'
             f'{esc(item.get("address") or item.get("district") or "")} · '
             f'<a href="https://www.google.com/maps/search/?api=1&amp;query={lat},{lng}" '
             'target="_blank" rel="noopener noreferrer" '
-            'style="color:#8a6e2a">Открыть в Google Maps →</a></p>'
+            'style="color:#0037FF">Открыть в Google Maps →</a></p>'
             '</section>')
 
     deck = ""
@@ -158,12 +158,12 @@ def page(item: dict, css: str) -> str:
         deck = (
             '<section style="margin-top:2.5rem">'
             '<div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">'
-            '<span style="font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700">05</span>'
+            '<span style="font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700">05</span>'
             f'<h2 style="font-size:1.25rem;margin:0">{esc(heading)}</h2></div>'
             f'<a href="{esc(item["pdfUrl"])}" target="_blank" rel="noopener noreferrer" '
-            'style="display:inline-flex;align-items:center;gap:.5rem;border-bottom:1px solid #c9a84c;'
+            'style="display:inline-flex;align-items:center;gap:.5rem;border-bottom:1px solid #0037FF;'
             'padding-bottom:2px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;'
-            f'font-size:.82rem;color:#8a6e2a;text-decoration:none">{esc(label)}</a>'
+            f'font-size:.82rem;color:#0037FF;text-decoration:none">{esc(label)}</a>'
             '</section>')
 
     ld = {
@@ -192,33 +192,33 @@ def page(item: dict, css: str) -> str:
 <link rel="stylesheet" href="{css}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>
-body{{margin:0;background:#fff;color:#0d1b2a;
+body{{margin:0;background:#fff;color:#141414;
  font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
  line-height:1.6;-webkit-font-smoothing:antialiased}}
 .nv-wrap{{max-width:1120px;margin:0 auto;padding:0 1.5rem}}
-.nv-top{{border-bottom:1px solid rgba(13,27,42,.1);background:#f8f6f1}}
-.nv-crumb{{font-size:.75rem;color:#66758a;padding:.85rem 0}}
-.nv-crumb a{{color:#66758a;text-decoration:none}}
-.nv-crumb a:hover{{color:#8a6e2a}}
+.nv-top{{border-bottom:1px solid rgba(20,20,20,.12);background:#FFFFFF}}
+.nv-crumb{{font-size:.75rem;color:#6b6f76;padding:.85rem 0}}
+.nv-crumb a{{color:#6b6f76;text-decoration:none}}
+.nv-crumb a:hover{{color:#0037FF}}
 .nv-grid{{display:grid;grid-template-columns:1fr;gap:2.5rem;padding:2.5rem 0 4rem}}
 @media(min-width:960px){{.nv-grid{{grid-template-columns:1fr 340px}}}}
 .nv-side{{align-self:start}}
 @media(min-width:960px){{.nv-side{{position:sticky;top:1.5rem}}}}
-.nv-card{{border:1px solid rgba(13,27,42,.1);padding:1.5rem;background:#fff}}
+.nv-card{{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}}
 .nv-badge{{display:inline-block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
- font-weight:700;color:#8a6e2a;background:rgba(201,168,76,.12);padding:.25rem .5rem}}
+ font-weight:700;color:#0037FF;background:rgba(0,55,255,.08);padding:.25rem .5rem}}
 h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;letter-spacing:-.02em}}
 .nv-price{{font-size:1.9rem;font-weight:700;letter-spacing:-.02em}}
 .nv-sec{{margin-top:2.5rem}}
 .nv-sec h2{{font-size:1.25rem;margin:0}}
-.nv-eyebrow{{font-size:.72rem;letter-spacing:.16em;color:#8a6e2a;font-weight:700}}
-.nv-btn{{display:block;text-align:center;background:#c9a84c;color:#0d1b2a;font-weight:700;
+.nv-eyebrow{{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}}
+.nv-btn{{display:block;text-align:center;background:#0037FF;color:#141414;font-weight:700;
  text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.9rem;text-decoration:none;
  margin-top:1rem}}
-.nv-btn:hover{{background:#e4c97a}}
-.nv-foot{{border-top:1px solid rgba(13,27,42,.1);background:#0d1b2a;color:#f8f6f1;
+.nv-btn:hover{{background:#2a5bff}}
+.nv-foot{{border-top:1px solid rgba(20,20,20,.12);background:#141414;color:#FFFFFF;
  padding:2rem 0;margin-top:3rem;font-size:.85rem}}
-.nv-foot a{{color:#c9a84c}}
+.nv-foot a{{color:#0037FF}}
 </style>
 </head>
 <body>
@@ -231,7 +231,7 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
 <div>
   <span class="nv-badge">{esc(MARKET_RU.get(item.get('market'), ''))}</span>
   <h1>{esc(item['title'])}</h1>
-  <p style="color:#66758a;margin:0 0 1.5rem">{esc(item.get('district',''))}, {esc(cname)}</p>
+  <p style="color:#6b6f76;margin:0 0 1.5rem">{esc(item.get('district',''))}, {esc(cname)}</p>
   {gallery}
   <section class="nv-sec">
     <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">
@@ -241,24 +241,23 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
   <section class="nv-sec">
     <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem">
       <span class="nv-eyebrow">02</span><h2>Описание</h2></div>
-    <p style="color:rgba(13,27,42,.8)">{esc(item.get('shortDescription',''))}</p>
+    <p style="color:rgba(20,20,20,.78)">{esc(item.get('shortDescription',''))}</p>
   </section>
   {'<section class="nv-sec"><div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1rem"><span class="nv-eyebrow">03</span><h2>Преимущества</h2></div><ul style="list-style:none;padding:0;margin:0">' + hi + '</ul></section>' if hi else ''}
   {video}
   {deck}
-  {mapsec}
 </div>
 <aside class="nv-side"><div class="nv-card">
-  <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#66758a">Цена от</div>
+  <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Цена от</div>
   <div class="nv-price">{money(item.get('priceUsd', 0))}</div>
-  <p style="font-size:.85rem;color:#66758a;margin:.75rem 0 0">
+  <p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">
     Пришлём полные материалы, актуальные планировки и условия оплаты.</p>
   <a class="nv-btn" href="{BASE}/contacts/">Запросить подборку</a>
-  <div style="margin-top:1.25rem;font-size:.85rem;color:#66758a">
+  <div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76">
     <div>Телефон</div>
-    <a href="tel:+971547928468" style="color:#0d1b2a;text-decoration:none">+971 547 928 468</a>
+    <a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a>
     <div style="margin-top:.75rem">Почта</div>
-    <a href="mailto:info@naviora.group" style="color:#0d1b2a;text-decoration:none">info@naviora.group</a>
+    <a href="mailto:info@naviora.group" style="color:#141414;text-decoration:none">info@naviora.group</a>
   </div>
 </div></aside>
 </div></main>
