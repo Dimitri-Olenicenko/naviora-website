@@ -3,7 +3,7 @@ import os
 from datetime import date
 
 BASE = "https://olenicenko.com/naviora-website"
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 today = date.today().isoformat()
 
 urls = []

@@ -10,7 +10,7 @@ import os
 import re
 
 BASE = "https://olenicenko.com/naviora-website"
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 listings = json.load(open(os.path.join(ROOT, "listings.json"), encoding="utf-8"))
 by_slug = {l["slug"]: l for l in listings}

@@ -14,7 +14,7 @@ Idempotent: re-running makes no further changes.
 import os
 import re
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 report = {"ecosystem": 0, "services": 0, "stats": 0, "contact": 0,
           "footer_about": 0, "footer_eco": 0, "renumber": 0, "vertical_stat": 0}
 
