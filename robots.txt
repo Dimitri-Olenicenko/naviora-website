@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /naviora-website/backoffice/
+
+Sitemap: https://olenicenko.com/naviora-website/sitemap.xml

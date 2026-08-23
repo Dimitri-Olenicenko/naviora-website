@@ -935,5 +935,37 @@
     "lat": 24.5111,
     "lng": 54.6679,
     "address": "Al Bahia (Al Shahama), Абу-Даби"
+  },
+  {
+    "id": "dubai-09-life-residences",
+    "slug": "09-life-residences",
+    "country": "dubai",
+    "purpose": "residential",
+    "market": "offplan",
+    "type": "apartment",
+    "title": "09 Life Residences",
+    "developer": "Deniz Properties",
+    "district": "Dubai Land Residence Complex",
+    "city": "Дубай",
+    "priceUsd": 186200,
+    "sizeSqm": 36,
+    "bedrooms": 0,
+    "handover": "",
+    "images": [],
+    "featured": false,
+    "shortDescription": "Современный жилой комплекс в Dubai Land: квартиры с полной меблировкой, встроенной техникой и системой «умный дом». Студии, 1–3 спальни. План оплаты с рассрочкой 3 года после передачи.",
+    "highlights": [
+      "Полная меблировка и встроенная кухонная техника",
+      "Система «умный дом» в каждой квартире",
+      "Рассрочка 40% на 3 года после передачи",
+      "Бассейн, спортзал, сауна, кинозал, баскетбольная площадка",
+      "Dubai Land Residence Complex — парки, гольф, велодорожки"
+    ],
+    "priceFrom": true,
+    "sizeFrom": true,
+    "paymentPlan": "20% при бронировании / 40% в ходе строительства (6 платежей) / 40% в течение 3 лет после передачи (12 платежей)",
+    "lat": null,
+    "lng": null,
+    "address": "Dubai Land Residence Complex, Dubai Residence Complex, Дубай"
   }
 ]
