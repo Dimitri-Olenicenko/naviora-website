@@ -18,11 +18,11 @@
     "paymentPlan": "Уточняется у застройщика",
     "yieldPct": 9.9,
     "images": [
-      "/naviora-website/assets/projects/five-towers/five-towers-1.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-2.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-3.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-4.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-5.webp"
+      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-10.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-1.webp"
     ],
     "featured": true,
     "shortDescription": "Крупнейшая площадь 1-го этажа в новом комплексе Five Towers по value-цене $1 360/м² — на 35–40% ниже новостроек Арабкира. Shell-помещение с гибкой планировкой: можно сдать целиком якорному арендатору или переоборудовать в бизнес-центр / сервисные офисы. Чистая доходность 9.9% годовых, совокупный ROI ~31.5% за 2 года.",
@@ -185,8 +185,8 @@
       "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r4.jpg",
       "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r5.jpg",
       "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r6.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r7.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r8.jpg"
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r8.jpg",
+      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r7.jpg"
     ],
     "featured": false,
     "shortDescription": "Курортный проект на Чёрном море: 40 гектаров, 1 200 метров береговой линии, инвестиция $600 млн. Первый в Грузии Café del Mar Beach Club. Апартаменты у моря в сосновом лесу Шекветили.",
@@ -1158,16 +1158,16 @@
     "bedrooms": 1,
     "handover": "",
     "images": [
+      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
+      "/naviora-website/assets/projects/five-towers/five-towers-10.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-1.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-2.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-3.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-4.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-5.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-6.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-10.webp"
+      "/naviora-website/assets/projects/five-towers/five-towers-6.webp"
     ],
     "featured": false,
     "shortDescription": "Комплекс из пяти корпусов по 23 этажа. В четырёх из пяти зданий предусмотрено по три коммерческих этажа — магазины, супермаркеты и сервисы прямо в комплексе.",
@@ -1202,14 +1202,14 @@
     "bedrooms": 1,
     "handover": "",
     "images": [
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-7.webp",
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-8.jpeg",
       "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-1.webp",
       "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-2.webp",
       "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-3.webp",
       "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-4.webp",
       "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-5.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-6.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-7.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-8.jpeg"
+      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-6.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный комплекс в Арабкире рядом с Atlantis Yerevan: 17 надземных этажей, панорамное остекление в пол, виды на Арарат, проспект Комитаса и Разданское ущелье.",
