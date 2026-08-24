@@ -1,0 +1,11 @@
+[out:json][timeout:120];
+(
+  nwr["name"~"Brooks|Sanctuary",i](24.9,54.9,25.4,55.6);
+  nwr["name"~"Hayat",i](24.80,55.05,24.95,55.25);
+  nwr["name"~"Athlon",i](24.95,55.20,25.15,55.45);
+  nwr["name"~"Serro|Heights Country",i](24.85,55.15,25.10,55.40);
+  nwr["name"~"Beach House|Fahid",i](24.45,54.45,24.60,54.65);
+  nwr["name"~"Sobha|River Cove|Terraces",i](24.40,54.55,24.65,54.85);
+  nwr["name"~"Ghadeer",i](24.78,55.00,24.92,55.10);
+);
+out center tags;

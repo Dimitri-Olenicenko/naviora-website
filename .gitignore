@@ -5,3 +5,9 @@
 _scrape/
 listings.json.bak
 listings.json.bak2
+
+# saved third-party pages captured during research — never publish
+brooks.html
+*.saved.html
+river-cove-residences.html
+the-terraces.html

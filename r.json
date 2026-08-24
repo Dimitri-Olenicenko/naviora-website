@@ -1,0 +1,153 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-24T11:07:49Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4929558905,
+  "lat": 25.2671223,
+  "lon": 55.2951128,
+  "tags": {
+    "addr:street": "Sikkat Al Khail Road",
+    "name": "Brooks",
+    "name:en": "Brooks",
+    "shop": "yes",
+    "source": "Kaart Ground Survey 2017"
+  }
+},
+{
+  "type": "node",
+  "id": 5594456121,
+  "lat": 25.1927449,
+  "lon": 55.3123103,
+  "tags": {
+    "construction": "yes",
+    "description": "Closed for major renovations. Expected to reopen at the end of 2026.",
+    "disused": "yes",
+    "name": "Wildlife Sanctuary (Flamingo Lagoon)",
+    "name:en": "Wildlife Sanctuary (Flamingo Lagoon)",
+    "name:uk": "Фламінго (лагуна, пункт для спостереження)",
+    "note": "Closed for major renovations. Expected to reopen at the end of 2026.",
+    "opening_hours": "2025-01-01-2026-12-31 off",
+    "source:url": "https://www.dm.gov.ae/2025/06/30/aed650-million-contract-awarded-for-ras-al-khor-wildlife-sanctuary-development-project/",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 11572328743,
+  "lat": 25.1312001,
+  "lon": 55.3487572,
+  "tags": {
+    "addr:city": "MBR City",
+    "addr:housenumber": "The Sanctuary",
+    "addr:street": "District 11",
+    "landuse": "residential",
+    "name": "The Sanctuary Villas by Ellington Properties",
+    "operator": "Ellington Properties",
+    "residential": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 488091457,
+  "center": {
+    "lat": 25.1148366,
+    "lon": 55.2304384
+  },
+  "tags": {
+    "addr:city": "دبي",
+    "addr:city:ar": "دبي",
+    "addr:city:en": "Dubai",
+    "addr:city:ur": "دبئی",
+    "addr:street": "Street 21",
+    "building": "yes",
+    "name": "Brooks General Trading",
+    "name:en": "Brooks General Trading",
+    "source": "Kaart Ground Survey 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 534666164,
+  "center": {
+    "lat": 25.1209893,
+    "lon": 55.3723489
+  },
+  "tags": {
+    "addr:city": "دبي",
+    "addr:city:ar": "دبي",
+    "addr:city:en": "Dubai",
+    "addr:city:ur": "دبئی",
+    "addr:street": "97 Street",
+    "building": "apartments",
+    "building:levels": "10",
+    "name": "Sanctuary Tower DSO",
+    "nohousenumber": "yes",
+    "roof:levels": "0",
+    "start_date": "2010"
+  }
+},
+{
+  "type": "way",
+  "id": 1074860195,
+  "center": {
+    "lat": 25.0640767,
+    "lon": 55.2054457
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "Haven Villas at the Sanctuary",
+    "name:en": "Haven Villas at the Sanctuary",
+    "residential": "condominium"
+  }
+},
+{
+  "type": "way",
+  "id": 1123687404,
+  "center": {
+    "lat": 25.0637018,
+    "lon": 55.2045188
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "Haven Villas at the Sanctuary",
+    "name:en": "Haven Villas at the Sanctuary",
+    "residential": "condominium"
+  }
+},
+{
+  "type": "way",
+  "id": 1131116910,
+  "center": {
+    "lat": 24.9906662,
+    "lon": 55.3729131
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "Akoya Sanctuary, Damac Hills 2, Dubai",
+    "residential": "gated"
+  }
+},
+{
+  "type": "way",
+  "id": 1362775472,
+  "center": {
+    "lat": 24.8379931,
+    "lon": 55.0276093
+  },
+  "tags": {
+    "alt_name": "ABU DHABI GHADEER",
+    "description": "ABU DHABI GHADEER",
+    "name": "ABU DHABI GHADEER",
+    "natural": "sand"
+  }
+}
+
+  ]
+}

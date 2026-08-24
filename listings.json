@@ -1156,7 +1156,7 @@
     "priceNote": "AMD→USD @ 383",
     "sizeSqm": 52,
     "bedrooms": 1,
-    "handover": "",
+    "handover": "Август 2031",
     "images": [
       "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
       "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
@@ -1176,7 +1176,9 @@
       "Три коммерческих этажа в четырёх зданиях",
       "Детский сад и бизнес-центр на территории",
       "Теннисный корт, футбольное поле, современный зал",
-      "Зарядные станции для электромобилей"
+      "Зарядные станции для электромобилей",
+      "Озеленение — 4962 м²",
+      "Парковка — 284 мест"
     ],
     "priceFrom": true,
     "sizeFrom": true,
@@ -1242,7 +1244,7 @@
     "priceNote": "Цена по запросу",
     "sizeSqm": null,
     "bedrooms": 2,
-    "handover": "",
+    "handover": "Август 2028",
     "images": [
       "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-1.webp",
       "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-2.webp",
@@ -1255,7 +1257,9 @@
       "Большие витражные панорамные окна",
       "Район Арабкир, Malkhasyants 6",
       "Полная отделка от застройщика",
-      "Закрытая территория с инфраструктурой"
+      "Закрытая территория с инфраструктурой",
+      "Озеленение — 2520 м²",
+      "Парковка — 352 мест"
     ],
     "priceFrom": false,
     "sizeFrom": false,
@@ -1269,7 +1273,7 @@
     "slug": "komitas-60",
     "country": "armenia",
     "purpose": "residential",
-    "market": "offplan",
+    "market": "secondary",
     "type": "apartment",
     "title": "Komitas 60",
     "developer": "Armconstruct",
@@ -1279,7 +1283,7 @@
     "priceNote": "AMD→USD @ 383",
     "sizeSqm": null,
     "bedrooms": 3,
-    "handover": "",
+    "handover": "Сдан (сентябрь 2025)",
     "images": [
       "/naviora-website/assets/projects/komitas-60/komitas-60-1.webp"
     ],
@@ -1289,7 +1293,9 @@
       "Проспект Комитаса — центральная локация",
       "Премиум-класс, район Арабкир",
       "Сложившаяся городская инфраструктура",
-      "Собственная коммерческая часть"
+      "Собственная коммерческая часть",
+      "Озеленение — 2450 м²",
+      "Парковка — 210 мест"
     ],
     "priceFrom": true,
     "sizeFrom": false,
@@ -1303,7 +1309,7 @@
     "slug": "davit-bek-290",
     "country": "armenia",
     "purpose": "residential",
-    "market": "offplan",
+    "market": "secondary",
     "type": "apartment",
     "title": "Davit Bek 290",
     "developer": "Armconstruct",
@@ -1313,7 +1319,7 @@
     "priceNote": "Цена по запросу",
     "sizeSqm": null,
     "bedrooms": 2,
-    "handover": "",
+    "handover": "Сдан (декабрь 2025)",
     "images": [
       "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-1.webp",
       "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-2.webp",
@@ -1327,7 +1333,9 @@
       "Высокая сейсмоустойчивость",
       "Виды на Арарат и Сурб Саркис",
       "291 квартира уже продана",
-      "Пересечение улиц Микояна и Давид Бека"
+      "Пересечение улиц Микояна и Давид Бека",
+      "Озеленение — 1530 м²",
+      "Парковка — 136 мест"
     ],
     "priceFrom": false,
     "sizeFrom": false,
@@ -1389,7 +1397,7 @@
     "priceNote": "Цена по запросу",
     "sizeSqm": null,
     "bedrooms": 2,
-    "handover": "",
+    "handover": "Декабрь 2026",
     "images": [
       "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-1.webp",
       "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-2.webp"
@@ -1399,7 +1407,9 @@
     "highlights": [
       "Район Малатия-Себастия",
       "Премиум-класс",
-      "Застройщик Armconstruct"
+      "Застройщик Armconstruct",
+      "Озеленение — 500 м²",
+      "Парковка — 56 мест"
     ],
     "priceFrom": false,
     "sizeFrom": false,

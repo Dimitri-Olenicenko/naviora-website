@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ENGLISH PAGES -->
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/our-leadership</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/media-centre/press-releases</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/library</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/gov-free-zone-service</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/planning-and-development</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/business-setup</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/contact-us-page</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/live</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/live/dubai-south-living</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/live/hayat-by-dubai-south</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/freezone</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/built-to-suit</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/warehouse</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/warehouses/freight-house</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/warehouses/freight-complex</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/warehouses/logistics-complex</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/ezdubai</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/logistics/operations</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/business-aviation</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/offices-and-retail</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/mro</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/airside-facilities/mrohangers</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/lmu</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/landside-facilities/supply-chain-cluster</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/landside-facilities/supply-chain-facility</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/airside-facilities/helipark</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/mbrah/education-and-training</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/commercial-property</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/commercial-property/offices</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/commercial-property/business-park</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/commercial-property/business-centre</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/work/commercial-property/retail</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/en/thrive</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ARABIC PAGES -->
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/our-leadership</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/media-centre/press-releases</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/library</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/gov-free-zone-service</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/planning-and-development</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/business-setup</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/contact-us-page</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/live</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/live/dubai-south-living</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/live/hayat-by-dubai-south</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/freezone</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/built-to-suit</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/warehouse</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/warehouses/freight-house</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/warehouses/freight-complex</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/warehouses/logistics-complex</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/ezdubai</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/logistics/operations</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/business-aviation</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/offices-and-retail</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/mro</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/airside-facilities/mrohangers</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/lmu</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/landside-facilities/supply-chain-cluster</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/landside-facilities/supply-chain-facility</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/airside-facilities/helipark</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/mbrah/education-and-training</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/commercial-property</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/commercial-property/offices</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/commercial-property/business-park</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/commercial-property/business-centre</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/work/commercial-property/retail</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dubaisouth.ae/ar/thrive</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>
