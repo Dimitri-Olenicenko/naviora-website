@@ -58,18 +58,6 @@ STYLE = """<style id="nv-fin-style">
 .nv-loc-map{width:100%;height:340px;border:1px solid rgba(20,20,20,.12);display:block}
 .nv-loc-foot{font-size:.85rem;color:#6b6f76;margin:.8rem 0 0}
 .nv-loc-foot a{color:#0037FF;text-decoration:none;font-weight:600}
-.nv-cta{margin-top:3rem;border:1px solid rgba(20,20,20,.12);background:#141414;color:#fff;
- padding:2.25rem 2rem;display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;
- justify-content:space-between}
-.nv-cta h2{font-size:1.4rem;margin:0 0 .5rem;font-weight:600;letter-spacing:.01em}
-.nv-cta p{margin:0;font-size:.9rem;color:rgba(255,255,255,.68);max-width:46ch;line-height:1.5}
-.nv-cta-act{display:flex;flex-wrap:wrap;gap:.75rem}
-.nv-cta-btn{display:inline-block;background:#0037FF;color:#fff;text-decoration:none;
- font-weight:600;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;
- padding:.95rem 1.6rem;white-space:nowrap}
-.nv-cta-btn:hover{background:#2a5bff}
-.nv-cta-btn.is-ghost{background:transparent;border:1px solid rgba(255,255,255,.35)}
-.nv-cta-btn.is-ghost:hover{background:rgba(255,255,255,.1)}
 .nv-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
 .nv-rel{text-decoration:none;color:inherit;border:1px solid rgba(20,20,20,.12);
  display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease}
@@ -83,7 +71,7 @@ STYLE = """<style id="nv-fin-style">
 .nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
 .nv-rel-p{font-size:1.05rem;font-weight:600;color:#141414}
 @media(max-width:640px){.nv-calc-in input{width:100%}.nv-calc-in label{flex:1 1 100%}
- .nv-cta{padding:1.75rem 1.25rem}.nv-cta-act{width:100%}.nv-cta-btn{flex:1;text-align:center}}
+ }
 </style>"""
 
 SCRIPT = """<script id="nv-finance-block">
@@ -102,7 +90,6 @@ SCRIPT = """<script id="nv-finance-block">
     var ok = true;
     if (D.price && !document.getElementById('nv-fin-sec')) ok = false;
     if (D.lat && D.lng && !document.getElementById('nv-loc-sec')) ok = false;
-    if (!document.getElementById('nv-cta-sec')) ok = false;
     if (D.similar && D.similar.length && !document.getElementById('nv-rel-sec')) ok = false;
     return ok;
   }
@@ -174,21 +161,6 @@ SCRIPT = """<script id="nv-finance-block">
         ' · <a href="https://www.google.com/maps/search/?api=1&query=' +
         D.lat + ',' + D.lng + '" target="_blank" rel="noopener noreferrer">' +
         'Открыть в Google Maps →</a></p></section>';
-    }
-
-    // A closing CTA. The exported pages carry one; the generated pages had
-    // only a sidebar button, so a visitor reaching the foot of the page had
-    // no obvious next step.
-    if (!document.getElementById('nv-cta-sec')) {
-      html +=
-        '<section class="nv-cta" id="nv-cta-sec">' +
-        '<div><h2>Заинтересовал объект?</h2>' +
-        '<p>Пришлём полную подборку, актуальные планировки, условия оплаты и ' +
-        'расчёт доходности под вашу задачу.</p></div>' +
-        '<div class="nv-cta-act">' +
-        '<a class="nv-cta-btn" href="' + D.base + '/contacts/">Запросить подборку</a>' +
-        '<a class="nv-cta-btn is-ghost" href="https://wa.me/971547928468">WhatsApp</a>' +
-        '</div></section>';
     }
 
     // Similar listings. Same country and purpose keeps them comparable

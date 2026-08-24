@@ -102,6 +102,41 @@ a[href*="/commercial/"] .t-h3 {
 a[href*="/residential/"] .t-num,
 a[href*="/commercial/"] .t-num { letter-spacing: -0.01em !important; }
 
+/* ---- 9. Even out the card footer -----------------------------------------
+   Payment-plan strings run 66-111 characters, so the footer block wraps to
+   different heights and rows come out ragged (measured 25px across one row).
+   Clamping the footer to three lines and pushing it to the bottom makes every
+   card in a row terminate on the same line. The full plan is still on the
+   detail page. */
+a[href*="/residential/"] .hairline,
+a[href*="/commercial/"] .hairline {
+  margin-top: auto;
+  min-height: 4.6em;
+}
+/* "Сдача" and "План оплаты" are separate spans in a flex column, but the
+   column collapses them onto one line so they read as "Q3 2029План оплаты".
+   Force each onto its own line. */
+a[href*="/residential/"] .hairline > *,
+a[href*="/commercial/"] .hairline > * { display: block; }
+/* Clamp only the payment-plan line, so the handover date is never cut. */
+a[href*="/residential/"] .hairline > *:last-child,
+a[href*="/commercial/"] .hairline > *:last-child {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---- 10. A listing with no image must not collapse ------------------------
+   09 Life Residences ships without renders; without a min-height its image
+   frame has zero height and the card's proportions break against its
+   neighbours. */
+a[href*="/residential/"] > div:first-child,
+a[href*="/commercial/"] > div:first-child {
+  min-height: 1px;
+  background: #f2f2f0;
+}
+
 @media (prefers-reduced-motion: reduce){
   a[href*="/residential/"] img, a[href*="/commercial/"] img,
   a[href*="/residential/"].group, a[href*="/commercial/"].group {
