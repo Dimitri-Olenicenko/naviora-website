@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-24T11:12:58Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 1000775184,
+  "center": {
+    "lat": 24.4965241,
+    "lon": 54.4046210
+  },
+  "tags": {
+    "addr:city": "Abu Dhabi",
+    "addr:street": "Matar bin Thani al Rumaithi St",
+    "building": "residential",
+    "building:levels": "32",
+    "height": "120",
+    "name": "Radiant Heights"
+  }
+},
+{
+  "type": "way",
+  "id": 1000775185,
+  "center": {
+    "lat": 24.4970468,
+    "lon": 54.4044154
+  },
+  "tags": {
+    "addr:city": "Abu Dhabi",
+    "addr:street": "Matar bin Thani al Rumaithi St",
+    "building": "residential",
+    "building:levels": "32",
+    "height": "120",
+    "name": "Radiant Bay"
+  }
+},
+{
+  "type": "way",
+  "id": 1000775186,
+  "center": {
+    "lat": 24.4975386,
+    "lon": 54.4043736
+  },
+  "tags": {
+    "addr:city": "Abu Dhabi",
+    "addr:street": "Matar bin Thani al Rumaithi St",
+    "building": "residential",
+    "building:levels": "32",
+    "height": "120",
+    "name": "Radiant Viewz"
+  }
+},
+{
+  "type": "way",
+  "id": 1029209965,
+  "center": {
+    "lat": 24.4968567,
+    "lon": 54.4050381
+  },
+  "tags": {
+    "addr:city": "Abu Dhabi",
+    "addr:street": "Matar bin Thani al Rumaithi St",
+    "building": "residential",
+    "building:levels": "32",
+    "height": "120",
+    "name": "Radiant Boulevard"
+  }
+},
+{
+  "type": "way",
+  "id": 1029209966,
+  "center": {
+    "lat": 24.4970145,
+    "lon": 54.4046705
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "6",
+    "height": "25",
+    "name": "Radiant Square"
+  }
+},
+{
+  "type": "way",
+  "id": 1303664486,
+  "center": {
+    "lat": 24.5022955,
+    "lon": 54.4126802
+  },
+  "tags": {
+    "addr:city": "أبوظبي",
+    "addr:street": "شارع بالشعوم",
+    "building": "apartments",
+    "building:flats": "602",
+    "building:levels": "6",
+    "height": "30",
+    "name": "Radiant Marina Towers"
+  }
+}
+
+  ]
+}

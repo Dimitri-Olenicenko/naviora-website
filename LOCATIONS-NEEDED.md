@@ -1,6 +1,6 @@
 # Locations still needed
 
-_Generated 2026-08-23 — 29 of 38 listings are pinned._
+_Generated 2026-08-24 — 29 of 38 listings are pinned._
 
 Each project below shows no map marker on the site. A district centroid
 was available for all of them, but publishing one puts the pin on the

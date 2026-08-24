@@ -1092,7 +1092,10 @@
     "sizeSqm": 151,
     "bedrooms": 0,
     "handover": "Сдан",
-    "images": [],
+    "images": [
+      "/naviora-website/assets/projects/addax-port-office-tower/addax-port-office-tower-1.jpg",
+      "/naviora-website/assets/projects/addax-port-office-tower/addax-port-office-tower-2.jpg"
+    ],
     "featured": false,
     "shortDescription": "Готовая офисная башня на Al Reem Island — самое глубокое предложение офисов в Абу-Даби. Площади от 1 625 до 17 894 кв. футов, около 16 лотов в продаже.",
     "highlights": [
@@ -1100,13 +1103,15 @@
       "Площади от 1 625 до 17 894 кв. футов",
       "Около 16 лотов на рынке — крупнейший выбор в эмирате",
       "Al Reem Island, юрисдикция ADGM",
-      "Фрихолд для иностранных покупателей"
+      "Фрихолд для иностранных покупателей",
+      "60 этажей, высота 266 м",
+      "Al Reem Island — юрисдикция ADGM"
     ],
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "Вторичный рынок — оплата по договору",
-    "lat": 24.4989329,
-    "lng": 54.4031167,
+    "lat": 24.499065,
+    "lng": 54.403142,
     "address": "Al Reem Island, Абу-Даби"
   },
   {
@@ -1116,9 +1121,9 @@
     "purpose": "commercial",
     "market": "secondary",
     "type": "office",
-    "title": "Radiant Height",
-    "developer": "Radiant Enterprises Real Estate",
-    "district": "Al Reem Island",
+    "title": "Radiant Heights",
+    "developer": "",
+    "district": "Al Reem Island, Matar bin Thani al Rumaithi St",
     "city": "Абу-Даби",
     "priceUsd": 789653,
     "sizeSqm": 176,
@@ -1132,13 +1137,15 @@
       "Площади 1 894 – 2 758 кв. футов",
       "Диапазон 2,9 – 5,0 млн AED",
       "Al Reem Island, юрисдикция ADGM",
-      "Фрихолд для иностранных покупателей"
+      "Фрихолд для иностранных покупателей",
+      "32 этажа, высота 120 м",
+      "Matar bin Thani al Rumaithi St, Al Reem Island"
     ],
     "priceFrom": true,
     "sizeFrom": true,
     "paymentPlan": "Вторичный рынок — оплата по договору",
-    "lat": 24.4963445,
-    "lng": 54.4046392,
+    "lat": 24.496524,
+    "lng": 54.404621,
     "address": "Al Reem Island, Абу-Даби"
   },
   {
