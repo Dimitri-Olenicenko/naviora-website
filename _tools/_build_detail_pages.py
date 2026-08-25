@@ -16,6 +16,10 @@ import json
 import os
 import re
 import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _template_v2 import page_v2   # the structure approved on the Skyline prototype
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "/naviora-website"
@@ -323,12 +327,12 @@ def main():
             existing = open(f, encoding="utf-8", errors="replace").read()
             if MARKER not in existing:
                 continue
-            open(f, "w", encoding="utf-8").write(page(item, css))
+            open(f, "w", encoding="utf-8").write(page_v2(item, listings))
             refreshed += 1
             continue
 
         os.makedirs(d, exist_ok=True)
-        open(f, "w", encoding="utf-8").write(page(item, css))
+        open(f, "w", encoding="utf-8").write(page_v2(item, listings))
         print(f"  + {cslug}/{item['purpose']}/{item['slug']}")
         made += 1
 

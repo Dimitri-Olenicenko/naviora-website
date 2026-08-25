@@ -131,6 +131,8 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
  text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}
 .nv-fin-cell b{font-size:1.1rem;font-weight:600;letter-spacing:-.01em}
 .nv-fin-cell.is-accent b{color:#0037FF}
+.nv-fin-wide{grid-column:1/-1}
+.nv-fin-wide b{font-size:.98rem;font-weight:500;line-height:1.55}
 .nv-calc{margin-top:1.25rem;border:1px solid rgba(20,20,20,.12);padding:1.5rem;
  background:#FAFAF9}
 .nv-calc-t{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
@@ -222,10 +224,6 @@ def finance(item):
     cells = [("Цена", money(price), False)]
     if item.get("sizeSqm"):
         cells.append(("Цена за м²", money(round(price / item["sizeSqm"])), True))
-    if item.get("paymentPlan"):
-        cells.append(("План оплаты", item["paymentPlan"], False))
-    if item.get("handover"):
-        cells.append(("Срок сдачи", item["handover"], False))
     y = item.get("yieldPct")
     if y:
         cells.append(("Доходность застройщика", f"{y}%", True))
@@ -233,6 +231,9 @@ def finance(item):
     grid = "".join(
         f'<div class="nv-fin-cell{" is-accent" if a else ""}">'
         f"<span>{esc(k)}</span><b>{esc(v)}</b></div>" for k, v, a in cells)
+    if item.get("paymentPlan"):
+        grid += (f'<div class="nv-fin-cell nv-fin-wide">'
+                 f'<span>План оплаты</span><b>{esc(item["paymentPlan"])}</b></div>')
     calc = f"""
 <div class="nv-calc"><div class="nv-calc-t">Калькулятор доходности</div>
 <div class="nv-calc-in">
