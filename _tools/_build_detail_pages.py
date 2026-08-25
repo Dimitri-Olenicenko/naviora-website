@@ -319,14 +319,13 @@ def main():
         d = os.path.join(ROOT, cslug, item["purpose"], item["slug"])
         f = os.path.join(d, "index.html")
 
+        # Every detail page — including the ten Next.js exported — is now the
+        # v2 template with the live listings.json sync. The old rule protected
+        # React routes from becoming static stubs; with no RSC payload files
+        # in this export every navigation is a full page load, so replacing
+        # the file replaces the page, cleanly. Grids and the home page are
+        # untouched (this writes only country/purpose/slug/index.html).
         if os.path.exists(f):
-            # Never touch a page Next.js exported — those are the app's own and
-            # rewriting them would replace a live React route with a static
-            # stub. Our own pages carry the marker and can be regenerated
-            # freely, which is how new video/brochure blocks reach them.
-            existing = open(f, encoding="utf-8", errors="replace").read()
-            if MARKER not in existing:
-                continue
             open(f, "w", encoding="utf-8").write(page_v2(item, listings))
             refreshed += 1
             continue

@@ -77,7 +77,21 @@
     "lng": 44.7637,
     "address": "проспект Чавчавадзе 49, Ваке, Тбилиси",
     "videoId": "Qg98xW1adOo",
-    "brochure": "/naviora-website/assets/brochures/vr-vake-sky-tower.pdf"
+    "brochure": "/naviora-website/assets/brochures/vr-vake-sky-tower.pdf",
+    "videos": [
+      {
+        "id": "Qg98xW1adOo",
+        "caption": "VR Vake Sky Tower — презентация проекта"
+      },
+      {
+        "id": "_QALYuZ5WfU",
+        "caption": "Night View 360° — панорама"
+      },
+      {
+        "id": "rnCvO9X-mwY",
+        "caption": "Fashion Avenue"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-krtsanisi-resort-residence",
@@ -120,7 +134,21 @@
     "lng": 44.8172,
     "address": "ул. Григола Волского 7, Крцаниси, Тбилиси",
     "videoId": "f2GmxSxcqwo",
-    "brochure": "/naviora-website/assets/brochures/vr-krtsanisi-resort-residence.pdf"
+    "brochure": "/naviora-website/assets/brochures/vr-krtsanisi-resort-residence.pdf",
+    "videos": [
+      {
+        "id": "f2GmxSxcqwo",
+        "caption": "VR Krtsanisi Resort Residence — презентация"
+      },
+      {
+        "id": "2-C2F2mxFPM",
+        "caption": "Ход строительства"
+      },
+      {
+        "id": "wIG1M4tQR1c",
+        "caption": "Строительство премиум-фазы"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-multifunctional-building",
@@ -161,7 +189,13 @@
     "lng": 44.8185,
     "address": "Крцаниси, Тбилиси",
     "videoId": "ZbjPm9Gn_qM",
-    "brochure": "/naviora-website/assets/brochures/vr-multifunctional-building.pdf"
+    "brochure": "/naviora-website/assets/brochures/vr-multifunctional-building.pdf",
+    "videos": [
+      {
+        "id": "ZbjPm9Gn_qM",
+        "caption": "Multifunctional Building — 5★ апартаменты"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-shekvetili-forest-beach",
@@ -202,7 +236,21 @@
     "lng": 41.7693,
     "address": "Шекветили, побережье Чёрного моря",
     "videoId": "iysxeXK6Kwc",
-    "brochure": "/naviora-website/assets/brochures/vr-shekvetili-forest-beach.pdf"
+    "brochure": "/naviora-website/assets/brochures/vr-shekvetili-forest-beach.pdf",
+    "videos": [
+      {
+        "id": "iysxeXK6Kwc",
+        "caption": "VR Shekvetili Forest~Beach — презентация"
+      },
+      {
+        "id": "yMusyW6A780",
+        "caption": "Строительство первой очереди"
+      },
+      {
+        "id": "x9Kouz1BdXQ",
+        "caption": "Первая очередь — ход работ"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-royal-townhouse",
@@ -239,7 +287,13 @@
     "lat": 41.6722,
     "lng": 44.8158,
     "address": "Крцаниси, Тбилиси",
-    "videoId": "PBaZzU8gpKo"
+    "videoId": "PBaZzU8gpKo",
+    "videos": [
+      {
+        "id": "PBaZzU8gpKo",
+        "caption": "Крцаниси Вилла Резиденс — таунхаусы"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-apartments-tbilisi",
@@ -274,7 +328,13 @@
     "lat": 41.6744,
     "lng": 44.8163,
     "address": "Крцаниси, Тбилиси",
-    "videoId": "y5o3twCzjOE"
+    "videoId": "y5o3twCzjOE",
+    "videos": [
+      {
+        "id": "y5o3twCzjOE",
+        "caption": "Villa Residence Apartments"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-resort-tbilisi",
@@ -313,7 +373,13 @@
     "lng": 44.819,
     "address": "Крцаниси, Тбилиси",
     "videoId": "LSZ5PfXRdTs",
-    "brochure": "/naviora-website/assets/brochures/vr-resort-tbilisi.pdf"
+    "brochure": "/naviora-website/assets/brochures/vr-resort-tbilisi.pdf",
+    "videos": [
+      {
+        "id": "LSZ5PfXRdTs",
+        "caption": "VR Resort — «Дыши, живи, отдыхай»"
+      }
+    ]
   },
   {
     "id": "tbs-vr-sairme-villa-residence",
@@ -352,7 +418,13 @@
     "lng": 44.8201,
     "address": "Крцаниси, Тбилиси",
     "videoId": "zMlOu1tD1AY",
-    "brochure": "/naviora-website/assets/brochures/sairme-villa-residence.pdf"
+    "brochure": "/naviora-website/assets/brochures/sairme-villa-residence.pdf",
+    "videos": [
+      {
+        "id": "zMlOu1tD1AY",
+        "caption": "Sairme Villa Residence — завершённый проект"
+      }
+    ]
   },
   {
     "id": "tbs-vr-vr-office-center-apartments",

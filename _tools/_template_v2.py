@@ -35,6 +35,23 @@ def esc(s):
     return _html.escape(str(s or ""), quote=True)
 
 
+def fingerprint(item):
+    """djb2 over the compact JSON, bit-identical to fp() in nv-detail.js.
+
+    The baked page carries this on <body>; the runtime sync recomputes it
+    against the live listings.json and redraws only when they differ. A
+    false mismatch is harmless — it just re-renders identical markup — so a
+    best-effort match with JSON.stringify is sufficient.
+    """
+    s = json.dumps(item, ensure_ascii=False, separators=(",", ":"))
+    h = 5381
+    for ch in s:
+        h = ((h << 5) + h + ord(ch)) & 0xFFFFFFFF
+    if h >= 2 ** 31:
+        h -= 2 ** 32
+    return str(h)
+
+
 def money(n):
     if not n:
         return "Цена по запросу"
@@ -335,12 +352,19 @@ def page_v2(item, listings):
     fin = finance(item)
     if fin:
         body += sec(nxt(), "Финансы и доходность", fin, "nv-fin-sec")
-    vid = item.get("videoId")
-    if vid:
-        v = (f'<div class="nv-yt" data-yt="{esc(vid)}" role="button" tabindex="0" '
-             f'aria-label="Смотреть видео проекта">'
-             f'<img src="https://i.ytimg.com/vi/{esc(vid)}/hqdefault.jpg" alt="" loading="lazy">'
-             f'<span class="play" aria-hidden="true"><span></span></span></div>')
+    vids = item.get("videos") or ([{"id": item["videoId"], "caption": ""}]
+                                   if item.get("videoId") else [])
+    if vids:
+        v = ""
+        for vv in vids:
+            v += (f'<figure style="margin:0 0 1rem">'
+                  f'<div class="nv-yt" data-yt="{esc(vv["id"])}" role="button" tabindex="0" '
+                  f'aria-label="Смотреть видео проекта">'
+                  f'<img src="https://i.ytimg.com/vi/{esc(vv["id"])}/hqdefault.jpg" alt="" loading="lazy">'
+                  f'<span class="play" aria-hidden="true"><span></span></span></div>'
+                  + (f'<figcaption style="font-size:.8rem;color:#6b6f76;margin-top:.5rem">'
+                     f'{esc(vv["caption"])}</figcaption>' if vv.get("caption") else "")
+                  + "</figure>")
         body += sec(nxt(), "Видео проекта", v)
     pdf = item.get("pdfUrl") or item.get("brochure")
     if pdf:
@@ -356,58 +380,15 @@ def page_v2(item, listings):
     rel = similar(item, listings)
     rel_html = ""
     if rel:
-        rel_html = (f'<div class="nv-wrap">'
-                    + sec(nxt(), "Похожие объекты", rel, "nv-rel-sec")
-                    + "</div>")
+        rel_html = sec(nxt(), "Похожие объекты", rel, "nv-rel-sec")
 
     ld = {"@context": "https://schema.org", "@type": "RealEstateListing",
           "name": item["title"], "url": f"https://olenicenko.com{url}"}
     if price:
         ld["offers"] = {"@type": "Offer", "price": price, "priceCurrency": "USD"}
 
-    script = """
-<script>
-(function(){
-  var main=document.getElementById('nv-main-img');
-  document.querySelectorAll('.nv-film img').forEach(function(t){
-    t.addEventListener('click',function(){
-      if(main){main.src=t.src;}
-      document.querySelectorAll('.nv-film img').forEach(function(x){x.classList.remove('is-on');});
-      t.classList.add('is-on');
-    });
-  });
-  function play(box){
-    var id=box.getAttribute('data-yt');
-    if(!id||box.dataset.loaded)return;
-    box.dataset.loaded='1';
-    var f=document.createElement('iframe');
-    f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1';
-    f.title='Видео проекта';
-    f.allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
-    f.allowFullscreen=true;
-    f.setAttribute('style','position:absolute;inset:0;width:100%;height:100%;border:0');
-    box.appendChild(f);
-  }
-  document.querySelectorAll('.nv-yt').forEach(function(box){
-    box.addEventListener('click',function(){play(box);});
-    box.addEventListener('keydown',function(e){
-      if(e.key==='Enter'||e.key===' '){e.preventDefault();play(box);}});
-  });
-  var y=document.getElementById('nv-y'),o=document.getElementById('nv-o');
-  if(y&&o){
-    var P=%PRICE%;
-    function calc(){
-      var r=parseFloat(y.value)||0,c=(parseFloat(o.value)||0)/100;
-      var a=P*(r/100)*c;
-      function m(n){return '$ '+Math.round(n).toLocaleString('ru-RU').replace(/\\u00a0/g,' ');}
-      document.getElementById('nv-a').textContent=a?m(a):'—';
-      document.getElementById('nv-m').textContent=a?m(a/12):'—';
-      document.getElementById('nv-p').textContent=a?(P/a).toFixed(1)+' лет':'—';
-    }
-    y.addEventListener('input',calc);o.addEventListener('input',calc);calc();
-  }
-})();
-</script>""".replace("%PRICE%", str(price or 0))
+    script = ('<script src="' + BASE + '/assets/nv-detail.js" defer></script>'
+              )
 
     return f"""<!DOCTYPE html>
 {MARKER}
@@ -422,30 +403,30 @@ def page_v2(item, listings):
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>{CSS}</style>
 </head>
-<body>
+<body data-nv-slug="{esc(item['slug'])}" data-nv-fp="{fingerprint(item)}">
 <div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb">
 <a href="{BASE}/">Главная</a> / <a href="{BASE}/{cslug}/{item['purpose']}/">{esc(cname)}</a>
  / <a href="{BASE}/{cslug}/{item['purpose']}/">{esc(purpose)}</a> / {esc(item['title'])}
 </nav></div></div>
 
-{hero}
+<div id="nv-hero-zone">{hero}</div>
 
 <div class="nv-wrap">
-<header class="nv-head">
+<header class="nv-head" id="nv-head">
   <p class="nv-eyeloc"><span>{esc(item.get('district',''))} · {esc(cname)}</span>
   <span class="nv-chip">{esc(MARKET_RU.get(item.get('market'), ''))}</span></p>
   <h1>{esc(item['title'])}</h1>
   {price_html}
 </header>
-{facts_band(item)}
+<div id="nv-facts-zone">{facts_band(item)}</div>
 
 <div class="nv-grid">
-<div>
+<div id="nv-body">
 {body}
 </div>
 <aside class="nv-side"><div class="nv-card">
   <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Цена от</div>
-  <div style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">{money(price)}</div>
+  <div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">{money(price)}</div>
   <p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">
     Пришлём полные материалы, актуальные планировки и условия оплаты.</p>
   <a class="nv-btn" href="{BASE}/contacts/">Запросить подборку</a>
@@ -459,7 +440,7 @@ def page_v2(item, listings):
 </div>
 </div>
 
-{rel_html}
+<div class="nv-wrap" id="nv-rel-zone">{rel_html}</div>
 
 <footer class="nv-foot"><div class="nv-wrap">
   <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
