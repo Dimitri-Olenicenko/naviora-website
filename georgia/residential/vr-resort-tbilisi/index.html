@@ -138,6 +138,41 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 .nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
 .nv-rel-p{font-size:1.05rem;font-weight:600}
 
+
+/* Site chrome. Opening a listing used to drop the header and footer entirely
+   — no logo, no navigation, no way back. Rebuilt as static markup styled to
+   match the grid pages. The React header's country dropdown is a JS widget,
+   so it becomes plain links to the same destinations. */
+.nv-site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);
+ backdrop-filter:blur(8px);border-bottom:1px solid rgba(20,20,20,.1)}
+.nv-site-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem;
+ display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.nv-logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#141414;
+ font-weight:700;letter-spacing:.06em;font-size:.95rem;white-space:nowrap}
+.nv-nav{display:none;gap:1.6rem}
+@media(min-width:860px){.nv-nav{display:flex}}
+.nv-nav a{color:#141414;text-decoration:none;font-size:.78rem;font-weight:600;
+ letter-spacing:.08em;text-transform:uppercase}
+.nv-nav a:hover{color:#0037FF}
+.nv-head-cta{background:#0037FF;color:#fff;text-decoration:none;font-weight:700;
+ font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+ padding:.75rem 1.1rem;white-space:nowrap;min-height:44px;
+ display:inline-flex;align-items:center}
+.nv-head-cta:hover{background:#2a5bff}
+.nv-site-foot{background:#000032;color:#fff;margin-top:4rem;padding:3rem 0 1.5rem}
+.nv-site-foot .nv-site-wrap{display:block}
+.nv-foot-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:720px){.nv-foot-grid{grid-template-columns:2fr 1fr 1fr}}
+.nv-foot-brand{font-weight:700;letter-spacing:.06em}
+.nv-foot-tag{color:rgba(255,255,255,.55);font-size:.85rem;margin:.4rem 0 0}
+.nv-foot-h{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+ color:rgba(255,255,255,.5);margin-bottom:.7rem}
+.nv-site-foot a{display:block;color:rgba(255,255,255,.85);text-decoration:none;
+ font-size:.88rem;padding:.22rem 0}
+.nv-site-foot a:hover{color:#8fa8ff}
+.nv-foot-btm{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;
+ padding-top:1.2rem;font-size:.8rem;color:rgba(255,255,255,.4)}
+
 .nv-foot{border-top:1px solid rgba(20,20,20,.1);background:#141414;color:#fff;
  padding:2rem 0;margin-top:4rem;font-size:.85rem}
 .nv-foot a{color:#8fa8ff}
@@ -146,6 +181,24 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 </style>
 </head>
 <body data-nv-slug="vr-resort-tbilisi" data-nv-fp="-1038237986">
+<header class="nv-site-head">
+  <div class="nv-site-wrap">
+    <a class="nv-logo" href="/naviora-website/" aria-label="NAVIORA GROUP">
+      <svg viewBox="0 0 44 48" fill="#0037FF" width="22" height="24" aria-hidden="true">
+        <polygon points="0,48 0,10 14,0 14,38"></polygon>
+        <polygon points="30,48 30,10 44,0 44,38"></polygon>
+        <polygon points="12,2 24,44 34,44 22,2"></polygon>
+      </svg>
+      <span>NAVIORA GROUP</span>
+    </a>
+    <nav class="nv-nav">
+      <a href="/naviora-website/georgia/residential/">Жилая</a>
+      <a href="/naviora-website/georgia/commercial/">Коммерческая</a>
+      <a href="/naviora-website/contacts/">Контакты</a>
+    </nav>
+    <a class="nv-head-cta" href="/naviora-website/contacts/">Связаться</a>
+  </div>
+</header>
 <div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb">
 <a href="/naviora-website/">Главная</a> / <a href="/naviora-website/georgia/residential/">Тбилиси</a>
  / <a href="/naviora-website/georgia/residential/">Жилая</a> / VR Resort — сдан
@@ -184,10 +237,27 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 
 <div class="nv-wrap" id="nv-rel-zone"><section class="nv-sec" id="nv-rel-sec"><div class="s-head"><span class="s-num">06</span><h2>Похожие объекты</h2></div><div class="nv-rel-grid"><a class="nv-rel" href="/naviora-website/georgia/residential/vr-vake-sky-tower/"><div class="nv-rel-i"><img src="/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r1.jpg" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">VR Vake Sky Tower — Fashion Avenue</div><div class="nv-rel-d">Ваке</div><div class="nv-rel-p">Цена по запросу</div></div></a><a class="nv-rel" href="/naviora-website/georgia/residential/vr-krtsanisi-resort-residence/"><div class="nv-rel-i"><img src="/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r1.png" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">VR Krtsanisi Resort Residence</div><div class="nv-rel-d">Крцаниси</div><div class="nv-rel-p">$ 100 990</div></div></a><a class="nv-rel" href="/naviora-website/georgia/residential/vr-shekvetili-forest-beach/"><div class="nv-rel-i"><img src="/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r1.jpg" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">VR Shekvetili Forest~Beach</div><div class="nv-rel-d">Шекветили</div><div class="nv-rel-p">Цена по запросу</div></div></a></div></section></div>
 
-<footer class="nv-foot"><div class="nv-wrap">
-  <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
-  <a href="/naviora-website/georgia/residential/">← Все объекты: Тбилиси, жилая</a>
-</div></footer>
+<footer class="nv-site-foot">
+  <div class="nv-site-wrap nv-foot-grid">
+    <div>
+      <div class="nv-foot-brand">NAVIORA GROUP</div>
+      <p class="nv-foot-tag">Real Estate Through Numbers</p>
+    </div>
+    <div>
+      <div class="nv-foot-h">Направления</div>
+      <a href="/naviora-website/dubai/residential/">Дубай</a>
+      <a href="/naviora-website/abudhabi/residential/">Абу-Даби</a>
+      <a href="/naviora-website/armenia/residential/">Ереван</a>
+      <a href="/naviora-website/georgia/residential/">Тбилиси</a>
+    </div>
+    <div>
+      <div class="nv-foot-h">Контакты</div>
+      <a href="tel:+971547928468">+971 547 928 468</a>
+      <a href="mailto:info@naviora.group">info@naviora.group</a>
+    </div>
+  </div>
+  <div class="nv-site-wrap nv-foot-btm">© 2026 Naviora Group</div>
+</footer>
 <script src="/naviora-website/assets/nv-detail.js" defer></script>
 </body>
 </html>
