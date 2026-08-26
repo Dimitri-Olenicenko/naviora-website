@@ -39,9 +39,9 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 .nv-psm{color:#6b6f76;font-size:1rem}
 
 /* key facts band */
-.nv-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+.nv-facts{display:flex;flex-wrap:wrap;background:#fff;
  border:1px solid rgba(20,20,20,.12);margin:1.8rem 0 0}
-.nv-facts>div{background:#fff;padding:1rem 1.1rem;
+.nv-facts>div{flex:1 1 150px;min-width:150px;background:#fff;padding:1rem 1.1rem;
  box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
 .nv-facts span{display:block;font-size:.68rem;letter-spacing:.13em;
  text-transform:uppercase;color:#6b6f76;margin-bottom:.4rem}
