@@ -261,7 +261,7 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
     <div>Телефон</div>
     <a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a>
     <div style="margin-top:.75rem">Почта</div>
-    <a href="mailto:info@naviora.group" style="color:#141414;text-decoration:none">info@naviora.group</a>
+    <a href="mailto:fingermanmark2017@gmail.com" style="color:#141414;text-decoration:none">fingermanmark2017@gmail.com</a>
   </div>
 </div></aside>
 </div></main>

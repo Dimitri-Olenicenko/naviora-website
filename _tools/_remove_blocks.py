@@ -28,8 +28,8 @@ def bump(k, n=1):
 
 PARTNERSHIP = (
     '<div><dt class="t-micro text-mut">Партнёрство</dt><dd class="mt-1">'
-    '<a href="mailto:partners@naviora.group" class="break-all text-ink outline-none '
-    'hover:text-signal focus-visible:text-signal">partners@naviora.group</a>'
+    '<a href="mailto:fingermanmark2017@gmail.com" class="break-all text-ink outline-none '
+    'hover:text-signal focus-visible:text-signal">fingermanmark2017@gmail.com</a>'
     '<span class="block text-mut">— стратегические коллаборации</span></dd></div>'
 )
 

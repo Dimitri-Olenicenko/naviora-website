@@ -13,3 +13,7 @@ river-cove-residences.html
 the-terraces.html
 b_*.html
 *-saved.html
+
+# python bytecode — a build artifact, and it was shipping stale brand strings
+__pycache__/
+*.pyc
