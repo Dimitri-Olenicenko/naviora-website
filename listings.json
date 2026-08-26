@@ -1169,7 +1169,10 @@
     "sizeSqm": 176,
     "bedrooms": 0,
     "handover": "Сдан",
-    "images": [],
+    "images": [
+      "/naviora-website/assets/projects/radiant-height/radiant-height-ext-1.webp",
+      "/naviora-website/assets/projects/radiant-height/radiant-height-ext-2.webp"
+    ],
     "featured": false,
     "shortDescription": "Готовое офисное здание на Al Reem Island. Площади от 1 894 до 2 758 кв. футов, диапазон цен 2,9–5,0 млн AED.",
     "highlights": [
@@ -1482,6 +1485,10 @@
     "bedrooms": 0,
     "handover": "Q4 2028",
     "images": [
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-1.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-2.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-3.webp",
+      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-4.webp",
       "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-1.webp",
       "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-2.webp",
       "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-3.webp",
