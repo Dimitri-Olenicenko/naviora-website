@@ -433,7 +433,7 @@ def page_v2(item, listings):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(item["title"])} — {esc(cname)} | NAVIORA GROUP</title>
+<title>{esc(item["title"])} — {esc(cname)} | Mark Fingerman</title>
 <meta name="description" content="{esc((item.get('shortDescription') or '')[:155])}">
 <link rel="canonical" href="https://olenicenko.com{url}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
@@ -442,13 +442,13 @@ def page_v2(item, listings):
 <body data-nv-slug="{esc(item['slug'])}" data-nv-fp="{fingerprint(item)}">
 <header class="nv-site-head">
   <div class="nv-site-wrap">
-    <a class="nv-logo" href="{BASE}/" aria-label="NAVIORA GROUP">
+    <a class="nv-logo" href="{BASE}/" aria-label="MARK FINGERMAN">
       <svg viewBox="0 0 44 48" fill="#0037FF" width="22" height="24" aria-hidden="true">
         <polygon points="0,48 0,10 14,0 14,38"></polygon>
         <polygon points="30,48 30,10 44,0 44,38"></polygon>
         <polygon points="12,2 24,44 34,44 22,2"></polygon>
       </svg>
-      <span>NAVIORA GROUP</span>
+      <span>MARK FINGERMAN</span>
     </a>
     <nav class="nv-nav">
       <a href="{BASE}/{cslug}/residential/">Жилая</a>
@@ -499,7 +499,7 @@ def page_v2(item, listings):
 <footer class="nv-site-foot">
   <div class="nv-site-wrap nv-foot-grid">
     <div>
-      <div class="nv-foot-brand">NAVIORA GROUP</div>
+      <div class="nv-foot-brand">MARK FINGERMAN</div>
       <p class="nv-foot-tag">Real Estate Through Numbers</p>
     </div>
     <div>
@@ -515,7 +515,7 @@ def page_v2(item, listings):
       <a href="mailto:info@naviora.group">info@naviora.group</a>
     </div>
   </div>
-  <div class="nv-site-wrap nv-foot-btm">© 2026 Naviora Group</div>
+  <div class="nv-site-wrap nv-foot-btm">© 2026 Mark Fingerman</div>
 </footer>
 {script}
 </body>

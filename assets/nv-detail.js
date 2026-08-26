@@ -1,4 +1,4 @@
-/* Naviora detail-page renderer — the single source of section logic.
+/* Mark Fingerman detail-page renderer — the single source of section logic.
  *
  * Why this exists: the backoffice worker commits listings.json to GitHub and
  * the site rebuilds, but detail pages used to bake their data in at build
@@ -248,7 +248,7 @@
     z = document.getElementById("nv-side-price"); if (z) z.textContent = money(x.priceUsd);
     z = document.getElementById("nv-rel-zone");
     if (z) z.innerHTML = relHTML(x, all || [], body.next());
-    document.title = x.title + " — " + (COUNTRY[x.country] || "") + " | NAVIORA GROUP";
+    document.title = x.title + " — " + (COUNTRY[x.country] || "") + " | MARK FINGERMAN";
     wire(x);
   }
 

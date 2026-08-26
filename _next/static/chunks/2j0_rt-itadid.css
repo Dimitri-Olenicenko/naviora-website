@@ -111,7 +111,7 @@ a[href*="/commercial/"] .hairline > *:last-child {
 }
 
 /* ---- 10. A listing with no image must not collapse ------------------------
-   09 Life Residences ships without renders; without a min-height its image
+   Some listings (Radiant Heights) ship without renders; without a min-height its image
    frame has zero height and the card's proportions break against its
    neighbours. */
 a[href*="/residential/"] > div:first-child,

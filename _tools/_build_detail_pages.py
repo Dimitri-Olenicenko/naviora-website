@@ -189,7 +189,7 @@ def page(item: dict, css: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(item['title'])} — {esc(item.get('district',''))}, {esc(cname)} | Naviora Group</title>
+<title>{esc(item['title'])} — {esc(item.get('district',''))}, {esc(cname)} | Mark Fingerman</title>
 <meta name="description" content="{esc((item.get('shortDescription') or '')[:180])}">
 <link rel="canonical" href="https://olenicenko.com{url}">
 <link rel="icon" href="{BASE}/favicon.png">
@@ -267,7 +267,7 @@ h1{{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:.75rem 0 .4rem;
 </div></main>
 
 <footer class="nv-foot"><div class="nv-wrap">
-  <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers<br>
+  <strong>MARK FINGERMAN</strong> · Real Estate Through Numbers<br>
   <a href="{BASE}/{cslug}/{item['purpose']}/">← Все объекты: {esc(cname)}, {esc(purpose).lower()}</a>
 </div></footer>
 <script>

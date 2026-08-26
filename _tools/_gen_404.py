@@ -30,7 +30,7 @@ HTML = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>NAVIORA GROUP</title>
+<title>Mark Fingerman</title>
 <style>{CSS}</style>
 </head>
 <body data-nv-slug="" data-nv-fp="">
@@ -67,7 +67,7 @@ HTML = f"""<!DOCTYPE html>
 <div class="nv-wrap" id="nv-rel-zone"></div>
 
 <footer class="nv-foot"><div class="nv-wrap">
-  <strong>NAVIORA GROUP</strong> · Real Estate Through Numbers ·
+  <strong>MARK FINGERMAN</strong> · Real Estate Through Numbers ·
   <a href="{BASE}/">на главную</a>
 </div></footer>
 

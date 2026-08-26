@@ -44,7 +44,7 @@ LEGAL = (
     '<dl class="t-sm mt-4 space-y-2 text-ink/70">'
     '<div class="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b border-dotted '
     'border-line pb-2"><dt>Компания</dt>'
-    '<dd class="text-ink sm:text-right">Naviora Capital Real Estate L.L.C.</dd></div>'
+    '<dd class="text-ink sm:text-right">Mark Fingerman</dd></div>'
     '<div class="flex flex-wrap justify-between gap-x-4 gap-y-1"><dt>Лицензия</dt>'
     '<dd class="t-num text-ink">1126816</dd></div></dl></div>'
 )

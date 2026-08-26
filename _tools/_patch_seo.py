@@ -1,5 +1,5 @@
 """
-Post-build SEO patch for the Naviora static export.
+Post-build SEO patch for the Mark Fingerman static export.
 
 The Next.js source for this site is not available, so these fixes are applied
 to the exported HTML. They are idempotent: re-running will not duplicate tags.
@@ -96,7 +96,7 @@ for dirpath, dirnames, filenames in os.walk(ROOT):
                 node = {
                     "@context": "https://schema.org",
                     "@type": "RealEstateAgent",
-                    "name": "Naviora Group",
+                    "name": "Mark Fingerman",
                     "url": f"{BASE}/",
                     "areaServed": ["Dubai", "Abu Dhabi", "Yerevan", "Tbilisi"],
                 }
