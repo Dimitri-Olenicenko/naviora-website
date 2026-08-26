@@ -470,9 +470,9 @@
     "bedrooms": 0,
     "handover": "Q2 2028",
     "images": [
+      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-3.webp",
       "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-1.webp",
       "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-2.webp",
-      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-3.webp",
       "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-4.webp"
     ],
     "featured": false,
@@ -582,8 +582,8 @@
     "bedrooms": 5,
     "handover": "Q3 2029",
     "images": [
-      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
       "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-2.webp",
+      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
       "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-3.webp",
       "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-4.webp"
     ],
@@ -778,10 +778,10 @@
     "bedrooms": 2,
     "handover": "Q4 2026",
     "images": [
+      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-4.webp",
       "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-1.webp",
       "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-2.webp",
       "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-3.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-4.webp",
       "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-5.webp",
       "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-6.webp"
     ],
@@ -1014,10 +1014,10 @@
     "bedrooms": 3,
     "handover": "Q4 2029",
     "images": [
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp",
       "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp",
       "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp",
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp",
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp"
+      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp"
     ],
     "featured": false,
     "shortDescription": "Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.",
@@ -1052,11 +1052,11 @@
     "bedrooms": 4,
     "handover": "Q4 2030",
     "images": [
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-5.webp",
       "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-1.webp",
       "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-2.webp",
       "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-3.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-5.webp"
+      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы и таунхаусы 2–4 спальни на границе Абу-Даби и Дубая: резорт-бассейн, водная горка, падел-корт, школа на территории комьюнити.",
