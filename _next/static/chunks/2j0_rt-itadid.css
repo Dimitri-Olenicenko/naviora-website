@@ -139,3 +139,5 @@ aside div.bg-deep:has(> h2.t-h3),
 #nv-cta-sec {
   display: none !important;
 }
+
+/* a11y-bo 2026-08-28: back-office password field - readable placeholder + visible focus ring (M1 partial; a <label> needs a rebuild) */input[type=password]::placeholder{color:rgba(246,246,242,.72)!important}input[type=password]:focus-visible{outline:2px solid #0037FF!important;outline-offset:2px}

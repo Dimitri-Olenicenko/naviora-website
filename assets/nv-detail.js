@@ -39,13 +39,15 @@
   function heroHTML(x) {
     var imgs = x.images || [];
     if (!imgs.length) return "";
+    // a11y (WCAG 2.1.1 / 4.1.2 / 1.1.1): every thumbnail is a real, named, keyboard-operable button
     var t = imgs.slice(0, 8).map(function (u, i) {
-      return '<img src="' + esc(u) + '" alt="" loading="lazy"' +
-        (i === 0 ? ' class="is-on"' : "") + ">";
+      return '<button type="button" class="nv-film-btn' + (i === 0 ? ' is-on' : '') + '" data-i="' + i +
+        '" aria-pressed="' + (i === 0 ? 'true' : 'false') + '" aria-label="' + esc(x.title) + ' \u2014 \u0444\u043e\u0442\u043e ' + (i + 1) + '">' +
+        '<img src="' + esc(u) + '" alt="" loading="lazy"></button>';
     }).join("");
     return '<div class="nv-hero"><img id="nv-main-img" src="' + esc(imgs[0]) +
-      '" alt="' + esc(x.title) + '"></div>' +
-      (imgs.length > 1 ? '<div class="nv-film">' + t + "</div>" : "");
+      '" alt="' + esc(x.title) + ' \u2014 \u0444\u043e\u0442\u043e 1"></div>' +
+      (imgs.length > 1 ? '<div class="nv-film" role="group" aria-label="\u0413\u0430\u043b\u0435\u0440\u0435\u044f: ' + esc(x.title) + '">' + t + "</div>" : "");
   }
 
   function headHTML(x) {
@@ -196,12 +198,13 @@
 
   function wire(x) {
     var main = document.getElementById("nv-main-img");
-    Array.prototype.forEach.call(document.querySelectorAll(".nv-film img"), function (t) {
-      t.addEventListener("click", function () {
-        if (main) main.src = t.src;
-        Array.prototype.forEach.call(document.querySelectorAll(".nv-film img"),
-          function (o) { o.classList.remove("is-on"); });
-        t.classList.add("is-on");
+    Array.prototype.forEach.call(document.querySelectorAll(".nv-film-btn"), function (b) {
+      b.addEventListener("click", function () {
+        var im = b.querySelector("img");
+        if (main && im) { main.src = im.src; main.alt = b.getAttribute("aria-label") || main.alt; }
+        Array.prototype.forEach.call(document.querySelectorAll(".nv-film-btn"),
+          function (o) { o.classList.remove("is-on"); o.setAttribute("aria-pressed", "false"); });
+        b.classList.add("is-on"); b.setAttribute("aria-pressed", "true");
       });
     });
     Array.prototype.forEach.call(document.querySelectorAll(".nv-yt"), function (box) {
