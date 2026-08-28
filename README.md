@@ -28,3 +28,27 @@ A push to `main` is live within a minute; there is no build step, no staging, no
   (`backoffice/index.html`) only talks to the worker; it holds no credentials.
 
 _Added 2026-08-28 as the in-repo divergence safeguard requested by the version-control health check; no content change._
+
+## Known defect — pre-rendered HTML built from demo data (found 2026-08-28)
+
+**Symptom.** The deployed home page throws React **error #418** (hydration text mismatch), and its pre-rendered
+listing cards link to seven slugs that do not exist: `emaar-beachfront-dubai-harbour`,
+`emaar-grand-polo-club-selvara`, `emaar-square-downtown-office`, `kentron-northern-avenue`,
+`tbilisi-office-building`, `vahagni-villa`, `vake-apartment` — all **404**.
+
+**Cause.** The static export was built while the app still used the seeded demo dataset (still visible in
+`_next/static/chunks/3idq3it8di6ul.js`: `al-quoz-warehouse`, `palm-jumeirah-penthouse`, …). `listings.json`
+(37 real projects) was swapped in afterwards without rebuilding, so the server HTML and the client render
+disagree — React discards the server markup and re-renders, which is why the mismatch is only a console error.
+
+**Blast radius.** Verified headlessly: after hydration every home-page detail link resolves to a real listing
+(`five-towers-arabkir-unit-1`, `vr-vake-sky-tower`, `vr-krtsanisi-resort-residence`,
+`vr-multifunctional-building`, `skyline-yerevan`). The dead links are reachable **only** by a crawler or a
+JavaScript-disabled visitor — an SEO and no-JS defect, not a broken user journey.
+
+**Do NOT patch the built markup.** Editing a pre-rendered Next page's markup or attributes changes what React
+compares against and makes the mismatch worse (confirmed: attribute edits are reverted on hydration). Only the
+CSS chunks and the non-React `nv-template` detail pages are safely editable in this deployed clone.
+
+**Correct fix (needs the principal).** Reconcile the divergence between this deployed clone and the app source,
+then rebuild the export from the current `listings.json` and redeploy. Until then the defect is recorded, not hidden.
