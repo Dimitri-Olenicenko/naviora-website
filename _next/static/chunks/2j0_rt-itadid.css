@@ -140,4 +140,26 @@ aside div.bg-deep:has(> h2.t-h3),
   display: none !important;
 }
 
-/* a11y-bo 2026-08-28: back-office password field - readable placeholder + visible focus ring (M1 partial; a <label> needs a rebuild) */input[type=password]::placeholder{color:rgba(246,246,242,.72)!important}input[type=password]:focus-visible{outline:2px solid #0037FF!important;outline-offset:2px}
+/* a11y-bo 2026-08-28: back-office password field - readable placeholder + visible focus ring (M1 partial; a <label> needs a rebuild) */input[type=password]::placeholder{color:rgba(246,246,242,.72)!important}input[type=password]:focus-visible{outline:2px solid #F6F6F2!important;outline-offset:2px;box-shadow:0 0 0 4px rgba(0,55,255,.55)!important}
+/* a11y-nojs 2026-08-28 (Major: hero + section reveals ship at opacity:0 and are revealed by JS only,
+   so with JavaScript disabled the hero headline never appears). The reveal is driven by an inline
+   style attribute in the pre-rendered HTML; a CSS animation with fill-mode:forwards and a delay does
+   not touch the element while JS is doing its job (JS rewrites the style attribute, so the selector
+   stops matching), but reveals it if JS never runs. Markup is deliberately untouched - editing a
+   pre-rendered Next page breaks hydration. */
+@keyframes nv-nojs-reveal { to { opacity: 1; transform: none; } }
+[style*="opacity:0;"] { animation: nv-nojs-reveal .35s ease-out 1.2s forwards; }
+@media (prefers-reduced-motion: reduce) {
+  [style*="opacity:0;"] { animation-duration: .01s; animation-delay: .01s; }
+}
+
+/* a11y-bo 2026-08-28 (follow-up): the brand blue #0037FF measures ~2.9:1 against the navy form
+   background - under the 3:1 WCAG 2.2 requires for a focus indicator (1.4.11 / 2.4.13). The ring is
+   now offwhite with a blue halo outside it, so it is unmistakable on the dark surface and still
+   reads as the brand colour. Applies to every field on the dark back-office form, not just the
+   password box. */
+.bg-white\/5:focus-visible, form input:focus-visible, form textarea:focus-visible, form select:focus-visible {
+  outline: 2px solid #F6F6F2 !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(0, 55, 255, .55) !important;
+}
