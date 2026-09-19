@@ -1093,7 +1093,7 @@
   "city": "Абу-Даби",
   "priceUsd": 2859088,
   "sizeSqm": 49,
-  "bedrooms": 0,
+  "bedrooms": null,
   "handover": "Q1 2029",
   "images": [
    "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg",
@@ -1119,11 +1119,12 @@
   ],
   "priceFrom": true,
   "sizeFrom": true,
-  "paymentPlan": "Уточняется у застройщика",
+  "paymentPlan": "",
   "lat": 24.494079,
   "lng": 54.400688,
   "address": "Al Reem Island, City of Lights, Абу-Даби",
-  "sizeSqmTo": 234
+  "sizeSqmTo": 234,
+  "ppsm": false
  },
  {
   "id": "abudhabi-addax-port-office-tower",
