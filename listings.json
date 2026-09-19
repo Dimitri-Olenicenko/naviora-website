@@ -1104,15 +1104,17 @@
    "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-6.jpg",
    "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-7.jpg",
    "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-8.jpg",
-   "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg"
+   "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg",
+   "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-10.webp"
   ],
   "featured": false,
   "shortDescription": "Офисная башня на Al Reem Island в периметре ADGM: 133 офиса на 24 этажах, площади от 532 до 2 520 кв. футов. Свободная планировка, фрихолд для иностранных покупателей.",
   "highlights": [
-   "133 офиса на 24 этажах",
-   "Площади от 532 до 2 520 кв. футов",
+   "133 офиса свободной планировки на 24 этажах — 49–234 м²",
+   "Две башни на набережной: офисы класса A, жилые этажи, ретейл",
    "Al Reem Island — с 2023 года в юрисдикции ADGM",
-   "Фрихолд, инвестиционная зона Абу-Даби",
+   "Фрихолд: полное право собственности для иностранных покупателей",
+   "Подиумы, бассейны, фитнес-центры и ретейл в составе комплекса",
    "Сдача Q1 2029"
   ],
   "priceFrom": true,
@@ -1120,7 +1122,8 @@
   "paymentPlan": "Уточняется у застройщика",
   "lat": 24.494079,
   "lng": 54.400688,
-  "address": "Al Reem Island, City of Lights, Абу-Даби"
+  "address": "Al Reem Island, City of Lights, Абу-Даби",
+  "sizeSqmTo": 234
  },
  {
   "id": "abudhabi-addax-port-office-tower",
