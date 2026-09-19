@@ -87,6 +87,7 @@
   }
 
   function financeHTML(x) {
+    return "";  // calculator retired 2026-09-19 (owner decision)
     if (!x.priceUsd) return "";
     var cells = [["Цена", money(x.priceUsd), false]];
     if (x.sizeSqm) cells.push(["Цена за м²", money(Math.round(x.priceUsd / x.sizeSqm)), true]);
@@ -150,9 +151,8 @@
     if (!(x.lat && x.lng)) return "";
     var d = 0.004;
     var bbox = (x.lng - d) + "," + (x.lat - d / 2) + "," + (x.lng + d) + "," + (x.lat + d / 2);
-    return '<iframe class="nv-map" loading="lazy" title="Карта: ' + esc(x.title) + '" ' +
-      'src="https://www.openstreetmap.org/export/embed.html?bbox=' + bbox +
-      "&layer=mapnik&marker=" + x.lat + "," + x.lng + '"></iframe>' +
+    return '<div class="nv-map" id="nv-map" role="img" aria-label="Карта: ' + esc(x.title) + '" data-lat="' + x.lat +
+      '" data-lng="' + x.lng + '" data-title="' + esc(x.title) + '"></div>' +
       '<p class="nv-loc-foot">' + esc(x.address || x.district || "") +
       ' · <a href="https://www.google.com/maps/search/?api=1&query=' + x.lat + "," + x.lng +
       '" target="_blank" rel="noopener noreferrer">Открыть в Google Maps →</a></p>';
@@ -196,7 +196,21 @@
     return sec(num, "Похожие объекты", '<div class="nv-rel-grid">' + cards + "</div>", "nv-rel-sec");
   }
 
+  function nvMap() {
+    var el = document.getElementById("nv-map");
+    if (!el || !window.L || el.dataset.ready) return;
+    el.dataset.ready = "1";
+    var lat = +el.getAttribute("data-lat"), lng = +el.getAttribute("data-lng");
+    var m = L.map(el, { zoomControl: true, scrollWheelZoom: false, attributionControl: true }).setView([lat, lng], 14);
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16,
+      attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(m);
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16 }).addTo(m);
+    var ic = L.divIcon({ className: "", html: '<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #fff;background:#0037FF;box-shadow:0 0 0 4px rgba(0,55,255,.35)"></span>', iconSize: [14, 14], iconAnchor: [7, 7] });
+    L.marker([lat, lng], { icon: ic, title: el.getAttribute("data-title") || "" }).addTo(m);
+  }
+
   function wire(x) {
+    nvMap();
     var main = document.getElementById("nv-main-img");
     Array.prototype.forEach.call(document.querySelectorAll(".nv-film-btn"), function (b) {
       b.addEventListener("click", function () {

@@ -179,7 +179,7 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 @media (prefers-reduced-motion:reduce){
  .nv-rel,.nv-rel-i img,.nv-film img{transition:none!important;transform:none!important}}
 .nv-film-btn{padding:0;border:2px solid transparent;background:none;cursor:pointer;flex:none;line-height:0;border-radius:4px}.nv-film-btn img{opacity:.55;cursor:pointer;height:72px;width:104px;object-fit:cover;display:block}.nv-film-btn:hover img,.nv-film-btn.is-on img{opacity:1}.nv-film-btn.is-on{border-color:#0037FF}.nv-film-btn:focus-visible{outline:2px solid #0037FF;outline-offset:2px}.nv-skip{position:absolute;left:-9999px;top:0;background:#0037FF;color:#fff;padding:.6rem 1rem;z-index:9999;text-decoration:none}.nv-skip:focus{left:0}</style>
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous"><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" defer></script><style>.nv-map{background:#0a0a18}.nv-map .leaflet-control-attribution{font-size:10px}</style></head>
 <body data-nv-slug="the-terraces-sobha-city-ad" data-nv-fp="429648654">
 <a class="nv-skip" href="#main">К содержимому</a>
 <header class="nv-site-head">
@@ -219,23 +219,8 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 
 <div class="nv-grid">
 <div id="nv-body">
-<section class="nv-sec"><div class="s-head"><span class="s-num">01</span><h2>Описание</h2></div><p class="nv-desc">Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.</p></section><section class="nv-sec"><div class="s-head"><span class="s-num">02</span><h2>Преимущества</h2></div><ul class="nv-hl"><li>Садовые виллы с приватными садами и террасами</li><li>Отдельные виллы с лифтом, бассейном и крытой парковкой</li><li>Парки, велодорожки, мультиспортивные корты</li><li>Зоны медитации и йоги, амфитеатр</li><li>Сервисный сбор 5 AED/кв. фут</li></ul></section><section class="nv-sec" id="nv-fin-sec"><div class="s-head"><span class="s-num">03</span><h2>Финансы и доходность</h2></div><div class="nv-fin-grid"><div class="nv-fin-cell"><span>Цена</span><b>$ 1 386 607</b></div><div class="nv-fin-cell is-accent"><span>Цена за м²</span><b>$ 5 778</b></div><div class="nv-fin-cell nv-fin-wide"><span>План оплаты</span><b>20% при бронировании / 40% в ходе строительства (8 платежей) / 40% при передаче</b></div></div>
-<div class="nv-calc"><div class="nv-calc-t">Калькулятор доходности</div>
-<div class="nv-calc-in">
-<label>Ставка аренды, % годовых
- <input id="nv-y" type="number" value="7" min="1" max="20" step="0.5"></label>
-<label>Загрузка, %
- <input id="nv-o" type="number" value="90" min="10" max="100" step="5"></label>
-</div>
-<div class="nv-calc-out" aria-live="polite">
-<div><span>Доход в год</span><b id="nv-a">—</b></div>
-<div><span>Доход в месяц</span><b id="nv-m">—</b></div>
-<div><span>Окупаемость</span><b id="nv-p">—</b></div>
-</div>
-<p class="nv-note">Расчёт строится от указанной вами ставки и цены объекта
-($ 1 386 607). Это не гарантия доходности и не оферта: фактическая аренда
-зависит от рынка, отделки, загрузки и сервисных сборов.</p></div></section><section class="nv-sec"><div class="s-head"><span class="s-num">04</span><h2>Презентация</h2></div><div class="nv-doc"><a href="/naviora-website/assets/brochures/the-terraces-sobha-city-ad.pdf" target="_blank" rel="noopener noreferrer">Скачать презентацию — PDF →</a></div></section>
-</div>
+<section class="nv-sec"><div class="s-head"><span class="s-num">01</span><h2>Описание</h2></div><p class="nv-desc">Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.</p></section><section class="nv-sec"><div class="s-head"><span class="s-num">02</span><h2>Преимущества</h2></div><ul class="nv-hl"><li>Садовые виллы с приватными садами и террасами</li><li>Отдельные виллы с лифтом, бассейном и крытой парковкой</li><li>Парки, велодорожки, мультиспортивные корты</li><li>Зоны медитации и йоги, амфитеатр</li><li>Сервисный сбор 5 AED/кв. фут</li></ul></section><section class="nv-sec"><div class="s-head"><span class="s-num">03</span><h2>Презентация</h2></div><div class="nv-doc"><a href="/naviora-website/assets/brochures/the-terraces-sobha-city-ad.pdf" target="_blank" rel="noopener noreferrer">Скачать презентацию — PDF →</a></div></section>
+<section class="nv-sec" id="nv-loc-sec"><div class="s-head"><span class="s-num">04</span><h2>Расположение</h2></div><div class="nv-map" id="nv-map" role="img" aria-label="Карта: The Terraces at Sobha City" data-lat="24.556532" data-lng="54.664163" data-title="The Terraces at Sobha City"></div><p class="nv-loc-foot">Al Bahya, Абу-Даби · <a href="https://www.google.com/maps/search/?api=1&query=24.556532,54.664163" target="_blank" rel="noopener noreferrer">Открыть в Google Maps →</a></p></section></div>
 <aside class="nv-side"><div class="nv-card">
   <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Цена от</div>
   <div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">$ 1 386 607</div>
@@ -277,5 +262,5 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
   <div class="nv-site-wrap nv-foot-btm">© 2026 Mark Fingerman</div>
 </footer>
 <script src="/naviora-website/assets/nv-detail.js" defer></script>
-</body>
+<script>(function(){function init(){var el=document.getElementById('nv-map');if(!el||!window.L||el.dataset.ready)return;el.dataset.ready='1';var lat=+el.getAttribute('data-lat'),lng=+el.getAttribute('data-lng');var m=L.map(el,{zoomControl:true,scrollWheelZoom:false,attributionControl:true}).setView([lat,lng],14);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(m);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxZoom:16}).addTo(m);var ic=L.divIcon({className:'',html:'<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #ffffff;background:#0037FF;box-shadow:0 0 0 4px rgba(0,55,255,0.35)"></span>',iconSize:[14,14],iconAnchor:[7,7]});L.marker([lat,lng],{icon:ic,title:el.getAttribute('data-title')||'',alt:el.getAttribute('data-title')||''}).addTo(m);}if(window.L)init();else{var t=setInterval(function(){if(window.L){clearInterval(t);init();}},60);setTimeout(function(){clearInterval(t)},15000);}})();</script></body>
 </html>
