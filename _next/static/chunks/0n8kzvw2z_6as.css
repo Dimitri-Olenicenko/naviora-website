@@ -141,3 +141,4 @@ aside div.bg-deep:has(> h2.t-h3),
 }
 
 /* a11y 2026-08-28: keep the pastel status pill readable where the market-badge patch darkens it (M2) */a[href*="/residential/"] .absolute.right-2.t-micro,a[href*="/commercial/"] .absolute.right-2.t-micro{color:#fff!important}/* a11y 2026-08-28: content must never stay hidden behind a JS reveal (M3) */@media (prefers-reduced-motion:reduce){main [style*="opacity:0"],[data-nv-reveal][style*="opacity:0"]{opacity:1!important;transform:none!important}}
+a[href*="/naviora-website/armenia/"],a[href*="/naviora-website/georgia/"],span:has(+a[href*="/naviora-website/armenia/"]),span:has(+a[href*="/naviora-website/georgia/"]){display:none!important}

@@ -18,7 +18,7 @@
   var BASE = "/naviora-website";
   var COUNTRY = { dubai: "Дубай", abudhabi: "Абу-Даби", armenia: "Ереван", georgia: "Тбилиси" };
   var PURPOSE = { residential: "Жилая", commercial: "Коммерческая" };
-  var TYPE_RU = { apartment: "Апартаменты", villa: "Вилла", office: "Офис", retail: "Ритейл", townhouse: "Таунхаус" };
+  var TYPE_RU = { apartment: "Апартаменты", serviced: "Сервисные апартаменты", villa: "Вилла", office: "Офис", retail: "Ритейл", townhouse: "Таунхаус" };
   var MARKET_RU = { offplan: "Первичный рынок", secondary: "Вторичный рынок" };
 
   function esc(s) {
