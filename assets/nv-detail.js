@@ -202,9 +202,8 @@
     el.dataset.ready = "1";
     var lat = +el.getAttribute("data-lat"), lng = +el.getAttribute("data-lng");
     var m = L.map(el, { zoomControl: true, scrollWheelZoom: false, attributionControl: true }).setView([lat, lng], 14);
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16,
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", { maxZoom: 19,
       attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(m);
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16 }).addTo(m);
     var ic = L.divIcon({ className: "", html: '<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #fff;background:#0037FF;box-shadow:0 0 0 4px rgba(0,55,255,.35)"></span>', iconSize: [14, 14], iconAnchor: [7, 7] });
     L.marker([lat, lng], { icon: ic, title: el.getAttribute("data-title") || "" }).addTo(m);
   }

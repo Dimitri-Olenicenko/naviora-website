@@ -165,3 +165,4 @@ aside div.bg-deep:has(> h2.t-h3),
 }
 
 a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}
+#nv-market>button{text-align:left;padding:.65rem .85rem}#nv-market>button+button{border-top:1px solid rgba(20,20,20,.12)}
