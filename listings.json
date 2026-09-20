@@ -36,7 +36,13 @@
     ],
     "lat": 40.2078,
     "lng": 44.5095,
-    "address": "Арабкир, Ереван"
+    "address": "Арабкир, Ереван",
+    "districtEn": "Arabkir",
+    "addressEn": "Arabkir, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Under construction",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Five Towers — помещение №1, Арабкир"
   },
   {
     "id": "tbs-vr-vr-vake-sky-tower",
@@ -91,7 +97,12 @@
         "id": "rnCvO9X-mwY",
         "caption": "Fashion Avenue"
       }
-    ]
+    ],
+    "districtEn": "Vake",
+    "addressEn": "49 Chavchavadze Ave, Vake, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "2031",
+    "titleEn": "VR Vake Sky Tower — Fashion Avenue"
   },
   {
     "id": "tbs-vr-vr-krtsanisi-resort-residence",
@@ -148,7 +159,13 @@
         "id": "wIG1M4tQR1c",
         "caption": "Строительство премиум-фазы"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "7 Grigol Volski St, Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "Phase 5 — 2026, phase 6 — 2029",
+    "paymentPlanEn": "20% down payment / 80% during construction; instalments up to 10 years",
+    "titleEn": "VR Krtsanisi Resort Residence"
   },
   {
     "id": "tbs-vr-vr-multifunctional-building",
@@ -195,7 +212,12 @@
         "id": "ZbjPm9Gn_qM",
         "caption": "Multifunctional Building — 5★ апартаменты"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "December 2028",
+    "titleEn": "VR Multifunctional Building — Крцаниси"
   },
   {
     "id": "tbs-vr-vr-shekvetili-forest-beach",
@@ -250,7 +272,12 @@
         "id": "x9Kouz1BdXQ",
         "caption": "Первая очередь — ход работ"
       }
-    ]
+    ],
+    "districtEn": "Шекветили",
+    "addressEn": "Shekvetili, Black Sea coast",
+    "cityEn": "Шекветили",
+    "handoverEn": "Under construction",
+    "titleEn": "VR Shekvetili Forest~Beach"
   },
   {
     "id": "tbs-vr-vr-royal-townhouse",
@@ -293,7 +320,12 @@
         "id": "PBaZzU8gpKo",
         "caption": "Крцаниси Вилла Резиденс — таунхаусы"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "2026",
+    "titleEn": "VR Royal Townhouse"
   },
   {
     "id": "tbs-vr-vr-apartments-tbilisi",
@@ -334,7 +366,12 @@
         "id": "y5o3twCzjOE",
         "caption": "Villa Residence Apartments"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "Completed в 2020",
+    "titleEn": "VR Apartments — сдан"
   },
   {
     "id": "tbs-vr-vr-resort-tbilisi",
@@ -379,7 +416,12 @@
         "id": "LSZ5PfXRdTs",
         "caption": "VR Resort — «Дыши, живи, отдыхай»"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "Completed в 2018",
+    "titleEn": "VR Resort — сдан"
   },
   {
     "id": "tbs-vr-sairme-villa-residence",
@@ -424,7 +466,12 @@
         "id": "zMlOu1tD1AY",
         "caption": "Sairme Villa Residence — завершённый проект"
       }
-    ]
+    ],
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "Completed",
+    "titleEn": "Sairme Villa Residence — сдан"
   },
   {
     "id": "tbs-vr-vr-office-center-apartments",
@@ -452,7 +499,12 @@
     ],
     "lat": 41.6726,
     "lng": 44.8145,
-    "address": "Крцаниси, Тбилиси"
+    "address": "Крцаниси, Тбилиси",
+    "districtEn": "Krtsanisi",
+    "addressEn": "Krtsanisi, Tbilisi",
+    "cityEn": "Tbilisi",
+    "handoverEn": "Completed",
+    "titleEn": "VR Office Center & Apartments — сдан"
   },
   {
     "id": "dubai-samana-barari-avenue",
@@ -473,7 +525,8 @@
       "/assets/projects/samana-barari-avenue/samana-barari-avenue-3.webp",
       "/assets/projects/samana-barari-avenue/samana-barari-avenue-1.webp",
       "/assets/projects/samana-barari-avenue/samana-barari-avenue-2.webp",
-      "/assets/projects/samana-barari-avenue/samana-barari-avenue-4.webp"
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-4.webp",
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-5.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный бизнес-парк в Majan на Sheikh Mohammed bin Zayed Road: офисы и стрит-ретейл, панорамное остекление, гибкие условия аренды и покупки.",
@@ -492,7 +545,13 @@
     "address": "Majan, Дубай",
     "pdfUrl": "/assets/brochures/samana-barari-avenue.pdf",
     "priceToUsd": 1665989,
-    "sizeSqmTo": 218
+    "sizeSqmTo": 218,
+    "districtEn": "Majan",
+    "addressEn": "Majan, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q2 2028",
+    "paymentPlanEn": "15% on booking / 85% during construction and post-handover (5% over 9 months, 1% per month)",
+    "titleEn": "Samana Barari Avenue"
   },
   {
     "id": "dubai-hq-by-rove",
@@ -513,7 +572,8 @@
       "/assets/projects/hq-by-rove/hq-by-rove-1.webp",
       "/assets/projects/hq-by-rove/hq-by-rove-2.webp",
       "/assets/projects/hq-by-rove/hq-by-rove-3.webp",
-      "/assets/projects/hq-by-rove/hq-by-rove-4.webp"
+      "/assets/projects/hq-by-rove/hq-by-rove-4.webp",
+      "/assets/projects/hq-by-rove/hq-by-rove-5.webp"
     ],
     "featured": false,
     "shortDescription": "Первое офисное здание Дубая под гостиничным брендом Rove. 23 офисных этажа в Marasi Bay, прямой выход к Dubai Canal, полностью готовые и меблированные офисы.",
@@ -532,7 +592,13 @@
     "address": "Business Bay, Дубай",
     "pdfUrl": "/assets/brochures/hq-by-rove.pdf",
     "priceToUsd": 8695749,
-    "sizeSqmTo": 588
+    "sizeSqmTo": 588,
+    "districtEn": "Business Bay",
+    "addressEn": "Business Bay, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q1 2029",
+    "paymentPlanEn": "15% on booking / 35% during construction (7 instalments) / 50% on handover",
+    "titleEn": "HQ by Rove"
   },
   {
     "id": "dubai-azizi-emerald",
@@ -552,7 +618,8 @@
     "images": [
       "/assets/projects/azizi-emerald/azizi-emerald-1.webp",
       "/assets/projects/azizi-emerald/azizi-emerald-2.webp",
-      "/assets/projects/azizi-emerald/azizi-emerald-3.webp"
+      "/assets/projects/azizi-emerald/azizi-emerald-3.webp",
+      "/assets/projects/azizi-emerald/azizi-emerald-4.webp"
     ],
     "featured": false,
     "shortDescription": "Офисное здание 68,5 м в Dubai Healthcare City: 11 офисных этажей, прямой доступ к метро, 8 уровней парковки, ретейл на первом этаже.",
@@ -571,7 +638,13 @@
     "address": "Dubai Healthcare City, Дубай",
     "pdfUrl": "/assets/brochures/azizi-emerald.pdf",
     "priceToUsd": 5904152,
-    "sizeSqmTo": 333
+    "sizeSqmTo": 333,
+    "districtEn": "Dubai Healthcare City",
+    "addressEn": "Dubai Healthcare City, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q1 2028",
+    "paymentPlanEn": "10% on booking / 30% during construction (3 instalments) / 60% on handover",
+    "titleEn": "Azizi Emerald"
   },
   {
     "id": "dubai-the-brooks-sobha-sanctuary",
@@ -592,7 +665,8 @@
       "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-2.webp",
       "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
       "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-3.webp",
-      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-4.webp"
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-4.webp",
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-5.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы в Sobha Sanctuary: зелёные коридоры, водные пространства и wellness-инфраструктура. Садовые и патио-виллы с террасами и smart-home.",
@@ -612,7 +686,13 @@
     "pdfUrl": "/assets/brochures/the-brooks-sobha-sanctuary.pdf",
     "priceToUsd": 2001480,
     "sizeSqmTo": 385,
-    "bedroomsTo": 5
+    "bedroomsTo": 5,
+    "districtEn": "Sobha Sanctuary",
+    "addressEn": "Sobha Sanctuary, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q3 2029",
+    "paymentPlanEn": "20% on booking / 40% during construction (4 instalments) / 40% on handover",
+    "titleEn": "The Brooks at Sobha Sanctuary"
   },
   {
     "id": "dubai-hayat-6-dubai-south",
@@ -634,7 +714,8 @@
       "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-2.webp",
       "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-3.webp",
       "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-4.webp",
-      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-5.webp"
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-5.webp",
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-6.webp"
     ],
     "featured": false,
     "shortDescription": "Закрытое комьюнити в Dubai South: таунхаусы и виллы 4–5 спален с частными садами, крышными террасами и центральным озером.",
@@ -652,7 +733,13 @@
     "lng": 55.1109576901097,
     "address": "Dubai South, Madinat Al Mataar, Дубай",
     "pdfUrl": "/assets/brochures/hayat-6-dubai-south.pdf",
-    "priceToUsd": 1701838
+    "priceToUsd": 1701838,
+    "districtEn": "Dubai South, Madinat Al Mataar",
+    "addressEn": "Dubai South, Madinat Al Mataar, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q1 2029",
+    "paymentPlanEn": "5% on booking / 35% during construction / 30% on handover / 30% over 24 months post-handover",
+    "titleEn": "Hayat 6"
   },
   {
     "id": "dubai-athlon-by-aldar",
@@ -674,7 +761,8 @@
       "/assets/projects/athlon-by-aldar/athlon-by-aldar-2.webp",
       "/assets/projects/athlon-by-aldar/athlon-by-aldar-3.webp",
       "/assets/projects/athlon-by-aldar/athlon-by-aldar-4.webp",
-      "/assets/projects/athlon-by-aldar/athlon-by-aldar-5.webp"
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-5.webp",
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-6.webp"
     ],
     "featured": false,
     "shortDescription": "Первое в ОАЭ комьюнити с сертификатом LEED Platinum. Более 10 км дорожек для бега, велоспорта и роликов, центральный парк, клубные дома.",
@@ -694,7 +782,13 @@
     "pdfUrl": "/assets/brochures/athlon-by-aldar.pdf",
     "priceToUsd": 5239784,
     "sizeSqmTo": 855,
-    "bedroomsTo": 6
+    "bedroomsTo": 6,
+    "districtEn": "Arabian Ranches 3, Wadi Al Safa 5",
+    "addressEn": "Arabian Ranches 3, Wadi Al Safa 5, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q4 2028",
+    "paymentPlanEn": "10% on booking / 50% during construction / 40% on handover",
+    "titleEn": "Athlon by Aldar"
   },
   {
     "id": "dubai-serro-2-the-heights",
@@ -717,7 +811,8 @@
       "/assets/projects/serro-2-the-heights/serro-2-the-heights-3.webp",
       "/assets/projects/serro-2-the-heights/serro-2-the-heights-4.webp",
       "/assets/projects/serro-2-the-heights/serro-2-the-heights-5.webp",
-      "/assets/projects/serro-2-the-heights/serro-2-the-heights-6.webp"
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-6.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-7.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы 3–5 спален в The Heights: средиземноморские мотивы, белые фасады с терракотовыми акцентами, wellness-центр и клубный дом в центре комьюнити.",
@@ -737,7 +832,13 @@
     "pdfUrl": "/assets/brochures/serro-2-the-heights.pdf",
     "priceToUsd": 2272536,
     "sizeSqmTo": 400,
-    "bedroomsTo": 4
+    "bedroomsTo": 4,
+    "districtEn": "The Heights, Al Yalayis 5",
+    "addressEn": "The Heights, Al Yalayis 5, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q2 2030",
+    "paymentPlanEn": "10% on booking / 70% during construction (7 instalments) / 20% on handover",
+    "titleEn": "Serro 2"
   },
   {
     "id": "dubai-residences-difc-zabeel",
@@ -786,7 +887,13 @@
     "bedroomsTo": 3,
     "sizeSqmTo": 176,
     "videoId": "LX38cIF0lDw",
-    "brochureLabel": "Презентация проекта — PDF →"
+    "brochureLabel": "Презентация проекта — PDF →",
+    "districtEn": "Zabeel, Za'abeel",
+    "addressEn": "DIFC Zabeel District, Za'abeel 2, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q4 2029",
+    "paymentPlanEn": "70% during construction (10 instalments) / 30% on handover",
+    "titleEn": "The Residences DIFC Zabeel District"
   },
   {
     "id": "dubai-eywa-business-bay",
@@ -809,7 +916,8 @@
       "/assets/projects/eywa-business-bay/eywa-business-bay-2.webp",
       "/assets/projects/eywa-business-bay/eywa-business-bay-3.webp",
       "/assets/projects/eywa-business-bay/eywa-business-bay-5.webp",
-      "/assets/projects/eywa-business-bay/eywa-business-bay-6.webp"
+      "/assets/projects/eywa-business-bay/eywa-business-bay-6.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-7.webp"
     ],
     "featured": false,
     "shortDescription": "Архитектурный проект на Dubai Water Canal, вдохновлённый баньяном: висячие сады, водопады, камни и кристаллы. Планировки по принципам васту, террасы с бассейнами.",
@@ -829,7 +937,13 @@
     "pdfUrl": "/assets/brochures/eywa-business-bay.pdf",
     "priceToUsd": 15688802,
     "sizeSqmTo": 1471,
-    "bedroomsTo": 5
+    "bedroomsTo": 5,
+    "districtEn": "Business Bay",
+    "addressEn": "Business Bay, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q1 2027",
+    "paymentPlanEn": "10% on booking / 40% during construction (4 instalments) / 50% on handover",
+    "titleEn": "Eywa"
   },
   {
     "id": "dubai-aeon-creek-harbour",
@@ -850,7 +964,8 @@
       "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-1.webp",
       "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-2.webp",
       "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-3.webp",
-      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-4.webp"
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-4.webp",
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-5.webp"
     ],
     "featured": false,
     "shortDescription": "Башни на набережной Dubai Creek Harbour рядом с центральной площадью: виды на канал, парки и скайлайн, выход к Creek Beach.",
@@ -867,7 +982,13 @@
     "lat": 25.20578320965728,
     "lng": 55.352320556841555,
     "address": "Dubai Creek Harbour, Al Kheeran 1, Дубай",
-    "pdfUrl": "/assets/brochures/aeon-creek-harbour.pdf"
+    "pdfUrl": "/assets/brochures/aeon-creek-harbour.pdf",
+    "districtEn": "Dubai Creek Harbour, Al Kheeran 1",
+    "addressEn": "Dubai Creek Harbour, Al Kheeran 1, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q3 2027",
+    "paymentPlanEn": "10% on booking / 80% during construction / 10% on handover",
+    "titleEn": "Aeon"
   },
   {
     "id": "abudhabi-manchester-city-yas-residences",
@@ -891,7 +1012,8 @@
       "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-4.webp",
       "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-5.webp",
       "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-6.webp",
-      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-7.webp"
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-7.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-8.webp"
     ],
     "featured": false,
     "shortDescription": "Первое в мире жильё под брендом Manchester City на Yas Island. Набережная Yas Canal, футбольная академия клуба на территории, более половины площади — зелёные зоны и wellness.",
@@ -910,7 +1032,13 @@
     "address": "Yas Island, Yas Canal, Абу-Даби",
     "pdfUrl": "/assets/brochures/manchester-city-yas-residences.pdf",
     "priceToUsd": 8441116,
-    "sizeSqmTo": 1370
+    "sizeSqmTo": 1370,
+    "districtEn": "Yas Island, Yas Canal",
+    "addressEn": "Yas Island, Yas Canal, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q4 2029",
+    "paymentPlanEn": "10% on booking / 30% during construction / 60% on handover",
+    "titleEn": "Manchester City Yas Residences by Ohana"
   },
   {
     "id": "abudhabi-fairmont-marina-residences",
@@ -932,7 +1060,8 @@
       "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-2.webp",
       "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-3.webp",
       "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-4.webp",
-      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-5.webp"
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-5.webp",
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-6.webp"
     ],
     "featured": false,
     "shortDescription": "Брендированные резиденции Fairmont на набережной Персидского залива: башни-близнецы с аркой, доступ к инфраструктуре курорта Fairmont Marina и привилегии в 110+ отелях Fairmont, Raffles и Swissôtel.",
@@ -949,7 +1078,13 @@
     "lat": 24.481167437110006,
     "lng": 54.32210975242601,
     "address": "Al Kasir, Абу-Даби",
-    "pdfUrl": "/assets/brochures/fairmont-marina-residences.pdf"
+    "pdfUrl": "/assets/brochures/fairmont-marina-residences.pdf",
+    "districtEn": "Al Kasir",
+    "addressEn": "Al Kasir, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Completed · Q2 2021",
+    "paymentPlanEn": "20% on booking / 80% over 3 years post-handover (13,33% every 6 months)",
+    "titleEn": "Fairmont Marina Residences"
   },
   {
     "id": "abudhabi-beach-house-fahid",
@@ -971,7 +1106,8 @@
       "/assets/projects/beach-house-fahid/beach-house-fahid-2.webp",
       "/assets/projects/beach-house-fahid/beach-house-fahid-3.webp",
       "/assets/projects/beach-house-fahid/beach-house-fahid-4.webp",
-      "/assets/projects/beach-house-fahid/beach-house-fahid-5.webp"
+      "/assets/projects/beach-house-fahid/beach-house-fahid-5.webp",
+      "/assets/projects/beach-house-fahid/beach-house-fahid-6.webp"
     ],
     "featured": false,
     "shortDescription": "Прибрежный комплекс на Fahid Island в нескольких шагах от берега: два резорт-бассейна, коворкинг-лаунжи, променад Coral Drive с ретейлом и ресторанами.",
@@ -991,7 +1127,13 @@
     "pdfUrl": "/assets/brochures/beach-house-fahid.pdf",
     "priceToUsd": 1824874,
     "sizeSqmTo": 234,
-    "bedroomsTo": 3
+    "bedroomsTo": 3,
+    "districtEn": "Fahid Island",
+    "addressEn": "Fahid Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q3 2029",
+    "paymentPlanEn": "10% on booking / 30% during construction / 60% on handover",
+    "titleEn": "The Beach House Fahid"
   },
   {
     "id": "abudhabi-river-cove-sobha-city-ad",
@@ -1013,7 +1155,8 @@
       "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-2.webp",
       "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-3.webp",
       "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-4.webp",
-      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-5.webp"
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-5.webp",
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-6.webp"
     ],
     "featured": false,
     "shortDescription": "Две башни вдоль променада в Sobha City: виды на каналы и озеленение, панорамное остекление, балконы. Квартиры и дуплексы 1–4 спальни.",
@@ -1033,7 +1176,13 @@
     "pdfUrl": "/assets/brochures/river-cove-sobha-city-ad.pdf",
     "priceToUsd": 2380742,
     "sizeSqmTo": 319,
-    "bedroomsTo": 4
+    "bedroomsTo": 4,
+    "districtEn": "Al Bahya",
+    "addressEn": "Al Bahya, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q4 2029",
+    "paymentPlanEn": "20% on booking / 40% during construction (8 instalments) / 40% on handover",
+    "titleEn": "River Cove Residences at Sobha City"
   },
   {
     "id": "abudhabi-the-terraces-sobha-city-ad",
@@ -1054,7 +1203,8 @@
       "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp",
       "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp",
       "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp",
-      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp"
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp",
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-5.webp"
     ],
     "featured": false,
     "shortDescription": "Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.",
@@ -1071,7 +1221,13 @@
     "lat": 24.49570813958348,
     "lng": 54.63922677558115,
     "address": "Al Bahya, Абу-Даби",
-    "pdfUrl": "/assets/brochures/the-terraces-sobha-city-ad.pdf"
+    "pdfUrl": "/assets/brochures/the-terraces-sobha-city-ad.pdf",
+    "districtEn": "Al Bahya",
+    "addressEn": "Al Bahya, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q4 2029",
+    "paymentPlanEn": "20% on booking / 40% during construction (8 instalments) / 40% on handover",
+    "titleEn": "The Terraces at Sobha City"
   },
   {
     "id": "abudhabi-al-ghadeer-gardens",
@@ -1093,7 +1249,8 @@
       "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-1.webp",
       "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-2.webp",
       "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-3.webp",
-      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp"
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp",
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-6.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы и таунхаусы 2–4 спальни на границе Абу-Даби и Дубая: резорт-бассейн, водная горка, падел-корт, школа на территории комьюнити.",
@@ -1111,7 +1268,13 @@
     "lng": 55.020485753530124,
     "address": "Al Ghadeer, Абу-Даби",
     "pdfUrl": "/assets/brochures/al-ghadeer-gardens.pdf",
-    "priceToUsd": 950210
+    "priceToUsd": 950210,
+    "districtEn": "Al Ghadeer",
+    "addressEn": "Al Ghadeer, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q4 2030",
+    "paymentPlanEn": "5% on booking / 50% during construction (6 instalments) / 45% on handover",
+    "titleEn": "Al Ghadeer Gardens"
   },
   {
     "id": "abudhabi-radiant-atrium-towers",
@@ -1157,7 +1320,12 @@
     "lng": 54.400688,
     "address": "Al Reem Island, City of Lights, Абу-Даби",
     "sizeSqmTo": 234,
-    "ppsm": false
+    "ppsm": false,
+    "districtEn": "Al Reem Island, City of Lights",
+    "addressEn": "Al Reem Island, City of Lights, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q1 2029",
+    "titleEn": "Radiant Atrium Towers"
   },
   {
     "id": "abudhabi-addax-port-office-tower",
@@ -1194,7 +1362,13 @@
     "paymentPlan": "Вторичный рынок — оплата по договору",
     "lat": 24.499065,
     "lng": 54.403142,
-    "address": "Al Reem Island, Абу-Даби"
+    "address": "Al Reem Island, Абу-Даби",
+    "districtEn": "Al Reem Island",
+    "addressEn": "Al Reem Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Completed",
+    "paymentPlanEn": "Secondary market — payment as per contract",
+    "titleEn": "Addax Port Office Tower"
   },
   {
     "id": "abudhabi-radiant-height",
@@ -1214,7 +1388,8 @@
     "images": [
       "/assets/projects/radiant-height/radiant-height-ext-1.webp",
       "/assets/projects/radiant-height/radiant-height-ext-2.webp",
-      "/assets/projects/radiant-height/radiant-height-3.webp"
+      "/assets/projects/radiant-height/radiant-height-3.webp",
+      "/assets/projects/radiant-height/radiant-height-4.webp"
     ],
     "featured": false,
     "shortDescription": "Готовое офисное здание на Al Reem Island. Площади от 1 894 до 2 758 кв. футов, диапазон цен 2,9–5,0 млн AED.",
@@ -1232,7 +1407,13 @@
     "paymentPlan": "Вторичный рынок — оплата по договору",
     "lat": 24.497016320448505,
     "lng": 54.404399361487414,
-    "address": "Al Reem Island, Абу-Даби"
+    "address": "Al Reem Island, Абу-Даби",
+    "districtEn": "Al Reem Island, Matar bin Thani al Rumaithi St",
+    "addressEn": "Al Reem Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Completed · Q4 2024",
+    "paymentPlanEn": "Secondary market — payment as per contract",
+    "titleEn": "Radiant Heights"
   },
   {
     "id": "armenia-five-towers",
@@ -1278,7 +1459,13 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.2114372,
     "lng": 44.4629873,
-    "address": "Ajapnyak, Gevorg Chaush 95, Ереван"
+    "address": "Ajapnyak, Gevorg Chaush 95, Ереван",
+    "districtEn": "Ajapnyak, Gevorg Chaush 95",
+    "addressEn": "Ajapnyak, Gevorg Chaush 95, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Август 2031",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Five Towers"
   },
   {
     "id": "armenia-atlantis-prime",
@@ -1320,7 +1507,12 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.2110339,
     "lng": 44.5075671,
-    "address": "Arabkir, Malkhasyants lane 3, Ереван"
+    "address": "Arabkir, Malkhasyants lane 3, Ереван",
+    "districtEn": "Arabkir, Malkhasyants lane 3",
+    "addressEn": "Arabkir, Malkhasyants lane 3, Yerevan",
+    "cityEn": "Yerevan",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Atlantis Prime"
   },
   {
     "id": "armenia-atlantis-yerevan",
@@ -1359,7 +1551,13 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.2112377,
     "lng": 44.5086793,
-    "address": "Arabkir, Malkhasyants lane 6, Ереван"
+    "address": "Arabkir, Malkhasyants lane 6, Ереван",
+    "districtEn": "Arabkir, Malkhasyants lane 6",
+    "addressEn": "Arabkir, Malkhasyants lane 6, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Август 2028",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Atlantis Yerevan"
   },
   {
     "id": "armenia-komitas-60",
@@ -1395,7 +1593,13 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.205799,
     "lng": 44.5234798,
-    "address": "Arabkir, Komitas Avenue 60, Ереван"
+    "address": "Arabkir, Komitas Avenue 60, Ереван",
+    "districtEn": "Arabkir, Komitas Avenue 60",
+    "addressEn": "Arabkir, Komitas Avenue 60, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Completed (сентябрь 2025)",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Komitas 60"
   },
   {
     "id": "armenia-davit-bek-290",
@@ -1435,7 +1639,13 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.1844287,
     "lng": 44.5624304,
-    "address": "Nor Nork, 5th massif, Ереван"
+    "address": "Nor Nork, 5th massif, Ереван",
+    "districtEn": "Nor Nork, 5th massif",
+    "addressEn": "Nor Nork, 5th massif, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Completed (декабрь 2025)",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Davit Bek 290"
   },
   {
     "id": "armenia-slavik-chiloyan-17",
@@ -1473,7 +1683,12 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.2005717,
     "lng": 44.5097329,
-    "address": "Arabkir, Slavik Chiloyan 17, Ереван"
+    "address": "Arabkir, Slavik Chiloyan 17, Ереван",
+    "districtEn": "Arabkir, Slavik Chiloyan 17",
+    "addressEn": "Arabkir, Slavik Chiloyan 17, Yerevan",
+    "cityEn": "Yerevan",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Slavik Chiloyan 17"
   },
   {
     "id": "armenia-zoravar-andranik-121-6",
@@ -1509,7 +1724,13 @@
     "paymentPlan": "Уточняется у застройщика",
     "lat": 40.1661068,
     "lng": 44.4456212,
-    "address": "Malatia-Sebastia, Zoravar Andranik 121/6, Ереван"
+    "address": "Malatia-Sebastia, Zoravar Andranik 121/6, Ереван",
+    "districtEn": "Malatia-Sebastia, Zoravar Andranik 121/6",
+    "addressEn": "Malatia-Sebastia, Zoravar Andranik 121/6, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Декабрь 2026",
+    "paymentPlanEn": "To be confirmed with the developer",
+    "titleEn": "Zoravar Andranik 121/6"
   },
   {
     "id": "armenia-skyline-yerevan",
@@ -1560,7 +1781,13 @@
     "address": "Arabkir, Orbeli Brothers 23/27/29, Ереван",
     "videoId": "I9kxiFpYyxk",
     "brochure": "/assets/brochures/skyline-yerevan-permit.pdf",
-    "brochureLabel": "Разрешение на строительство (N ՇԹ/3/7681-25) — PDF"
+    "brochureLabel": "Разрешение на строительство (N ՇԹ/3/7681-25) — PDF",
+    "districtEn": "Arabkir, Orbeli Brothers 23/27/29",
+    "addressEn": "Arabkir, Orbeli Brothers 23/27/29, Yerevan",
+    "cityEn": "Yerevan",
+    "handoverEn": "Q4 2028",
+    "paymentPlanEn": "20% первый взнос / 80% равными платежами до декабря 2028 (без процентов)",
+    "titleEn": "Skyline Yerevan"
   },
   {
     "id": "dubai-hillsedge-dubai-hills",
@@ -1602,7 +1829,12 @@
     "sizeSqm": 66,
     "sizeSqmTo": 126,
     "bedrooms": 1,
-    "bedroomsTo": 2
+    "bedroomsTo": 2,
+    "districtEn": "Dubai Hills Estate",
+    "addressEn": "Dubai Hills Estate, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q1 2029",
+    "titleEn": "Hillsedge"
   },
   {
     "id": "dubai-valia-creek-harbour",
@@ -1639,7 +1871,12 @@
     "sizeSqm": 76,
     "sizeSqmTo": 117,
     "bedrooms": 1,
-    "bedroomsTo": 2
+    "bedroomsTo": 2,
+    "districtEn": "Dubai Creek Harbour",
+    "addressEn": "Dubai Creek Harbour, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q3 2030",
+    "titleEn": "Valia"
   },
   {
     "id": "dubai-damac-bay-2-dubai-harbour",
@@ -1692,7 +1929,12 @@
     "sizeSqm": 86,
     "sizeSqmTo": 711,
     "bedrooms": 2,
-    "bedroomsTo": 5
+    "bedroomsTo": 5,
+    "districtEn": "Dubai Harbour",
+    "addressEn": "Dubai Harbour, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q4 2028",
+    "titleEn": "Damac Bay 2 by Cavalli"
   },
   {
     "id": "dubai-palm-central-palm-jebel-ali",
@@ -1727,7 +1969,12 @@
     "address": "Palm Jebel Ali, Дубай",
     "priceToUsd": 1171137,
     "sizeSqm": 113,
-    "bedrooms": 2
+    "bedrooms": 2,
+    "districtEn": "Palm Jebel Ali",
+    "addressEn": "Palm Jebel Ali, Dubai",
+    "cityEn": "Dubai",
+    "handoverEn": "Q3 2030",
+    "titleEn": "Palm Central Private Residences"
   },
   {
     "id": "abudhabi-sei-saadiyat",
@@ -1764,7 +2011,12 @@
     "sizeSqm": 69,
     "sizeSqmTo": 151,
     "bedrooms": 1,
-    "bedroomsTo": 2
+    "bedroomsTo": 2,
+    "districtEn": "Saadiyat Island",
+    "addressEn": "Saadiyat Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q4 2030",
+    "titleEn": "Sei Saadiyat"
   },
   {
     "id": "abudhabi-vida-residences-saadiyat",
@@ -1812,7 +2064,12 @@
     "sizeSqm": 77,
     "sizeSqmTo": 188,
     "bedrooms": 1,
-    "bedroomsTo": 3
+    "bedroomsTo": 3,
+    "districtEn": "Saadiyat Island",
+    "addressEn": "Saadiyat Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q2 2028",
+    "titleEn": "Vida Residences Saadiyat Island"
   },
   {
     "id": "abudhabi-canopies-yas-point",
@@ -1849,6 +2106,11 @@
     "sizeSqm": 119,
     "sizeSqmTo": 184,
     "bedrooms": 2,
-    "bedroomsTo": 3
+    "bedroomsTo": 3,
+    "districtEn": "Yas Island",
+    "addressEn": "Yas Island, Abu Dhabi",
+    "cityEn": "Abu Dhabi",
+    "handoverEn": "Q3 2030",
+    "titleEn": "The Canopies at Yas Point"
   }
 ]

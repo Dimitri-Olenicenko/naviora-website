@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mark Fingerman</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#141414;
+ font-family:'Gerbera','Suisse Intl','Helvetica Neue','Segoe UI',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased}
+.nv-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.nv-top{border-bottom:1px solid rgba(20,20,20,.1);padding:.8rem 0;font-size:.8rem}
+.nv-crumb a{color:#6b6f76;text-decoration:none}
+.nv-crumb a:hover{color:#0037FF}
+
+/* full-bleed hero */
+.nv-hero{position:relative;width:100%;background:#f2f2f0}
+.nv-hero img{display:block;width:100%;height:clamp(340px,56vh,640px);object-fit:cover}
+.nv-film{display:flex;gap:.5rem;overflow-x:auto;padding:.6rem 1.5rem;
+ max-width:1200px;margin:0 auto;scrollbar-width:thin}
+.nv-film img{height:72px;width:104px;object-fit:cover;cursor:pointer;flex:none;
+ opacity:.75;transition:opacity .2s ease;border:2px solid transparent}
+.nv-film img:hover{opacity:1}
+.nv-film img.is-on{opacity:1;border-color:#0037FF}
+
+/* header block — location first, price quiet */
+.nv-head{padding:2.2rem 0 0}
+.nv-eyeloc{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;
+ color:#6b6f76;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}
+.nv-chip{background:rgba(0,55,255,.08);color:#0037FF;font-weight:700;
+ padding:.2rem .55rem;letter-spacing:.1em}
+h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
+ letter-spacing:-.02em}
+.nv-price-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:1rem}
+.nv-price{font-size:2rem;font-weight:500;letter-spacing:-.015em}
+.nv-price small{font-size:1rem;color:#6b6f76;font-weight:400}
+.nv-psm{color:#6b6f76;font-size:1rem}
+
+/* key facts band */
+.nv-facts{display:flex;flex-wrap:wrap;background:#fff;
+ border:1px solid rgba(20,20,20,.12);margin:1.8rem 0 0}
+.nv-facts>div{flex:1 1 150px;min-width:150px;background:#fff;padding:1rem 1.1rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-facts span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.4rem}
+.nv-facts b{font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
+
+/* layout */
+.nv-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem;padding:2.5rem 0 0}
+@media(min-width:960px){.nv-grid{grid-template-columns:minmax(0,1fr) 340px;gap:3.5rem}}
+.nv-side{align-self:start}
+@media(min-width:960px){.nv-side{position:sticky;top:1.5rem}}
+.nv-card{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}
+.nv-btn{display:block;text-align:center;background:#0037FF;color:#fff;font-weight:700;
+ text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.95rem;
+ text-decoration:none;margin-top:1.1rem}
+.nv-btn:hover{background:#2a5bff}
+
+/* sections — the site's own heading grammar */
+.nv-sec{margin-top:3.5rem}
+.s-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
+.s-num{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
+.s-head h2{font-size:1.15rem;margin:0;font-weight:600;letter-spacing:.06em;
+ text-transform:uppercase}
+.nv-desc{color:rgba(20,20,20,.78);line-height:1.7;max-width:64ch}
+
+.nv-hl{list-style:none;padding:0;margin:0;display:grid;
+ grid-template-columns:1fr;gap:.1rem}
+@media(min-width:720px){.nv-hl{grid-template-columns:1fr 1fr;column-gap:2.5rem}}
+.nv-hl li{display:flex;gap:.75rem;padding:.55rem 0;color:rgba(20,20,20,.78)}
+.nv-hl li::before{content:"";margin-top:.5rem;flex:none;width:7px;height:7px;
+ background:#0037FF}
+
+/* finance */
+.nv-fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+ border:1px solid rgba(20,20,20,.12)}
+.nv-fin-cell{background:#fff;padding:1.1rem 1.2rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-fin-cell span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}
+.nv-fin-cell b{font-size:1.1rem;font-weight:600;letter-spacing:-.01em}
+.nv-fin-cell.is-accent b{color:#0037FF}
+.nv-fin-wide{grid-column:1/-1}
+.nv-fin-wide b{font-size:.98rem;font-weight:500;line-height:1.55}
+.nv-calc{margin-top:1.25rem;border:1px solid rgba(20,20,20,.12);padding:1.5rem;
+ background:#FAFAF9}
+.nv-calc-t{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+ color:#6b6f76;margin-bottom:1rem;font-weight:700}
+.nv-calc-in{display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.25rem}
+.nv-calc-in label{font-size:.8rem;color:#6b6f76;display:flex;flex-direction:column;gap:.4rem}
+.nv-calc-in input{width:120px;min-height:44px;padding:.6rem .7rem;
+ border:1px solid rgba(20,20,20,.2);
+ font-size:1rem;font-weight:600;color:#141414;background:#fff}
+.nv-calc-in input:focus{outline:2px solid #0037FF;outline-offset:1px}
+.nv-calc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+ gap:1rem;padding-top:1.25rem;border-top:1px solid rgba(20,20,20,.12)}
+.nv-calc-out span{display:block;font-size:.68rem;letter-spacing:.12em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.35rem}
+.nv-calc-out b{font-size:1.3rem;font-weight:600;color:#0037FF;letter-spacing:-.01em}
+.nv-note{font-size:.78rem;line-height:1.5;color:#6b6f76;margin:1.1rem 0 0}
+
+/* video facade */
+.nv-yt{position:relative;width:100%;padding-top:56.25%;cursor:pointer;
+ background:#141414;overflow:hidden}
+.nv-yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.nv-yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ width:68px;height:48px;background:#0037FF;border-radius:10px;
+ display:flex;align-items:center;justify-content:center}
+.nv-yt .play span{border-left:18px solid #fff;border-top:11px solid transparent;
+ border-bottom:11px solid transparent;margin-left:4px}
+
+.nv-doc a{display:inline-flex;align-items:center;gap:.5rem;
+ border-bottom:1px solid #0037FF;padding-bottom:2px;font-weight:600;
+ text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#0037FF;
+ text-decoration:none}
+
+.nv-map{width:100%;height:360px;border:1px solid rgba(20,20,20,.12);display:block}
+.nv-loc-foot{font-size:.85rem;color:#6b6f76;margin:.8rem 0 0}
+.nv-loc-foot a{color:#0037FF;text-decoration:none;font-weight:600}
+
+/* similar */
+.nv-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
+.nv-rel{text-decoration:none;color:inherit;border:1px solid rgba(20,20,20,.12);
+ display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease}
+.nv-rel:hover{transform:translateY(-2px);border-color:rgba(20,20,20,.3)}
+.nv-rel-i{aspect-ratio:4/3;overflow:hidden;background:#f2f2f0}
+.nv-rel-i img{width:100%;height:100%;object-fit:cover;display:block;
+ transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.nv-rel:hover .nv-rel-i img{transform:scale(1.03)}
+.nv-rel-b{padding:1rem 1.1rem 1.2rem}
+.nv-rel-t{font-weight:600;font-size:.98rem;line-height:1.3;margin-bottom:.3rem}
+.nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
+.nv-rel-p{font-size:1.05rem;font-weight:600}
+
+
+/* Site chrome. Opening a listing used to drop the header and footer entirely
+   — no logo, no navigation, no way back. Rebuilt as static markup styled to
+   match the grid pages. The React header's country dropdown is a JS widget,
+   so it becomes plain links to the same destinations. */
+.nv-site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);
+ backdrop-filter:blur(8px);border-bottom:1px solid rgba(20,20,20,.1)}
+.nv-site-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem;
+ display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.nv-logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#141414;
+ font-weight:700;letter-spacing:.06em;font-size:.95rem;white-space:nowrap}
+.nv-nav{display:none;gap:1.6rem}
+@media(min-width:860px){.nv-nav{display:flex}}
+.nv-nav a{color:#141414;text-decoration:none;font-size:.78rem;font-weight:600;
+ letter-spacing:.08em;text-transform:uppercase}
+.nv-nav a:hover{color:#0037FF}
+.nv-head-cta{background:#0037FF;color:#fff;text-decoration:none;font-weight:700;
+ font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+ padding:.75rem 1.1rem;white-space:nowrap;min-height:44px;
+ display:inline-flex;align-items:center}
+.nv-head-cta:hover{background:#2a5bff}
+.nv-site-foot{background:#000032;color:#fff;margin-top:4rem;padding:3rem 0 1.5rem}
+.nv-site-foot .nv-site-wrap{display:block}
+.nv-foot-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:720px){.nv-foot-grid{grid-template-columns:2fr 1fr 1fr}}
+.nv-foot-brand{font-weight:700;letter-spacing:.06em}
+.nv-foot-tag{color:rgba(255,255,255,.55);font-size:.85rem;margin:.4rem 0 0}
+.nv-foot-h{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+ color:rgba(255,255,255,.5);margin-bottom:.7rem}
+.nv-site-foot a{display:block;color:rgba(255,255,255,.85);text-decoration:none;
+ font-size:.88rem;padding:.22rem 0}
+.nv-site-foot a:hover{color:#8fa8ff}
+.nv-foot-btm{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;
+ padding-top:1.2rem;font-size:.8rem;color:rgba(255,255,255,.4)}
+
+.nv-foot{border-top:1px solid rgba(20,20,20,.1);background:#141414;color:#fff;
+ padding:2rem 0;margin-top:4rem;font-size:.85rem}
+.nv-foot a{color:#8fa8ff}
+@media (prefers-reduced-motion:reduce){
+ .nv-rel,.nv-rel-i img,.nv-film img{transition:none!important;transform:none!important}}
+</style>
+<link rel="alternate" hreflang="ru" href="https://fingermancapital.com/404.html"/><link rel="alternate" hreflang="en" href="https://fingermancapital.com/en/404.html"/><link rel="alternate" hreflang="x-default" href="https://fingermancapital.com/404.html"/></head>
+<body data-nv-slug="" data-nv-fp="">
+<div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb">
+<a href="/en/">Home</a> <span id="nv-crumb-tail"></span>
+</nav></div></div>
+
+<div id="nv-hero-zone"></div>
+
+<div class="nv-wrap">
+<header class="nv-head" id="nv-head">
+  <h1 id="nv-404-msg" style="font-size:1.5rem">Loading the property…</h1>
+</header>
+<div id="nv-facts-zone"></div>
+
+<div class="nv-grid">
+<div id="nv-body"></div>
+<aside class="nv-side" id="nv-side-zone" style="display:none"><div class="nv-card">
+  <div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Price from</div>
+  <div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem"></div>
+  <p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">
+    We will send the full materials, current floor plans and payment terms.</p>
+  <a class="nv-btn" href="/en/contacts/">Request a selection</a>
+  <div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76">
+    <div>Phone</div>
+    <a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a>
+    <div style="margin-top:.75rem">E-mail</div>
+    <a href="mailto:fingermanmark2017@gmail.com" style="color:#141414;text-decoration:none">fingermanmark2017@gmail.com</a>
+  </div>
+</div></aside>
+</div>
+</div>
+
+<div class="nv-wrap" id="nv-rel-zone"></div>
+
+<footer class="nv-foot"><div class="nv-wrap">
+  <strong>MARK FINGERMAN</strong> · Real Estate Through Numbers ·
+  <a href="/en/">to the home page</a>
+</div></footer>
+
+<script src="/assets/nv-detail.js" defer></script>
+<script>
+(function () {
+  var m = location.pathname.match(
+    /\/naviora-website\/(dubai|abudhabi|armenia|georgia)\/(residential|commercial)\/([a-z0-9-]+)\/?$/);
+  function notFound() {
+    document.getElementById('nv-404-msg').textContent = 'Страница не найдена';
+    var b = document.getElementById('nv-body');
+    b.innerHTML = '<p class="nv-desc">Такого объекта нет или адрес изменился. ' +
+      '<a href="/en/" style="color:#0037FF">Вернуться на главную →</a></p>';
+  }
+  if (!m) { notFound(); return; }
+  fetch('/listings.json?ts=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (all) {
+      var x = null;
+      for (var i = 0; i < all.length; i++)
+        if (all[i].slug === m[3]) { x = all[i]; break; }
+      if (!x) { notFound(); return; }
+      document.getElementById('nv-side-zone').style.display = '';
+      var wait = function () {
+        if (window.NVDetail) { window.NVDetail.render(x, all); }
+        else setTimeout(wait, 40);
+      };
+      wait();
+    })
+    .catch(notFound);
+})();
+</script>
+</body>
+</html>

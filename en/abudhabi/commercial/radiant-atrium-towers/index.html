@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- nv-generated-detail-page --> <!-- nv-template-v2 --> <!-- nv-reelly-v1: listing + Reelly API summary, 19.09.2026 -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radiant Atrium Towers — Abu Dhabi | Mark Fingerman</title><meta name="description" content="Radiant Atrium stands as a modern architectural landmark in Abu Dhabi’s Al Reem Island. The project’s dual towers rise gracefully above the waterfront,…"><link rel="canonical" href="https://fingermancapital.com/en/abudhabi/commercial/radiant-atrium-towers/"><link rel="alternate" hreflang="ru" href="https://fingermancapital.com/abudhabi/commercial/radiant-atrium-towers/"><link rel="alternate" hreflang="en" href="https://fingermancapital.com/en/abudhabi/commercial/radiant-atrium-towers/"><link rel="alternate" hreflang="x-default" href="https://fingermancapital.com/abudhabi/commercial/radiant-atrium-towers/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateListing", "name": "Radiant Atrium Towers", "url": "https://fingermancapital.com/abudhabi/commercial/radiant-atrium-towers/", "offers": {"@type": "Offer", "price": 2859088, "priceCurrency": "USD"}}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous"><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" defer></script><style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#141414;
+ font-family:'Gerbera','Suisse Intl','Helvetica Neue','Segoe UI',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased}
+.nv-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.nv-top{border-bottom:1px solid rgba(20,20,20,.1);padding:.8rem 0;font-size:.8rem}
+.nv-crumb a{color:#6b6f76;text-decoration:none}
+.nv-crumb a:hover{color:#0037FF}
+
+/* full-bleed hero */
+.nv-hero{position:relative;width:100%;background:#f2f2f0}
+.nv-hero img{display:block;width:100%;height:clamp(340px,56vh,640px);object-fit:cover}
+.nv-film{display:flex;gap:.5rem;overflow-x:auto;padding:.6rem 1.5rem;
+ max-width:1200px;margin:0 auto;scrollbar-width:thin}
+.nv-film img{height:72px;width:104px;object-fit:cover;cursor:pointer;flex:none;
+ opacity:.75;transition:opacity .2s ease;border:2px solid transparent}
+.nv-film img:hover{opacity:1}
+.nv-film img.is-on{opacity:1;border-color:#0037FF}
+
+/* header block — location first, price quiet */
+.nv-head{padding:2.2rem 0 0}
+.nv-eyeloc{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;
+ color:#6b6f76;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}
+.nv-chip{background:rgba(0,55,255,.08);color:#0037FF;font-weight:700;
+ padding:.2rem .55rem;letter-spacing:.1em}
+h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
+ letter-spacing:-.02em}
+.nv-price-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:1rem}
+.nv-price{font-size:2rem;font-weight:500;letter-spacing:-.015em}
+.nv-price small{font-size:1rem;color:#6b6f76;font-weight:400}
+.nv-psm{color:#6b6f76;font-size:1rem}
+
+/* key facts band */
+.nv-facts{display:flex;flex-wrap:wrap;background:#fff;
+ border:1px solid rgba(20,20,20,.12);margin:1.8rem 0 0}
+.nv-facts>div{flex:1 1 150px;min-width:150px;background:#fff;padding:1rem 1.1rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-facts span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.4rem}
+.nv-facts b{font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
+
+/* layout */
+.nv-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem;padding:2.5rem 0 0}
+@media(min-width:960px){.nv-grid{grid-template-columns:minmax(0,1fr) 340px;gap:3.5rem}}
+.nv-side{align-self:start}
+@media(min-width:960px){.nv-side{position:sticky;top:1.5rem}}
+.nv-card{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}
+.nv-btn{display:block;text-align:center;background:#0037FF;color:#fff;font-weight:700;
+ text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.95rem;
+ text-decoration:none;margin-top:1.1rem}
+.nv-btn:hover{background:#2a5bff}
+
+/* sections — the site's own heading grammar */
+.nv-sec{margin-top:3.5rem}
+.s-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
+.s-num{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
+.s-head h2{font-size:1.15rem;margin:0;font-weight:600;letter-spacing:.06em;
+ text-transform:uppercase}
+.nv-desc{color:rgba(20,20,20,.78);line-height:1.7;max-width:64ch}
+
+.nv-hl{list-style:none;padding:0;margin:0;display:grid;
+ grid-template-columns:1fr;gap:.1rem}
+@media(min-width:720px){.nv-hl{grid-template-columns:1fr 1fr;column-gap:2.5rem}}
+.nv-hl li{display:flex;gap:.75rem;padding:.55rem 0;color:rgba(20,20,20,.78)}
+.nv-hl li::before{content:"";margin-top:.5rem;flex:none;width:7px;height:7px;
+ background:#0037FF}
+
+/* finance */
+.nv-fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+ border:1px solid rgba(20,20,20,.12)}
+.nv-fin-cell{background:#fff;padding:1.1rem 1.2rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-fin-cell span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}
+.nv-fin-cell b{font-size:1.1rem;font-weight:600;letter-spacing:-.01em}
+.nv-fin-cell.is-accent b{color:#0037FF}
+.nv-fin-wide{grid-column:1/-1}
+.nv-fin-wide b{font-size:.98rem;font-weight:500;line-height:1.55}
+.nv-calc{margin-top:1.25rem;border:1px solid rgba(20,20,20,.12);padding:1.5rem;
+ background:#FAFAF9}
+.nv-calc-t{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+ color:#6b6f76;margin-bottom:1rem;font-weight:700}
+.nv-calc-in{display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.25rem}
+.nv-calc-in label{font-size:.8rem;color:#6b6f76;display:flex;flex-direction:column;gap:.4rem}
+.nv-calc-in input{width:120px;min-height:44px;padding:.6rem .7rem;
+ border:1px solid rgba(20,20,20,.2);
+ font-size:1rem;font-weight:600;color:#141414;background:#fff}
+.nv-calc-in input:focus{outline:2px solid #0037FF;outline-offset:1px}
+.nv-calc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+ gap:1rem;padding-top:1.25rem;border-top:1px solid rgba(20,20,20,.12)}
+.nv-calc-out span{display:block;font-size:.68rem;letter-spacing:.12em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.35rem}
+.nv-calc-out b{font-size:1.3rem;font-weight:600;color:#0037FF;letter-spacing:-.01em}
+.nv-note{font-size:.78rem;line-height:1.5;color:#6b6f76;margin:1.1rem 0 0}
+
+/* video facade */
+.nv-yt{position:relative;width:100%;padding-top:56.25%;cursor:pointer;
+ background:#141414;overflow:hidden}
+.nv-yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.nv-yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ width:68px;height:48px;background:#0037FF;border-radius:10px;
+ display:flex;align-items:center;justify-content:center}
+.nv-yt .play span{border-left:18px solid #fff;border-top:11px solid transparent;
+ border-bottom:11px solid transparent;margin-left:4px}
+
+.nv-doc a{display:inline-flex;align-items:center;gap:.5rem;
+ border-bottom:1px solid #0037FF;padding-bottom:2px;font-weight:600;
+ text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#0037FF;
+ text-decoration:none}
+
+.nv-map{width:100%;height:360px;border:1px solid rgba(20,20,20,.12);display:block}
+.nv-loc-foot{font-size:.85rem;color:#6b6f76;margin:.8rem 0 0}
+.nv-loc-foot a{color:#0037FF;text-decoration:none;font-weight:600}
+
+/* similar */
+.nv-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
+.nv-rel{text-decoration:none;color:inherit;border:1px solid rgba(20,20,20,.12);
+ display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease}
+.nv-rel:hover{transform:translateY(-2px);border-color:rgba(20,20,20,.3)}
+.nv-rel-i{aspect-ratio:4/3;overflow:hidden;background:#f2f2f0}
+.nv-rel-i img{width:100%;height:100%;object-fit:cover;display:block;
+ transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.nv-rel:hover .nv-rel-i img{transform:scale(1.03)}
+.nv-rel-b{padding:1rem 1.1rem 1.2rem}
+.nv-rel-t{font-weight:600;font-size:.98rem;line-height:1.3;margin-bottom:.3rem}
+.nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
+.nv-rel-p{font-size:1.05rem;font-weight:600}
+
+
+/* Site chrome. Opening a listing used to drop the header and footer entirely
+   — no logo, no navigation, no way back. Rebuilt as static markup styled to
+   match the grid pages. The React header's country dropdown is a JS widget,
+   so it becomes plain links to the same destinations. */
+.nv-site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);
+ backdrop-filter:blur(8px);border-bottom:1px solid rgba(20,20,20,.1)}
+.nv-site-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem;
+ display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.nv-logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#141414;
+ font-weight:700;letter-spacing:.06em;font-size:.95rem;white-space:nowrap}
+.nv-nav{display:none;gap:1.6rem}
+@media(min-width:860px){.nv-nav{display:flex}}
+.nv-nav a{color:#141414;text-decoration:none;font-size:.78rem;font-weight:600;
+ letter-spacing:.08em;text-transform:uppercase}
+.nv-nav a:hover{color:#0037FF}
+.nv-head-cta{background:#0037FF;color:#fff;text-decoration:none;font-weight:700;
+ font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+ padding:.75rem 1.1rem;white-space:nowrap;min-height:44px;
+ display:inline-flex;align-items:center}
+.nv-head-cta:hover{background:#2a5bff}
+.nv-site-foot{background:#000032;color:#fff;margin-top:4rem;padding:3rem 0 1.5rem}
+.nv-site-foot .nv-site-wrap{display:block}
+.nv-foot-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:720px){.nv-foot-grid{grid-template-columns:2fr 1fr 1fr}}
+.nv-foot-brand{font-weight:700;letter-spacing:.06em}
+.nv-foot-tag{color:rgba(255,255,255,.55);font-size:.85rem;margin:.4rem 0 0}
+.nv-foot-h{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+ color:rgba(255,255,255,.5);margin-bottom:.7rem}
+.nv-site-foot a{display:block;color:rgba(255,255,255,.85);text-decoration:none;
+ font-size:.88rem;padding:.22rem 0}
+.nv-site-foot a:hover{color:#8fa8ff}
+.nv-foot-btm{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;
+ padding-top:1.2rem;font-size:.8rem;color:rgba(255,255,255,.62)}
+
+.nv-foot{border-top:1px solid rgba(20,20,20,.1);background:#141414;color:#fff;
+ padding:2rem 0;margin-top:4rem;font-size:.85rem}
+.nv-foot a{color:#8fa8ff}
+@media (prefers-reduced-motion:reduce){
+ .nv-rel,.nv-rel-i img,.nv-film img{transition:none!important;transform:none!important}}
+.nv-film-btn{padding:0;border:2px solid transparent;background:none;cursor:pointer;flex:none;line-height:0;border-radius:4px}.nv-film-btn img{opacity:.55;cursor:pointer;height:72px;width:104px;object-fit:cover;display:block}.nv-film-btn:hover img,.nv-film-btn.is-on img{opacity:1}.nv-film-btn.is-on{border-color:#0037FF}.nv-film-btn:focus-visible{outline:2px solid #0037FF;outline-offset:2px}.nv-skip{position:absolute;left:-9999px;top:0;background:#0037FF;color:#fff;padding:.6rem 1rem;z-index:9999;text-decoration:none}.nv-skip:focus{left:0}
+.nv-units{width:100%;border-collapse:collapse;font-size:.95rem}.nv-units th{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#6b6f76;text-align:left;font-weight:600;padding:.6rem 0;border-bottom:1px solid rgba(20,20,20,.12)}.nv-units td{padding:.75rem 0;border-bottom:1px solid rgba(20,20,20,.08)}.nv-units td:first-child{font-weight:600}
+.nv-poi{list-style:none;padding:0;margin:0 0 1rem;display:grid;grid-template-columns:1fr;gap:.1rem}@media(min-width:720px){.nv-poi{grid-template-columns:1fr 1fr;column-gap:2.5rem}}.nv-poi li{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px solid rgba(20,20,20,.08);font-size:.95rem}.nv-poi li b{font-weight:600}.nv-poi li span{color:#6b6f76;white-space:nowrap}
+.nv-rel-grid{grid-template-columns:repeat(auto-fill,minmax(240px,360px))}
+.nv-src{font-size:.75rem;color:#6b6f76;margin-top:2.5rem;border-top:1px solid rgba(20,20,20,.1);padding-top:.8rem}
+.nv-map{background:#eef0f3}.nv-map .leaflet-control-attribution{font-size:10px}.leaflet-tooltip.nv-poi-lbl{background:rgba(10,10,24,.88);color:#fff;border:1px solid rgba(255,255,255,.28);border-radius:3px;padding:2px 6px;font:600 11px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-poi-lbl::before{display:none}.leaflet-tooltip.nv-prj-lbl{background:#0037FF;color:#fff;border:1px solid #fff;border-radius:3px;padding:3px 8px;font:700 11.5px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-prj-lbl::before{display:none}.nv-lang{color:#0037FF;text-decoration:none;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}.nv-lang:hover{text-decoration:underline}a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}</style></head>
+<body data-nv-slug="radiant-atrium-towers" data-nv-static="1">
+<a class="nv-skip" href="#main">Skip to content</a>
+<header class="nv-site-head"><div class="nv-site-wrap"><a class="nv-logo" href="/" aria-label="MARK FINGERMAN"><svg viewBox="0 0 44 48" fill="#0037FF" width="22" height="24" aria-hidden="true"><polygon points="0,48 0,10 14,0 14,38"></polygon><polygon points="30,48 30,10 44,0 44,38"></polygon><polygon points="12,2 24,44 34,44 22,2"></polygon></svg><span>MARK FINGERMAN</span></a>
+<nav class="nv-nav"><a href="/en/abudhabi/residential/">Residential</a><a href="/en/abudhabi/commercial/">Commercial</a><a href="/en/contacts/">Contacts</a></nav><a class="nv-lang" href="/abudhabi/commercial/radiant-atrium-towers/" hreflang="ru">RU</a><a class="nv-head-cta" href="/en/contacts/">Contact</a></div></header>
+<div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb"><a href="/">Home</a> / <a href="/en/abudhabi/commercial/">Abu Dhabi</a> / <a href="/en/abudhabi/commercial/">Commercial</a> / Radiant Atrium Towers</nav></div></div>
+<main id="main" tabindex="-1">
+<div id="nv-hero-zone"><div class="nv-hero"><img id="nv-main-img" src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg" alt="Radiant Atrium Towers"></div><div class="nv-film" role="group" aria-label="Gallery: Radiant Atrium Towers"><button type="button" class="nv-film-btn is-on" data-i="0" aria-pressed="true" aria-label="Radiant Atrium Towers — photo 1"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="1" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 2"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-2.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="2" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 3"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-3.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="3" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 4"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-4.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="4" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 5"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-5.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="5" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 6"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-6.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="6" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 7"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-7.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="7" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 8"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-8.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="8" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 9"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="9" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 10"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-10.webp" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="10" aria-pressed="false" aria-label="Radiant Atrium Towers — photo 11"><img src="/assets/projects/radiant-atrium-towers/radiant-atrium-towers-10.webp" alt="" loading="lazy"></button></div></div>
+<div class="nv-wrap">
+<header class="nv-head" id="nv-head"><p class="nv-eyeloc"><span>Al Reem Island · Abu Dhabi</span> <span class="nv-chip">Primary market</span> <span>Radiant Real Estate</span></p>
+<h1>Radiant Atrium Towers</h1>
+<div class="nv-price-row"><div class="nv-price"><small>from</small> $ 2 859 088</div></div></header>
+<div id="nv-facts-zone"><div class="nv-facts">
+<div><span>Office area</span><b>49–234 m²</b></div><div><span>Offices</span><b>133 · 24 floors</b></div><div><span>Property type</span><b>Grade A office</b></div><div><span>Handover</span><b>Q1 2029</b></div><div><span>Developer</span><b>Radiant Real Estate</b></div><div><span>Ownership</span><b>Freehold · ADGM</b></div></div></div>
+<div class="nv-grid"><div id="nv-body">
+<section class="nv-sec"><div class="s-head"><span class="s-num">01</span><h2>Overview</h2></div><p class="nv-desc">Radiant Atrium stands as a modern architectural landmark in Abu Dhabi’s Al Reem Island. The project’s dual towers rise gracefully above the waterfront, seamlessly uniting living, working, and leisure in one dynamic environment. Its design harmonizes urban sophistication with natural serenity, offering residents a contemporary lifestyle surrounded by canals, skyline views, and thoughtfully integrated spaces for connection and convenience.</p><p class="nv-desc" style="margin-top:.9rem">Al Reem Island is a rapidly developing mixed-use district located northeast of Abu Dhabi, approximately 1,970 feet from the emirate’s mainland. It is situated near Saadiyat Island and Al Maryah Island, forming a vibrant cluster of urban development.</p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">02</span><h2>Highlights</h2></div><ul class="nv-hl"><li>133 open-plan offices on 24 floors — from 532 to 2,520 sq ft (49–234 m²)</li><li>Two waterfront towers: Grade A offices, residential floors, ground-level retail</li><li>Al Reem Island — under ADGM jurisdiction since 2023, Abu Dhabi's international financial centre</li><li>Freehold: full ownership for foreign buyers</li><li>Landscaped podiums, pools, fitness centres and retail within the complex</li><li>Handover — Q1 2029</li></ul></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">03</span><h2>Layouts and prices</h2></div>
+<table class="nv-units"><thead><tr><th>Format</th><th>Area</th><th>Price</th></tr></thead><tbody><tr><td>Office · compact</td><td>from 532 sq ft · 49 m²</td><td>on request</td></tr><tr><td>Office · full floor</td><td>up to 2,520 sq ft · 234 m²</td><td>on request</td></tr></tbody></table>
+<p class="nv-note">Open-plan layouts. Office prices, the payment plan and available floors — on request; developer prices may change. Not an offer.</p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">04</span><h2>Complex infrastructure</h2></div><ul class="nv-hl"><li>Grade A offices in an integrated business hub</li><li>Ground-level retail and cafés</li><li>Landscaped podiums with leisure areas</li><li>Pools for adults and children</li><li>Separate fitness centres</li><li>Canal and skyline views</li><li>The island promenade within walking distance</li></ul></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">05</span><h2>About Al Reem Island</h2></div><p class="nv-desc">Al Reem Island is an 8.8 square kilometer natural island located on the northeastern shore of Abu Dhabi near Yas Island and Saadiyat. The area is connected to the island part of the city by bridges. The key features of the island are developed infrastructure and incredible views of the Persian Gulf.
+ The community boasts a wide variety of amenities.</p></section>
+<section class="nv-sec" id="nv-loc-sec"><div class="s-head"><span class="s-num">06</span><h2>Location</h2></div><ul class="nv-poi"><li><b>ADGM · Al Maryah Island</b><span>4 min · 2,4 km</span></li><li><b>Reem Central Park</b><span>5 min · 2 km</span></li><li><b>Galleria Mall</b><span>4 min · 2,5 km</span></li><li><b>Louvre Abu Dhabi</b><span>9 min · 6,1 km</span></li><li><b>Corniche</b><span>9 min · 7,6 km</span></li><li><b>Zayed Airport (AUH)</b><span>34 min · 42,1 km</span></li></ul><p class="nv-note">Driving time without traffic.</p><div class="nv-map" id="nv-map" role="img" aria-label="Map: Radiant Atrium Towers" data-lat="24.494079" data-lng="54.400688" data-title="Radiant Atrium Towers" data-pois='[[24.501, 54.3905, "ADGM · Al Maryah Island"], [24.4989, 54.4054, "Reem Central Park"], [24.501, 54.3888, "Galleria Mall"], [24.5339, 54.3984, "Louvre Abu Dhabi"], [24.4915, 54.4105, "Shams Boutik Mall"]]'></div><p class="nv-loc-foot">Al Reem Island, City of Lights, Abu Dhabi · <a href="https://www.google.com/maps/search/?api=1&query=24.494079,54.400688" target="_blank" rel="noopener noreferrer">Open in Google Maps →</a></p></section>
+</div>
+<aside class="nv-side"><div class="nv-card"><div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Price from</div><div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">$ 2 859 088</div>
+<p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">We will send the floor plans, office prices and payment terms.</p><a class="nv-btn" href="/en/contacts/">Request a selection</a>
+<div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76"><div>Phone</div><a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a><div style="margin-top:.75rem">E-mail</div><a href="mailto:fingermanmark2017@gmail.com" style="color:#141414;text-decoration:none">fingermanmark2017@gmail.com</a></div></div></aside>
+</div></div>
+<div class="nv-wrap" id="nv-rel-zone"><section class="nv-sec" id="nv-rel-sec"><div class="s-head"><span class="s-num">07</span><h2>Similar properties</h2></div><div class="nv-rel-grid">
+<a class="nv-rel" href="/abudhabi/commercial/addax-port-office-tower/"><div class="nv-rel-i"><img src="/assets/projects/addax-port-office-tower/addax-port-office-tower-1.jpg" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Addax Port Office Tower</div><div class="nv-rel-d">Al Reem Island</div><div class="nv-rel-p">$ 653 506</div></div></a><a class="nv-rel" href="/abudhabi/commercial/radiant-height/"><div class="nv-rel-i"><img src="/assets/projects/radiant-height/radiant-height-ext-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Radiant Heights</div><div class="nv-rel-d">Al Reem Island</div><div class="nv-rel-p">$ 789 653</div></div></a><a class="nv-rel" href="/abudhabi/residential/fairmont-marina-residences/"><div class="nv-rel-i"><img src="/assets/projects/fairmont-marina-residences/fairmont-marina-residences-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Fairmont Marina Residences</div><div class="nv-rel-d">Al Kasir · residential</div><div class="nv-rel-p">$ 1 156 224</div></div></a>
+</div></section>
+<p class="nv-src">Project data: the developer and the Reelly API, updated 19.09.2026.</p></div>
+</main>
+<footer class="nv-site-foot"><div class="nv-site-wrap nv-foot-grid"><div><div class="nv-foot-brand">MARK FINGERMAN</div><p class="nv-foot-tag">Real Estate Through Numbers</p></div><div><div class="nv-foot-h">Markets</div><a href="/en/dubai/residential/">Dubai</a><a href="/en/abudhabi/residential/">Abu Dhabi</a></div><div><div class="nv-foot-h">Contacts</div><a href="tel:+971547928468">+971 547 928 468</a><a href="mailto:fingermanmark2017@gmail.com">fingermanmark2017@gmail.com</a></div></div><div class="nv-site-wrap nv-foot-btm">© 2026 Mark Fingerman</div></footer>
+<script>(function(){var main=document.getElementById('nv-main-img');Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(b){b.addEventListener('click',function(){var im=b.querySelector('img');if(main&&im){main.src=im.src;main.alt=b.getAttribute('aria-label')||main.alt;}Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(o){o.classList.remove('is-on');o.setAttribute('aria-pressed','false');});b.classList.add('is-on');b.setAttribute('aria-pressed','true');});});var P=2859088,y=document.getElementById('nv-y'),o=document.getElementById('nv-o');function money(v){return '$ '+Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,' ');}function calc(){var r=parseFloat(y.value)||0,c=(parseFloat(o.value)||0)/100,a=P*(r/100)*c;document.getElementById('nv-a').textContent=a?money(a):'—';document.getElementById('nv-m').textContent=a?money(a/12):'—';document.getElementById('nv-p').textContent=a?(P/a).toFixed(1)+' years':'—';}if(y&&o){y.addEventListener('input',calc);o.addEventListener('input',calc);calc();}})();</script><script>(function(){function init(){var el=document.getElementById('nv-map');if(!el||!window.L||el.dataset.ready)return;el.dataset.ready='1';var lat=+el.getAttribute('data-lat'),lng=+el.getAttribute('data-lng');var m=L.map(el,{zoomControl:true,scrollWheelZoom:false,attributionControl:true}).setView([lat,lng],14);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, USGS, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(m);var ic=L.divIcon({className:'',html:'<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #ffffff;background:#0037FF;box-shadow:0 0 0 4px rgba(0,55,255,0.35)"></span>',iconSize:[14,14],iconAnchor:[7,7]});L.marker([lat,lng],{icon:ic,title:el.getAttribute('data-title')||'',alt:el.getAttribute('data-title')||''}).addTo(m).bindTooltip(el.getAttribute('data-title')||'',{permanent:true,direction:'bottom',offset:[0,10],className:'nv-prj-lbl'});var ps=el.getAttribute('data-pois');if(ps){var pts=[[lat,lng]];JSON.parse(ps).forEach(function(q){pts.push([q[0],q[1]]);L.circleMarker([q[0],q[1]],{radius:5,color:'#fff',weight:1.5,fillColor:'#8F7FFF',fillOpacity:.95}).addTo(m).bindTooltip(q[2],{permanent:true,direction:'top',offset:[0,-6],className:'nv-poi-lbl'});});m.fitBounds(L.latLngBounds(pts),{padding:[28,28],maxZoom:15});}}if(window.L)init();else{var t=setInterval(function(){if(window.L){clearInterval(t);init();}},60);setTimeout(function(){clearInterval(t)},15000);}})();</script><script src="/assets/nv-currency.js" defer></script>
+</body></html>

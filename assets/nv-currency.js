@@ -40,7 +40,7 @@ var CSS=".nv-cur-btn{display:inline-flex;align-items:stretch;border:1px solid rg
  "html[data-nv-cur=AED] .nv-eq{display:none}";
 function make(extra){var b=document.createElement("div");b.className="nv-cur-btn"+(extra?" "+extra:"");b.setAttribute("role","group");b.setAttribute("aria-label","Валюта");
  ["USD","AED"].forEach(function(c){var s=document.createElement("button");s.type="button";s.setAttribute("data-c",c);s.textContent=c;s.title=c==="USD"?"Цены в долларах США":"Цены в дирхамах ОАЭ";s.addEventListener("click",function(){setCur(c)});b.appendChild(s)});return b}
-function wanted(){return !!document.querySelector(".nv-site-wrap")||/^\/(dubai|abudhabi|armenia|georgia)\/(residential|commercial)\/?$/.test(location.pathname)}  /* only where prices are listed */
+function wanted(){return !!document.querySelector(".nv-site-wrap")||/^(?:\/en)?\/(dubai|abudhabi|armenia|georgia)\/(residential|commercial)\/?$/.test(location.pathname)}  /* only where prices are listed */
 function mount(){
  if(!document.getElementById("nv-cur-css")){var st=document.createElement("style");st.id="nv-cur-css";st.textContent=CSS;document.head.appendChild(st)}
  if(!wanted()){var old=document.querySelectorAll(".nv-cur-btn");for(var i=0;i<old.length;i++)old[i].parentNode.removeChild(old[i]);return}
@@ -51,7 +51,7 @@ function mount(){
   wrap.insertBefore(g,cta);g.appendChild(make(""));g.appendChild(cta);paint();return}
  var head=document.querySelector("header .mx-auto")||document.querySelector("header");
  if(!head||head.querySelector(".nv-cur-btn")||!hydrated(head))return;
- var lang=head.querySelector("span.text-signal");var grp=lang?lang.parentElement:null;
+ var lang=head.querySelector("span.text-signal,a.text-signal");var grp=lang?lang.parentElement:null;
  var burger=head.querySelector("button[aria-label]");
  if(grp)grp.insertBefore(make("nv-cur-d"),grp.firstChild);
  head.insertBefore(make("nv-cur-m"),burger&&burger.parentElement===head?burger:null);

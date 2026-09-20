@@ -1,0 +1,145 @@
+.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;top:0;left:0}.leaflet-container{overflow:hidden}.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;-webkit-user-drag:none}.leaflet-tile::selection{background:0 0}.leaflet-safari .leaflet-tile{image-rendering:-webkit-optimize-contrast}.leaflet-safari .leaflet-tile-container{-webkit-transform-origin:0 0;width:1600px;height:1600px}.leaflet-marker-icon,.leaflet-marker-shadow{display:block}.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}.leaflet-container .leaflet-marker-pane img,.leaflet-container .leaflet-shadow-pane img,.leaflet-container .leaflet-tile-pane img,.leaflet-container img.leaflet-image-layer,.leaflet-container .leaflet-tile{width:auto;padding:0;max-width:none!important;max-height:none!important}.leaflet-container img.leaflet-tile{mix-blend-mode:plus-lighter}.leaflet-container.leaflet-touch-zoom{-ms-touch-action:pan-x pan-y;touch-action:pan-x pan-y}.leaflet-container.leaflet-touch-drag{-ms-touch-action:pinch-zoom;touch-action:none;touch-action:pinch-zoom}.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{-ms-touch-action:none;touch-action:none}.leaflet-container{-webkit-tap-highlight-color:transparent}.leaflet-container a{-webkit-tap-highlight-color:#33b5e566}.leaflet-tile{filter:inherit;visibility:hidden}.leaflet-tile-loaded{visibility:inherit}.leaflet-zoom-box{box-sizing:border-box;z-index:800;width:0;height:0}.leaflet-overlay-pane svg{-moz-user-select:none}.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-shadow-pane{z-index:500}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}.leaflet-vml-shape{width:1px;height:1px}.lvml{behavior:url(#default#VML);display:inline-block;position:absolute}.leaflet-control{z-index:800;pointer-events:visiblePainted;pointer-events:auto;position:relative}.leaflet-top,.leaflet-bottom{z-index:1000;pointer-events:none;position:absolute}.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-control{float:left;clear:both}.leaflet-right .leaflet-control{float:right}.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{margin-right:10px}.leaflet-fade-anim .leaflet-popup{opacity:0;transition:opacity .2s linear}.leaflet-fade-anim .leaflet-map-pane .leaflet-popup{opacity:1}.leaflet-zoom-animated{transform-origin:0 0}svg.leaflet-zoom-animated{will-change:transform}.leaflet-zoom-anim .leaflet-zoom-animated{-webkit-transition:-webkit-transform .25s cubic-bezier(0,0,.25,1);-moz-transition:-moz-transform .25s cubic-bezier(0,0,.25,1);transition:transform .25s cubic-bezier(0,0,.25,1)}.leaflet-zoom-anim .leaflet-tile,.leaflet-pan-anim .leaflet-tile{transition:none}.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}.leaflet-interactive{cursor:pointer}.leaflet-grab{cursor:-webkit-grab;cursor:-moz-grab;cursor:grab}.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}.leaflet-popup-pane,.leaflet-control{cursor:auto}.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive,.leaflet-dragging .leaflet-marker-draggable{cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing;cursor:grabbing}.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-image-layer,.leaflet-pane>svg path,.leaflet-tile-container{pointer-events:none}.leaflet-marker-icon.leaflet-interactive,.leaflet-image-layer.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive,svg.leaflet-image-layer.leaflet-interactive path{pointer-events:visiblePainted;pointer-events:auto}.leaflet-container{outline-offset:1px;background:#ddd}.leaflet-container a{color:#0078a8}.leaflet-zoom-box{background:#ffffff80;border:2px dotted #38f}.leaflet-container{font-family:Helvetica Neue,Arial,Helvetica,sans-serif;font-size:.75rem;line-height:1.5}.leaflet-bar{border-radius:4px;box-shadow:0 1px 5px #000000a6}.leaflet-bar a{text-align:center;color:#000;background-color:#fff;border-bottom:1px solid #ccc;width:26px;height:26px;line-height:26px;text-decoration:none;display:block}.leaflet-bar a,.leaflet-control-layers-toggle{background-position:50%;background-repeat:no-repeat;display:block}.leaflet-bar a:hover,.leaflet-bar a:focus{background-color:#f4f4f4}.leaflet-bar a:first-child{border-top-left-radius:4px;border-top-right-radius:4px}.leaflet-bar a:last-child{border-bottom:none;border-bottom-right-radius:4px;border-bottom-left-radius:4px}.leaflet-bar a.leaflet-disabled{cursor:default;color:#bbb;background-color:#f4f4f4}.leaflet-touch .leaflet-bar a{width:30px;height:30px;line-height:30px}.leaflet-touch .leaflet-bar a:first-child{border-top-left-radius:2px;border-top-right-radius:2px}.leaflet-touch .leaflet-bar a:last-child{border-bottom-right-radius:2px;border-bottom-left-radius:2px}.leaflet-control-zoom-in,.leaflet-control-zoom-out{text-indent:1px;font:700 18px Lucida Console,Monaco,monospace}.leaflet-touch .leaflet-control-zoom-in,.leaflet-touch .leaflet-control-zoom-out{font-size:22px}.leaflet-control-layers{background:#fff;border-radius:5px;box-shadow:0 1px 5px #0006}.leaflet-control-layers-toggle{background-image:url(../media/layers.3muxcl8sz6330.png);width:36px;height:36px}.leaflet-retina .leaflet-control-layers-toggle{background-image:url(../media/layers-2x.23wrxu3xxu9-i.png);background-size:26px 26px}.leaflet-touch .leaflet-control-layers-toggle{width:44px;height:44px}.leaflet-control-layers .leaflet-control-layers-list,.leaflet-control-layers-expanded .leaflet-control-layers-toggle{display:none}.leaflet-control-layers-expanded .leaflet-control-layers-list{display:block;position:relative}.leaflet-control-layers-expanded{color:#333;background:#fff;padding:6px 10px 6px 6px}.leaflet-control-layers-scrollbar{padding-right:5px;overflow:hidden scroll}.leaflet-control-layers-selector{margin-top:2px;position:relative;top:1px}.leaflet-control-layers label{font-size:1.08333em;display:block}.leaflet-control-layers-separator{border-top:1px solid #ddd;height:0;margin:5px -10px 5px -6px}.leaflet-default-icon-path{background-image:url(../media/marker-icon.1le94j_pe_ih1.png)}.leaflet-container .leaflet-control-attribution{background:#fffc;margin:0}.leaflet-control-attribution,.leaflet-control-scale-line{color:#333;padding:0 5px;line-height:1.4}.leaflet-control-attribution a{text-decoration:none}.leaflet-control-attribution a:hover,.leaflet-control-attribution a:focus{text-decoration:underline}.leaflet-attribution-flag{width:1em;height:.6669em;vertical-align:baseline!important;display:inline!important}.leaflet-left .leaflet-control-scale{margin-left:5px}.leaflet-bottom .leaflet-control-scale{margin-bottom:5px}.leaflet-control-scale-line{white-space:nowrap;box-sizing:border-box;text-shadow:1px 1px #fff;background:#fffc;border:2px solid #777;border-top:none;padding:2px 5px 1px;line-height:1.1}.leaflet-control-scale-line:not(:first-child){border-top:2px solid #777;border-bottom:none;margin-top:-2px}.leaflet-control-scale-line:not(:first-child):not(:last-child){border-bottom:2px solid #777}.leaflet-touch .leaflet-control-attribution,.leaflet-touch .leaflet-control-layers,.leaflet-touch .leaflet-bar{box-shadow:none}.leaflet-touch .leaflet-control-layers,.leaflet-touch .leaflet-bar{background-clip:padding-box;border:2px solid #0003}.leaflet-popup{text-align:center;margin-bottom:20px;position:absolute}.leaflet-popup-content-wrapper{text-align:left;border-radius:12px;padding:1px}.leaflet-popup-content{min-height:1px;margin:13px 24px 13px 20px;font-size:1.08333em;line-height:1.3}.leaflet-popup-content p{margin:1.3em 0}.leaflet-popup-tip-container{pointer-events:none;width:40px;height:20px;margin-top:-1px;margin-left:-20px;position:absolute;left:50%;overflow:hidden}.leaflet-popup-tip{pointer-events:auto;width:17px;height:17px;margin:-10px auto 0;padding:1px;transform:rotate(45deg)}.leaflet-popup-content-wrapper,.leaflet-popup-tip{color:#333;background:#fff;box-shadow:0 3px 14px #0006}.leaflet-container a.leaflet-popup-close-button{text-align:center;color:#757575;background:0 0;border:none;width:24px;height:24px;font:16px/24px Tahoma,Verdana,sans-serif;text-decoration:none;position:absolute;top:0;right:0}.leaflet-container a.leaflet-popup-close-button:hover,.leaflet-container a.leaflet-popup-close-button:focus{color:#585858}.leaflet-popup-scrolled{overflow:auto}.leaflet-oldie .leaflet-popup-content-wrapper{-ms-zoom:1}.leaflet-oldie .leaflet-popup-tip{-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)";width:24px;filter:progid:DXImageTransform.Microsoft.Matrix(M11=.707107, M12=.707107, M21=-.707107, M22=.707107);margin:0 auto}.leaflet-oldie .leaflet-control-zoom,.leaflet-oldie .leaflet-control-layers,.leaflet-oldie .leaflet-popup-content-wrapper,.leaflet-oldie .leaflet-popup-tip{border:1px solid #999}.leaflet-div-icon{background:#fff;border:1px solid #666}.leaflet-tooltip{color:#222;white-space:nowrap;-webkit-user-select:none;user-select:none;pointer-events:none;background-color:#fff;border:1px solid #fff;border-radius:3px;padding:6px;position:absolute;box-shadow:0 1px 3px #0006}.leaflet-tooltip.leaflet-interactive{cursor:pointer;pointer-events:auto}.leaflet-tooltip-top:before,.leaflet-tooltip-bottom:before,.leaflet-tooltip-left:before,.leaflet-tooltip-right:before{pointer-events:none;content:"";background:0 0;border:6px solid #0000;position:absolute}.leaflet-tooltip-bottom{margin-top:6px}.leaflet-tooltip-top{margin-top:-6px}.leaflet-tooltip-bottom:before,.leaflet-tooltip-top:before{margin-left:-6px;left:50%}.leaflet-tooltip-top:before{border-top-color:#fff;margin-bottom:-12px;bottom:0}.leaflet-tooltip-bottom:before{border-bottom-color:#fff;margin-top:-12px;margin-left:-6px;top:0}.leaflet-tooltip-left{margin-left:-6px}.leaflet-tooltip-right{margin-left:6px}.leaflet-tooltip-left:before,.leaflet-tooltip-right:before{margin-top:-6px;top:50%}.leaflet-tooltip-left:before{border-left-color:#fff;margin-right:-12px;right:0}.leaflet-tooltip-right:before{border-right-color:#fff;margin-left:-12px;left:0}@media print{.leaflet-control{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* nv-card-reveal-fix */
+/* Listing cards must never be left invisible by a reveal animation that
+   failed to fire. Framer Motion sets an inline opacity, so the override has
+   to be !important to win; it applies only to a wrapper that actually holds
+   a listing card, leaving other animated elements alone. */
+.grid > div:has(> a[href*="/residential/"]),
+.grid > div:has(> a[href*="/commercial/"]) {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* nv-hide-skyline-glyph */
+/* Decorative city-skyline SVG on the country cards. At card size it renders
+   as a row of tick marks under the CTA and reads as a glitch. */
+a.group.relative.flex.flex-col > svg.pointer-events-none.absolute {
+  display: none !important;
+}
+
+/* nv-listing-card-design */
+
+/* ---- 1. Equal card heights ----------------------------------------------
+   Measured 21px of ragged bottoms across one row of three. */
+.grid > div:has(> a[href*="/residential/"]),
+.grid > div:has(> a[href*="/commercial/"]) { display: flex; }
+.grid > div > a[href*="/residential/"],
+.grid > div > a[href*="/commercial/"] { width: 100%; }
+
+/* ---- 2. Let the grid breathe --------------------------------------------
+   Luxhabitat: 32px columns, 64px rows. Ours was 24px both ways. */
+.grid.gap-6 { column-gap: 2rem !important; row-gap: 3.5rem !important; }
+
+/* ---- 3. Remove the nested bordered box ----------------------------------
+   The payment-plan panel drew a border inside the card. A single hairline
+   above it does the same separating job without a box-in-a-box. */
+a[href*="/residential/"] .hairline,
+a[href*="/commercial/"] .hairline {
+  border: 0 !important;
+  border-top: 1px solid rgba(20,20,20,.10) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background: transparent !important;
+}
+
+/* ---- 4. Quiet the market badge ------------------------------------------
+   Keeps its position and legibility, stops competing with the photograph.
+   The blue stays the brand's everywhere else. */
+a[href*="/residential/"] .absolute.t-micro,
+a[href*="/commercial/"] .absolute.t-micro {
+  background: rgba(20,22,26,.74) !important;
+  backdrop-filter: blur(6px);
+  letter-spacing: .1em !important;
+}
+
+/* ---- 5. Slow image reveal on hover -------------------------------------- */
+a[href*="/residential/"] img,
+a[href*="/commercial/"] img {
+  transition: transform 700ms cubic-bezier(.16,1,.3,1) !important;
+}
+a[href*="/residential/"]:hover img,
+a[href*="/commercial/"]:hover img { transform: scale(1.03) !important; }
+
+/* ---- 6. Card frame lifts on hover --------------------------------------- */
+a[href*="/residential/"].group,
+a[href*="/commercial/"].group {
+  transition: border-color 200ms ease, transform 200ms ease !important;
+}
+a[href*="/residential/"].group:hover,
+a[href*="/commercial/"].group:hover { transform: translateY(-2px); }
+
+/* ---- 7. Title: sentence case, one weight down ---------------------------
+   Uppercase Cyrillic is measurably harder to read than Latin at the same
+   size, and the shout is unnecessary once the card is tidy. */
+a[href*="/residential/"] .t-h3,
+a[href*="/commercial/"] .t-h3 {
+  text-transform: none !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.005em !important;
+}
+
+/* ---- 8. Price reads as money, not as a shout ----------------------------
+   Savills sets price at w400. Bold price is a portal signal; the figure is
+   already the largest thing on the card. */
+a[href*="/residential/"] .t-num,
+a[href*="/commercial/"] .t-num { letter-spacing: -0.01em !important; }
+
+/* ---- 9. Even out the card footer -----------------------------------------
+   Payment-plan strings run 66-111 characters, so the footer block wraps to
+   different heights and rows come out ragged (measured 25px across one row).
+   Clamping the footer to three lines and pushing it to the bottom makes every
+   card in a row terminate on the same line. The full plan is still on the
+   detail page. */
+a[href*="/residential/"] .hairline,
+a[href*="/commercial/"] .hairline {
+  margin-top: auto;
+  min-height: 4.6em;
+}
+/* "Сдача" and "План оплаты" are separate spans in a flex column, but the
+   column collapses them onto one line so they read as "Q3 2029План оплаты".
+   Force each onto its own line. */
+a[href*="/residential/"] .hairline > *,
+a[href*="/commercial/"] .hairline > * { display: block; }
+/* Clamp only the payment-plan line, so the handover date is never cut. */
+a[href*="/residential/"] .hairline > *:last-child,
+a[href*="/commercial/"] .hairline > *:last-child {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---- 10. A listing with no image must not collapse ------------------------
+   Some listings (Radiant Heights) ship without renders; without a min-height its image
+   frame has zero height and the card's proportions break against its
+   neighbours. */
+a[href*="/residential/"] > div:first-child,
+a[href*="/commercial/"] > div:first-child {
+  min-height: 1px;
+  background: #f2f2f0;
+}
+
+@media (prefers-reduced-motion: reduce){
+  a[href*="/residential/"] img, a[href*="/commercial/"] img,
+  a[href*="/residential/"].group, a[href*="/commercial/"].group {
+    transition: none !important; transform: none !important;
+  }
+}
+
+
+/* nv-hide-listing-cta */
+/* The "Заинтересовал объект?" panel on listing detail pages. It is the dark
+   sidebar card (div.hairline.bg-deep inside the aside), rebuilt by React on
+   hydration — so it is hidden rather than deleted. :has() scopes it to the
+   card that actually carries that heading; the header button, the footer and
+   the contacts page are untouched. Verified against the live DOM rather than
+   assumed: heading is H2.t-h3 inside DIV.hairline.bg-deep inside ASIDE. */
+aside div.bg-deep:has(> h2.t-h3),
+#nv-cta-sec {
+  display: none !important;
+}
+
+/* a11y 2026-08-28: keep the pastel status pill readable where the market-badge patch darkens it (M2) */a[href*="/residential/"] .absolute.right-2.t-micro,a[href*="/commercial/"] .absolute.right-2.t-micro{color:#fff!important}/* a11y 2026-08-28: content must never stay hidden behind a JS reveal (M3) */@media (prefers-reduced-motion:reduce){main [style*="opacity:0"],[data-nv-reveal][style*="opacity:0"]{opacity:1!important;transform:none!important}}
+a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}
+#nv-market>button{text-align:left;padding:.65rem .85rem}#nv-market>button+button{border-top:1px solid rgba(20,20,20,.12)}

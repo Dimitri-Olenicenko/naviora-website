@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- nv-generated-detail-page --> <!-- nv-template-v2 --> <!-- nv-reelly-v1: listing + Reelly API summary, 19.09.2026 -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Terraces at Sobha City — Abu Dhabi | Mark Fingerman</title><meta name="description" content="The Terraces at Sobha City is a thoughtfully master-planned residential development defined by contemporary architecture, open spatial planning, and a…"><link rel="canonical" href="https://fingermancapital.com/en/abudhabi/residential/the-terraces-sobha-city-ad/"><link rel="alternate" hreflang="ru" href="https://fingermancapital.com/abudhabi/residential/the-terraces-sobha-city-ad/"><link rel="alternate" hreflang="en" href="https://fingermancapital.com/en/abudhabi/residential/the-terraces-sobha-city-ad/"><link rel="alternate" hreflang="x-default" href="https://fingermancapital.com/abudhabi/residential/the-terraces-sobha-city-ad/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateListing", "name": "The Terraces at Sobha City", "url": "https://fingermancapital.com/en/abudhabi/residential/the-terraces-sobha-city-ad/", "offers": {"@type": "Offer", "price": 1696153, "priceCurrency": "USD"}}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous"><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" defer></script><style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#141414;
+ font-family:'Gerbera','Suisse Intl','Helvetica Neue','Segoe UI',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased}
+.nv-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.nv-top{border-bottom:1px solid rgba(20,20,20,.1);padding:.8rem 0;font-size:.8rem}
+.nv-crumb a{color:#6b6f76;text-decoration:none}
+.nv-crumb a:hover{color:#0037FF}
+
+/* full-bleed hero */
+.nv-hero{position:relative;width:100%;background:#f2f2f0}
+.nv-hero img{display:block;width:100%;height:clamp(340px,56vh,640px);object-fit:cover}
+.nv-film{display:flex;gap:.5rem;overflow-x:auto;padding:.6rem 1.5rem;
+ max-width:1200px;margin:0 auto;scrollbar-width:thin}
+.nv-film img{height:72px;width:104px;object-fit:cover;cursor:pointer;flex:none;
+ opacity:.75;transition:opacity .2s ease;border:2px solid transparent}
+.nv-film img:hover{opacity:1}
+.nv-film img.is-on{opacity:1;border-color:#0037FF}
+
+/* header block — location first, price quiet */
+.nv-head{padding:2.2rem 0 0}
+.nv-eyeloc{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;
+ color:#6b6f76;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}
+.nv-chip{background:rgba(0,55,255,.08);color:#0037FF;font-weight:700;
+ padding:.2rem .55rem;letter-spacing:.1em}
+h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
+ letter-spacing:-.02em}
+.nv-price-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:1rem}
+.nv-price{font-size:2rem;font-weight:500;letter-spacing:-.015em}
+.nv-price small{font-size:1rem;color:#6b6f76;font-weight:400}
+.nv-psm{color:#6b6f76;font-size:1rem}
+
+/* key facts band */
+.nv-facts{display:flex;flex-wrap:wrap;background:#fff;
+ border:1px solid rgba(20,20,20,.12);margin:1.8rem 0 0}
+.nv-facts>div{flex:1 1 150px;min-width:150px;background:#fff;padding:1rem 1.1rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-facts span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.4rem}
+.nv-facts b{font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
+
+/* layout */
+.nv-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem;padding:2.5rem 0 0}
+@media(min-width:960px){.nv-grid{grid-template-columns:minmax(0,1fr) 340px;gap:3.5rem}}
+.nv-side{align-self:start}
+@media(min-width:960px){.nv-side{position:sticky;top:1.5rem}}
+.nv-card{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}
+.nv-btn{display:block;text-align:center;background:#0037FF;color:#fff;font-weight:700;
+ text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.95rem;
+ text-decoration:none;margin-top:1.1rem}
+.nv-btn:hover{background:#2a5bff}
+
+/* sections — the site's own heading grammar */
+.nv-sec{margin-top:3.5rem}
+.s-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
+.s-num{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
+.s-head h2{font-size:1.15rem;margin:0;font-weight:600;letter-spacing:.06em;
+ text-transform:uppercase}
+.nv-desc{color:rgba(20,20,20,.78);line-height:1.7;max-width:64ch}
+
+.nv-hl{list-style:none;padding:0;margin:0;display:grid;
+ grid-template-columns:1fr;gap:.1rem}
+@media(min-width:720px){.nv-hl{grid-template-columns:1fr 1fr;column-gap:2.5rem}}
+.nv-hl li{display:flex;gap:.75rem;padding:.55rem 0;color:rgba(20,20,20,.78)}
+.nv-hl li::before{content:"";margin-top:.5rem;flex:none;width:7px;height:7px;
+ background:#0037FF}
+
+/* finance */
+.nv-fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+ border:1px solid rgba(20,20,20,.12)}
+.nv-fin-cell{background:#fff;padding:1.1rem 1.2rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-fin-cell span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}
+.nv-fin-cell b{font-size:1.1rem;font-weight:600;letter-spacing:-.01em}
+.nv-fin-cell.is-accent b{color:#0037FF}
+.nv-fin-wide{grid-column:1/-1}
+.nv-fin-wide b{font-size:.98rem;font-weight:500;line-height:1.55}
+.nv-calc{margin-top:1.25rem;border:1px solid rgba(20,20,20,.12);padding:1.5rem;
+ background:#FAFAF9}
+.nv-calc-t{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+ color:#6b6f76;margin-bottom:1rem;font-weight:700}
+.nv-calc-in{display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.25rem}
+.nv-calc-in label{font-size:.8rem;color:#6b6f76;display:flex;flex-direction:column;gap:.4rem}
+.nv-calc-in input{width:120px;min-height:44px;padding:.6rem .7rem;
+ border:1px solid rgba(20,20,20,.2);
+ font-size:1rem;font-weight:600;color:#141414;background:#fff}
+.nv-calc-in input:focus{outline:2px solid #0037FF;outline-offset:1px}
+.nv-calc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+ gap:1rem;padding-top:1.25rem;border-top:1px solid rgba(20,20,20,.12)}
+.nv-calc-out span{display:block;font-size:.68rem;letter-spacing:.12em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.35rem}
+.nv-calc-out b{font-size:1.3rem;font-weight:600;color:#0037FF;letter-spacing:-.01em}
+.nv-note{font-size:.78rem;line-height:1.5;color:#6b6f76;margin:1.1rem 0 0}
+
+/* video facade */
+.nv-yt{position:relative;width:100%;padding-top:56.25%;cursor:pointer;
+ background:#141414;overflow:hidden}
+.nv-yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.nv-yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ width:68px;height:48px;background:#0037FF;border-radius:10px;
+ display:flex;align-items:center;justify-content:center}
+.nv-yt .play span{border-left:18px solid #fff;border-top:11px solid transparent;
+ border-bottom:11px solid transparent;margin-left:4px}
+
+.nv-doc a{display:inline-flex;align-items:center;gap:.5rem;
+ border-bottom:1px solid #0037FF;padding-bottom:2px;font-weight:600;
+ text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#0037FF;
+ text-decoration:none}
+
+.nv-map{width:100%;height:360px;border:1px solid rgba(20,20,20,.12);display:block}
+.nv-loc-foot{font-size:.85rem;color:#6b6f76;margin:.8rem 0 0}
+.nv-loc-foot a{color:#0037FF;text-decoration:none;font-weight:600}
+
+/* similar */
+.nv-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
+.nv-rel{text-decoration:none;color:inherit;border:1px solid rgba(20,20,20,.12);
+ display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease}
+.nv-rel:hover{transform:translateY(-2px);border-color:rgba(20,20,20,.3)}
+.nv-rel-i{aspect-ratio:4/3;overflow:hidden;background:#f2f2f0}
+.nv-rel-i img{width:100%;height:100%;object-fit:cover;display:block;
+ transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.nv-rel:hover .nv-rel-i img{transform:scale(1.03)}
+.nv-rel-b{padding:1rem 1.1rem 1.2rem}
+.nv-rel-t{font-weight:600;font-size:.98rem;line-height:1.3;margin-bottom:.3rem}
+.nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
+.nv-rel-p{font-size:1.05rem;font-weight:600}
+
+
+/* Site chrome. Opening a listing used to drop the header and footer entirely
+   — no logo, no navigation, no way back. Rebuilt as static markup styled to
+   match the grid pages. The React header's country dropdown is a JS widget,
+   so it becomes plain links to the same destinations. */
+.nv-site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);
+ backdrop-filter:blur(8px);border-bottom:1px solid rgba(20,20,20,.1)}
+.nv-site-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem;
+ display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.nv-logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#141414;
+ font-weight:700;letter-spacing:.06em;font-size:.95rem;white-space:nowrap}
+.nv-nav{display:none;gap:1.6rem}
+@media(min-width:860px){.nv-nav{display:flex}}
+.nv-nav a{color:#141414;text-decoration:none;font-size:.78rem;font-weight:600;
+ letter-spacing:.08em;text-transform:uppercase}
+.nv-nav a:hover{color:#0037FF}
+.nv-head-cta{background:#0037FF;color:#fff;text-decoration:none;font-weight:700;
+ font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+ padding:.75rem 1.1rem;white-space:nowrap;min-height:44px;
+ display:inline-flex;align-items:center}
+.nv-head-cta:hover{background:#2a5bff}
+.nv-site-foot{background:#000032;color:#fff;margin-top:4rem;padding:3rem 0 1.5rem}
+.nv-site-foot .nv-site-wrap{display:block}
+.nv-foot-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:720px){.nv-foot-grid{grid-template-columns:2fr 1fr 1fr}}
+.nv-foot-brand{font-weight:700;letter-spacing:.06em}
+.nv-foot-tag{color:rgba(255,255,255,.55);font-size:.85rem;margin:.4rem 0 0}
+.nv-foot-h{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+ color:rgba(255,255,255,.5);margin-bottom:.7rem}
+.nv-site-foot a{display:block;color:rgba(255,255,255,.85);text-decoration:none;
+ font-size:.88rem;padding:.22rem 0}
+.nv-site-foot a:hover{color:#8fa8ff}
+.nv-foot-btm{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;
+ padding-top:1.2rem;font-size:.8rem;color:rgba(255,255,255,.62)}
+
+.nv-foot{border-top:1px solid rgba(20,20,20,.1);background:#141414;color:#fff;
+ padding:2rem 0;margin-top:4rem;font-size:.85rem}
+.nv-foot a{color:#8fa8ff}
+@media (prefers-reduced-motion:reduce){
+ .nv-rel,.nv-rel-i img,.nv-film img{transition:none!important;transform:none!important}}
+.nv-film-btn{padding:0;border:2px solid transparent;background:none;cursor:pointer;flex:none;line-height:0;border-radius:4px}.nv-film-btn img{opacity:.55;cursor:pointer;height:72px;width:104px;object-fit:cover;display:block}.nv-film-btn:hover img,.nv-film-btn.is-on img{opacity:1}.nv-film-btn.is-on{border-color:#0037FF}.nv-film-btn:focus-visible{outline:2px solid #0037FF;outline-offset:2px}.nv-skip{position:absolute;left:-9999px;top:0;background:#0037FF;color:#fff;padding:.6rem 1rem;z-index:9999;text-decoration:none}.nv-skip:focus{left:0}
+.nv-range{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border:1px solid rgba(20,20,20,.12)}.nv-range>div{padding:1.1rem 1.2rem;box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}.nv-range span{display:block;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}.nv-range b{font-size:1.05rem;font-weight:600}
+.nv-pp{display:flex;gap:3px;margin:.2rem 0 1rem}.nv-pp-seg{background:rgba(0,55,255,.08);padding:.7rem .6rem;min-width:0;flex-basis:auto}.nv-pp-seg:first-child{min-width:150px}.nv-pp-seg:first-child{background:#0037FF;color:#fff}.nv-pp-seg b{display:block;font-size:1.05rem}.nv-pp-seg span{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.nv-units{width:100%;border-collapse:collapse;font-size:.95rem}.nv-units th{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#6b6f76;text-align:left;font-weight:600;padding:.6rem 0;border-bottom:1px solid rgba(20,20,20,.12)}.nv-units td{padding:.75rem 0;border-bottom:1px solid rgba(20,20,20,.08)}.nv-units td:first-child{font-weight:600}
+.nv-poi{list-style:none;padding:0;margin:0 0 1rem;display:grid;grid-template-columns:1fr;gap:.1rem}@media(min-width:720px){.nv-poi{grid-template-columns:1fr 1fr;column-gap:2.5rem}}.nv-poi li{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px solid rgba(20,20,20,.08);font-size:.95rem}.nv-poi li b{font-weight:600}.nv-poi li span{color:#6b6f76;white-space:nowrap}
+.nv-rel-grid{grid-template-columns:repeat(auto-fill,minmax(240px,360px))}
+.nv-prog{margin:1rem 0 0}.nv-prog-t{display:flex;justify-content:space-between;gap:1rem;font-size:.82rem;color:#6b6f76;margin-bottom:.4rem}.nv-prog-bar{height:8px;background:#F2F2F2;border:1px solid rgba(20,20,20,.12);overflow:hidden}#nv-prog-fill{height:100%;width:0;background:#0037FF;transition:width .6s ease}
+.nv-cash{margin:1rem 0 0;padding:.9rem 0 0;border-top:1px solid rgba(20,20,20,.12);display:grid;gap:.45rem}.nv-cash div{display:flex;justify-content:space-between;gap:1rem;font-size:.85rem}.nv-cash dt{color:#6b6f76}.nv-cash dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}.nv-range b .nw{white-space:nowrap}
+.nv-units td,.nv-units th{padding-right:.8rem}.nv-units td:last-child,.nv-units th:last-child{padding-right:0}.nv-units td:nth-child(2),.nv-units td:nth-child(3){white-space:nowrap}@media(max-width:719px){.nv-pp-seg span{white-space:normal;line-height:1.25}.nv-pp-seg:first-child{min-width:0}.nv-units{font-size:.88rem}}
+.nv-tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1rem}.nv-tab{border:1px solid rgba(20,20,20,.2);background:#fff;padding:.55rem .9rem;font:inherit;font-size:.82rem;font-weight:600;cursor:pointer;min-height:44px}.nv-tab.is-on{background:#0037FF;color:#fff;border-color:#0037FF}
+.nv-plan{border:1px solid rgba(20,20,20,.12);background:#FAFAF9;margin:0 0 1.25rem}.nv-plan img{display:block;width:100%;max-width:640px;height:auto;margin:0 auto}.nv-plan-empty{padding:1.4rem;font-size:.9rem;color:#6b6f76}.nv-plan-empty a{color:#0037FF;font-weight:600;text-decoration:none}
+.nv-map{background:#eef0f3}.nv-map .leaflet-control-attribution{font-size:10px}
+.leaflet-tooltip.nv-poi-lbl{background:rgba(10,10,24,.88);color:#fff;border:1px solid rgba(255,255,255,.28);border-radius:3px;padding:2px 6px;font:600 11px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-poi-lbl::before{display:none}
+.leaflet-tooltip.nv-prj-lbl{background:#0037FF;color:#fff;border:1px solid #fff;border-radius:3px;padding:3px 8px;font:700 11.5px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-prj-lbl::before{display:none}
+a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}.nv-lang{color:#0037FF;text-decoration:none;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}.nv-lang:hover{text-decoration:underline}</style></head>
+<body data-nv-slug="the-terraces-sobha-city-ad" data-nv-static="1">
+<a class="nv-skip" href="#main">Skip to content</a>
+<header class="nv-site-head"><div class="nv-site-wrap"><a class="nv-logo" href="/" aria-label="MARK FINGERMAN"><svg viewBox="0 0 44 48" fill="#0037FF" width="22" height="24" aria-hidden="true"><polygon points="0,48 0,10 14,0 14,38"></polygon><polygon points="30,48 30,10 44,0 44,38"></polygon><polygon points="12,2 24,44 34,44 22,2"></polygon></svg><span>MARK FINGERMAN</span></a>
+<nav class="nv-nav"><a href="/en/abudhabi/residential/">Residential</a><a href="/en/abudhabi/commercial/">Commercial</a><a href="/en/contacts/">Contacts</a></nav><a class="nv-lang" href="/abudhabi/residential/the-terraces-sobha-city-ad/" hreflang="ru">RU</a><a class="nv-head-cta" href="/en/contacts/">Contact</a></div></header>
+<div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb"><a href="/">Home</a> / <a href="/en/abudhabi/residential/">Abu Dhabi</a> / <a href="/en/abudhabi/residential/">Residential</a> / The Terraces at Sobha City</nav></div></div>
+<main id="main" tabindex="-1">
+<div id="nv-hero-zone"><div class="nv-hero"><img id="nv-main-img" src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp" alt="The Terraces at Sobha City"></div><div class="nv-film" role="group" aria-label="Gallery: The Terraces at Sobha City"><button type="button" class="nv-film-btn is-on" data-i="0" aria-pressed="true" aria-label="The Terraces at Sobha City — photo 1"><img src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="1" aria-pressed="false" aria-label="The Terraces at Sobha City — photo 2"><img src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="2" aria-pressed="false" aria-label="The Terraces at Sobha City — photo 3"><img src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="3" aria-pressed="false" aria-label="The Terraces at Sobha City — photo 4"><img src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp" alt="" loading="lazy"></button><button type="button" class="nv-film-btn" data-i="4" aria-pressed="false" aria-label="The Terraces at Sobha City — photo 5"><img src="/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-5.webp" alt="" loading="lazy"></button></div></div>
+<div class="nv-wrap">
+<header class="nv-head" id="nv-head"><p class="nv-eyeloc"><span>Al Bahya · Abu Dhabi</span> <span class="nv-chip">Primary market</span> <span>Sobha</span></p>
+<h1>The Terraces at Sobha City</h1>
+<div class="nv-price-row"><div class="nv-price"><small>from</small> $ 1 696 153</div><span class="nv-psm">≈ $ 5 935 / m²</span></div></header>
+<div id="nv-facts-zone"><div class="nv-facts"><div><span>Area</span><b>from 286 m²</b></div><div><span>Bedrooms</span><b>3</b></div><div><span>Property type</span><b>Villas</b></div><div><span>Handover</span><b>Q4 2029</b></div><div><span>Developer</span><b>Sobha</b></div><div><span>Status</span><b>Under construction · on sale</b></div></div></div>
+<div class="nv-grid"><div id="nv-body">
+<section class="nv-sec"><div class="s-head"><span class="s-num">01</span><h2>Overview</h2></div><p class="nv-desc">The Terraces at Sobha City is a thoughtfully master-planned residential development defined by contemporary architecture, open spatial planning, and a strong connection to nature. The project features a collection of garden villas designed with an emphasis on natural light, privacy, and seamless indoor-outdoor living. Residences are positioned to maximize views of landscaped greenery and water features, while private gardens and elevated terraces extend the living experience beyond interior spaces.</p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">02</span><h2>Highlights</h2></div><ul class="nv-hl"><li>Garden villas with private gardens and terraces</li><li>Detached villas with a lift, pool and covered parking</li><li>Parks, cycling tracks, multi-sport courts</li><li>Meditation and yoga zones, amphitheatre</li></ul></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">03</span><h2>Layouts and prices</h2></div><div class="nv-range" style="margin:0 0 1rem"><div><span>Area</span><b>from 286 m²</b></div><div><span>Price</span><b>from <span class="nw">$ 1 696 153</span><span class="nv-eq"> · AED 6 229 123</span></b></div><div><span>Per m²</span><b>≈ $ 5 935</b></div><div><span>Bedrooms</span><b>3</b></div></div>
+<p class="nv-note">Price and area ranges — developer data (Reelly API) as of 19.09.2026. Floor plans, prices by unit type and the current list of available units — on request; we will send the developer's latest price list. <a href="/en/contacts/" style="color:#0037FF;font-weight:600;text-decoration:none">Request →</a></p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">04</span><h2>Payment plan 20 / 40 / 40</h2></div><div class="nv-pp"><div class="nv-pp-seg" style="flex:20.0"><b>20%</b><span>on booking</span></div><div class="nv-pp-seg" style="flex:40.0"><b>40%</b><span>during construction</span></div><div class="nv-pp-seg" style="flex:40.0"><b>40%</b><span>on handover</span></div></div><table class="nv-units"><thead><tr><th>Stage</th><th>Share</th><th id="nv-sched-h">From $ 1 696 153</th></tr></thead><tbody id="nv-sched"><tr><td>On booking</td><td>20 %</td><td>$ 339 231</td></tr><tr><td>During construction (8 instalments)</td><td>40 %</td><td>$ 678 461</td></tr><tr><td>On handover</td><td>40 %</td><td>$ 678 461</td></tr></tbody></table><p class="nv-note">Developer terms as of 19.09.2026; amounts are calculated from the minimum price. DLD registration (Dubai) — 4 % fee plus administrative charges; Abu Dhabi — 2 % DMT fee. Not an offer.</p></section>
+
+<section class="nv-sec"><div class="s-head"><span class="s-num">05</span><h2>About Al Bahya</h2></div><p class="nv-desc">Al Bahia is an emerging coastal district in the northern part of Abu Dhabi, offering a peaceful residential atmosphere away from the city’s central bustle. Positioned along the highway connecting Abu Dhabi to Dubai, the area benefits from strategic accessibility while maintaining a calm, low-density environment. Its proximity to the coastline adds a natural charm, making it an attractive choice for those seeking a relaxed lifestyle with open surroundings.</p></section>
+<section class="nv-sec" id="nv-loc-sec"><div class="s-head"><span class="s-num">06</span><h2>Location</h2></div><ul class="nv-poi"><li><b>ADGM · Al Maryah Island</b><span>25 min · 31.9 km</span></li><li><b>Abu Dhabi Corniche</b><span>31 min · 39.3 km</span></li><li><b>AUH Airport</b><span>18 min · 14.5 km</span></li><li><b>Yas Island · Ferrari World</b><span>6 min · 3.7 km</span></li><li><b>Saadiyat · Louvre Abu Dhabi</b><span>20 min · 25.0 km</span></li><li><b>Sheikh Zayed Grand Mosque</b><span>22 min · 24.6 km</span></li></ul><p class="nv-note">Driving time without traffic.</p><div class="nv-map" id="nv-map" role="img" aria-label="Map: The Terraces at Sobha City" data-lat="24.49570813958348" data-lng="54.63922677558115" data-title="The Terraces at Sobha City" data-pois='[[24.4959, 54.3891, "ADGM · Al Maryah Island"], [24.4667, 54.321, "Abu Dhabi Corniche"], [24.433, 54.6511, "AUH Airport"], [24.4891, 54.6093, "Yas Island · Ferrari World"], [24.5386, 54.436, "Saadiyat · Louvre Abu Dhabi"], [24.4128, 54.475, "Sheikh Zayed Grand Mosque"]]' data-poly='[[24.498898, 54.639459], [24.498767, 54.639752], [24.498719, 54.63981], [24.498661, 54.639854], [24.49859, 54.639882], [24.498516, 54.639888], [24.498455, 54.639889], [24.497698, 54.639895], [24.497095, 54.639906], [24.496813, 54.639914], [24.496644, 54.639906], [24.496476, 54.639891], [24.496308, 54.639871], [24.496031, 54.639849], [24.495977, 54.639834], [24.495928, 54.639806], [24.495887, 54.639764], [24.495858, 54.639712], [24.495841, 54.639654], [24.495794, 54.639212], [24.4957, 54.638183], [24.495578, 54.636811], [24.495586, 54.636731], [24.495617, 54.636658], [24.495668, 54.636601], [24.495734, 54.636565], [24.495806, 54.636555], [24.495998, 54.636537], [24.496053, 54.636538], [24.496106, 54.636552], [24.496156, 54.636577], [24.4962, 54.636613], [24.496236, 54.636658], [24.496636, 54.637182], [24.49681, 54.63739], [24.496857, 54.63745], [24.496895, 54.637517], [24.496923, 54.63759], [24.496941, 54.637667], [24.496948, 54.637746], [24.496961, 54.638084], [24.497033, 54.639104], [24.497095, 54.639906]]'></div><p class="nv-loc-foot">Al Bahya, Abu Dhabi · <a href="https://www.google.com/maps/search/?api=1&query=24.49570813958348,54.63922677558115" target="_blank" rel="noopener noreferrer">Open in Google Maps →</a></p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">07</span><h2>Materials</h2></div><div class="nv-doc" style="margin-bottom:.7rem"><a href="/assets/brochures/the-terraces-sobha-city-ad.pdf" target="_blank" rel="noopener noreferrer">Project presentation — PDF →</a></div><div class="nv-doc" style="margin-bottom:.7rem"><a href="https://www.sobharealty.com/" target="_blank" rel="noopener noreferrer">Developer's official website — sobharealty.com →</a></div><div class="nv-doc"><a href="/en/contacts/">Full brochure, floor plans and price list — request →</a></div></section>
+</div>
+<aside class="nv-side"><div class="nv-card"><div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Price from</div><div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">$ 1 696 153</div>
+<dl class="nv-cash"><div><dt>Before handover — 100 %</dt><dd data-pct="100">$ 1 696 153</dd></div></dl>
+<p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">We will send the full materials, current floor plans and payment terms.</p><a class="nv-btn" href="/en/contacts/">Request a selection</a>
+<div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76"><div>Phone</div><a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a><div style="margin-top:.75rem">E-mail</div><a href="mailto:fingermanmark2017@gmail.com" style="color:#141414;text-decoration:none">fingermanmark2017@gmail.com</a></div></div></aside>
+</div></div>
+<div class="nv-wrap" id="nv-rel-zone"><section class="nv-sec" id="nv-rel-sec"><div class="s-head"><span class="s-num">08</span><h2>Similar properties</h2></div><div class="nv-rel-grid"><a class="nv-rel" href="/en/abudhabi/residential/manchester-city-yas-residences/"><div class="nv-rel-i"><img src="/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Manchester City Yas Residences by Ohana</div><div class="nv-rel-d">Yas Island, Yas Canal</div><div class="nv-rel-p">$ 857 841</div></div></a><a class="nv-rel" href="/en/abudhabi/residential/fairmont-marina-residences/"><div class="nv-rel-i"><img src="/assets/projects/fairmont-marina-residences/fairmont-marina-residences-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Fairmont Marina Residences</div><div class="nv-rel-d">Al Kasir</div><div class="nv-rel-p">$ 743 363</div></div></a><a class="nv-rel" href="/en/abudhabi/residential/beach-house-fahid/"><div class="nv-rel-i"><img src="/assets/projects/beach-house-fahid/beach-house-fahid-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">The Beach House Fahid</div><div class="nv-rel-d">Fahid Island</div><div class="nv-rel-p">$ 1 339 825</div></div></a></div></section>
+</div>
+</main>
+<footer class="nv-site-foot"><div class="nv-site-wrap nv-foot-grid"><div><div class="nv-foot-brand">MARK FINGERMAN</div><p class="nv-foot-tag">Real Estate Through Numbers</p></div><div><div class="nv-foot-h">Markets</div><a href="/en/dubai/residential/">Dubai</a><a href="/en/abudhabi/residential/">Abu Dhabi</a></div><div><div class="nv-foot-h">Contacts</div><a href="tel:+971547928468">+971 547 928 468</a><a href="mailto:fingermanmark2017@gmail.com">fingermanmark2017@gmail.com</a></div></div><div class="nv-site-wrap nv-foot-btm">© 2026 Mark Fingerman</div></footer>
+<script>(function(){var main=document.getElementById('nv-main-img');Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(b){b.addEventListener('click',function(){var im=b.querySelector('img');if(main&&im){main.src=im.src;main.alt=b.getAttribute('aria-label')||main.alt;}Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(o){o.classList.remove('is-on');o.setAttribute('aria-pressed','false');});b.classList.add('is-on');b.setAttribute('aria-pressed','true');});});var pr=document.querySelector('.nv-prog');if(pr){var rd=pr.getAttribute('data-readiness');if(rd){document.getElementById('nv-prog-fill').style.width=rd+'%';}else{var s0=new Date(pr.getAttribute('data-start')),e0=new Date(pr.getAttribute('data-end')),n0=new Date(),pc=Math.max(0,Math.min(100,Math.round(100*(n0-s0)/(e0-s0))));document.getElementById('nv-prog-fill').style.width=pc+'%';document.getElementById('nv-prog-lbl').textContent='Built '+pc+' % of the schedule · handover — '+"Q4 2029";}}function money(v){return '$ '+Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,' ');}var U=[],S=[];function pick(k){var u=U.filter(function(x){return x.key===k})[0];if(!u)return;document.getElementById('nv-u-m2').textContent=(u.m2_to?u.m2+'–'+u.m2_to:'≈ '+u.m2)+' m² · '+u.sqft.toLocaleString('ru-RU')+' sq ft';document.getElementById('nv-u-price').innerHTML='from '+money(u.usd)+'<span class="nv-eq"> · AED '+u.aed.toLocaleString('ru-RU')+'</span>';document.getElementById('nv-u-ppsm').textContent='≈ '+money(u.usd/u.m2);var pl=document.getElementById('nv-u-plan');pl.innerHTML=u.plan?'<img src="'+u.plan+'" alt="Floor plan: '+u.label+'" loading="lazy">':'<div class="nv-plan-empty">Floor plan for this type — on request. <a href="/en/contacts/">Request →</a></div>';var sh=document.getElementById('nv-sched-h');if(sh&&S.length){sh.textContent=u.label+' · from '+money(u.usd);document.getElementById('nv-sched').innerHTML=S.map(function(r){return '<tr><td>'+r[0].charAt(0).toUpperCase()+r[0].slice(1)+'</td><td>'+r[1]+' %</td><td>'+money(u.usd*r[1]/100)+'</td></tr>'}).join('');}Array.prototype.forEach.call(document.querySelectorAll('.nv-cash [data-pct]'),function(d){d.textContent=money(u.usd*parseFloat(d.getAttribute('data-pct'))/100)});Array.prototype.forEach.call(document.querySelectorAll('.nv-tab'),function(b){var on=b.getAttribute('data-unit')===k;b.classList.toggle('is-on',on);b.setAttribute('aria-pressed',on?'true':'false')});}Array.prototype.forEach.call(document.querySelectorAll('.nv-tab'),function(b){b.addEventListener('click',function(){pick(b.getAttribute('data-unit'))})});if(U.length)pick(U[0].key);})();</script><script>(function(){function init(){var el=document.getElementById('nv-map');if(!el||!window.L||el.dataset.ready)return;el.dataset.ready='1';var lat=+el.getAttribute('data-lat'),lng=+el.getAttribute('data-lng');var m=L.map(el,{zoomControl:true,scrollWheelZoom:false,attributionControl:true}).setView([lat,lng],14);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, USGS, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(m);var ic=L.divIcon({className:'',html:'<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #ffffff;background:#0037FF;box-shadow:0 0 0 3px rgba(0,55,255,.45),0 2px 6px rgba(0,0,0,.35)"></span>',iconSize:[14,14],iconAnchor:[7,7]});L.marker([lat,lng],{icon:ic,title:el.getAttribute('data-title')||'',alt:el.getAttribute('data-title')||''}).addTo(m).bindTooltip(el.getAttribute('data-title')||'',{permanent:true,direction:'bottom',offset:[0,10],className:'nv-prj-lbl'});var ps=el.getAttribute('data-pois');if(ps){var pts=[[lat,lng]];JSON.parse(ps).forEach(function(q){pts.push([q[0],q[1]]);L.circleMarker([q[0],q[1]],{radius:5,color:'#fff',weight:1.5,fillColor:'#8F7FFF',fillOpacity:.95}).addTo(m).bindTooltip(q[2],{permanent:true,direction:'top',offset:[0,-6],className:'nv-poi-lbl'});});m.fitBounds(L.latLngBounds(pts),{padding:[28,28],maxZoom:15});}var pg=el.getAttribute('data-poly');if(pg){L.polygon(JSON.parse(pg),{color:'#0037FF',weight:2,fillColor:'#0037FF',fillOpacity:.15}).addTo(m);}}if(window.L)init();else{var t=setInterval(function(){if(window.L){clearInterval(t);init();}},60);setTimeout(function(){clearInterval(t)},15000);}})();</script><script src="/assets/nv-currency.js" defer></script>
+</body></html>
