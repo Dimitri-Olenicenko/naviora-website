@@ -33,14 +33,14 @@ function ready(){return !isApp()||hydrated(document.querySelector("header"))}
 function paint(){document.documentElement.setAttribute("data-nv-cur",cur);
  var segs=document.querySelectorAll(".nv-cur-btn button");for(var i=0;i<segs.length;i++){var s=segs[i],on=s.getAttribute("data-c")===cur;s.style.background=on?"#0037FF":"transparent";s.style.color=on?"#fff":"#141414";s.setAttribute("aria-pressed",on?"true":"false")}}
 function apply(){if(!ready())return;walk(cur==="AED"?convRun:revertRun);paint()}
-function setCur(c){if(c===cur)return;cur=c;try{localStorage.setItem(KEY,cur)}catch(e){}apply()}
+function setCur(c){if(c===cur)return;cur=c;try{localStorage.setItem(KEY,cur)}catch(e){}apply();try{document.dispatchEvent(new CustomEvent("nv-currency",{detail:cur}))}catch(e){}}
 var CSS=".nv-cur-btn{display:inline-flex;align-items:stretch;border:1px solid rgba(20,20,20,.22);background:#fff;white-space:nowrap;flex-shrink:0;min-height:36px}"+
  ".nv-cur-btn button{border:0;margin:0;background:transparent;color:#141414;font:700 10.5px/1 'Suisse Intl','Helvetica Neue',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:0 .6rem;cursor:pointer;display:inline-flex;align-items:center;transition:background .15s,color .15s}"+
  ".nv-cur-btn button[aria-pressed=false]:hover{color:#0037FF}"+
  ".nv-cur-btn.nv-cur-m{display:none;margin-left:auto}"+
  "@media(max-width:1023.98px){.nv-cur-btn.nv-cur-m{display:inline-flex}}"+
  /* phones: the header cannot hold wordmark + switch + CTA/menu (measured 428 px at 375) → icon-only logo */
- "@media(max-width:479.98px){header a[href$='/'] .t-h3,.nv-site-wrap .nv-logo span{display:none}}"+
+ "@media(max-width:479.98px){header:has(.nv-cur-btn) a[href$='/'] .t-h3,.nv-site-wrap:has(.nv-cur-btn) .nv-logo span{display:none}}"+
  "html[data-nv-cur=AED] .nv-eq{display:none}";
 function make(extra){var b=document.createElement("div");b.className="nv-cur-btn"+(extra?" "+extra:"");b.setAttribute("role","group");b.setAttribute("aria-label","Currency");
  ["USD","AED"].forEach(function(c){var s=document.createElement("button");s.type="button";s.setAttribute("data-c",c);s.textContent=c;s.title=c==="USD"?"Prices in US dollars":"Prices in UAE dirhams";s.addEventListener("click",function(){setCur(c)});b.appendChild(s)});return b}
