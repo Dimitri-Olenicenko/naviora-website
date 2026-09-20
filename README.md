@@ -1,6 +1,6 @@
 # naviora-website — DEPLOYED TREE (source of truth)
 
-**This repository IS production.** GitHub Pages serves the root of `main` at `https://olenicenko.com/naviora-website/`.
+**This repository IS production.** GitHub Pages serves the root of `main` at `https://fingermancapital.com/`.
 A push to `main` is live within a minute; there is no build step, no staging, no release tag.
 
 ## Read before touching anything

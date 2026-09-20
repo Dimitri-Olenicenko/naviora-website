@@ -18,11 +18,11 @@
     "paymentPlan": "Уточняется у застройщика",
     "yieldPct": 9.9,
     "images": [
-      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-10.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-1.webp"
+      "/assets/projects/five-towers/five-towers-7.webp",
+      "/assets/projects/five-towers/five-towers-8.webp",
+      "/assets/projects/five-towers/five-towers-9.webp",
+      "/assets/projects/five-towers/five-towers-10.webp",
+      "/assets/projects/five-towers/five-towers-1.webp"
     ],
     "featured": true,
     "shortDescription": "Крупнейшая площадь 1-го этажа в новом комплексе Five Towers по value-цене $1 360/м² — на 35–40% ниже новостроек Арабкира. Shell-помещение с гибкой планировкой: можно сдать целиком якорному арендатору или переоборудовать в бизнес-центр / сервисные офисы. Чистая доходность 9.9% годовых, совокупный ROI ~31.5% за 2 года.",
@@ -54,14 +54,14 @@
     "bedrooms": null,
     "handover": "2031",
     "images": [
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r1.jpg",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r2.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r3.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r4.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r5.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r6.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r7.png",
-      "/naviora-website/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r8.png"
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r1.jpg",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r2.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r3.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r4.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r5.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r6.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r7.png",
+      "/assets/projects/vr-vake-sky-tower/vr-vake-sky-tower-r8.png"
     ],
     "featured": true,
     "shortDescription": "Самое высокое здание Грузии — 260 м, 70 этажей на проспекте Чавчавадзе в Ваке. Апартаменты от 38 м², самый высокий инфинити-бассейн в Закавказье, рестораны, ритейл, коворкинг и wellness. Сдача — 2031 год.",
@@ -77,7 +77,7 @@
     "lng": 44.7637,
     "address": "проспект Чавчавадзе 49, Ваке, Тбилиси",
     "videoId": "Qg98xW1adOo",
-    "brochure": "/naviora-website/assets/brochures/vr-vake-sky-tower.pdf",
+    "brochure": "/assets/brochures/vr-vake-sky-tower.pdf",
     "videos": [
       {
         "id": "Qg98xW1adOo",
@@ -109,14 +109,14 @@
     "bedrooms": null,
     "handover": "Фаза 5 — 2026, фаза 6 — 2029",
     "images": [
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r1.png",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r2.png",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r3.png",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r4.jpg",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r5.png",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r6.jpg",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r7.png",
-      "/naviora-website/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r8.jpg"
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r1.png",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r2.png",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r3.png",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r4.jpg",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r5.png",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r6.jpg",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r7.png",
+      "/assets/projects/vr-krtsanisi-resort-residence/vr-krtsanisi-resort-residence-r8.jpg"
     ],
     "featured": true,
     "shortDescription": "Курортно-жилой комплекс на 20 гектарах в дипломатическом районе Крцаниси: 70% территории — рекреация. Бассейны (45 м и 80-метровый инфинити), спа, теннис, падел, конюшни, школа и детский сад. Фазы 1–4 сданы.",
@@ -134,7 +134,7 @@
     "lng": 44.8172,
     "address": "ул. Григола Волского 7, Крцаниси, Тбилиси",
     "videoId": "f2GmxSxcqwo",
-    "brochure": "/naviora-website/assets/brochures/vr-krtsanisi-resort-residence.pdf",
+    "brochure": "/assets/brochures/vr-krtsanisi-resort-residence.pdf",
     "videos": [
       {
         "id": "f2GmxSxcqwo",
@@ -166,14 +166,14 @@
     "bedrooms": null,
     "handover": "Декабрь 2028",
     "images": [
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r1.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r2.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r3.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r4.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r5.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r6.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r7.png",
-      "/naviora-website/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r8.png"
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r1.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r2.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r3.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r4.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r5.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r6.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r7.png",
+      "/assets/projects/vr-multifunctional-building/vr-multifunctional-building-r8.png"
     ],
     "featured": true,
     "shortDescription": "Многофункциональное здание в составе VR Krtsanisi: апартаменты с гостиничным сервисом, ритейл и коворкинг. Формат для инвестора — сервисные апартаменты под управление с опцией обратного выкупа.",
@@ -189,7 +189,7 @@
     "lng": 44.8185,
     "address": "Крцаниси, Тбилиси",
     "videoId": "ZbjPm9Gn_qM",
-    "brochure": "/naviora-website/assets/brochures/vr-multifunctional-building.pdf",
+    "brochure": "/assets/brochures/vr-multifunctional-building.pdf",
     "videos": [
       {
         "id": "ZbjPm9Gn_qM",
@@ -213,14 +213,14 @@
     "bedrooms": null,
     "handover": "Строится",
     "images": [
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r1.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r2.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r3.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r4.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r5.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r6.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r8.jpg",
-      "/naviora-website/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r7.jpg"
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r1.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r2.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r3.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r4.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r5.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r6.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r8.jpg",
+      "/assets/projects/vr-shekvetili-forest-beach/vr-shekvetili-forest-beach-r7.jpg"
     ],
     "featured": false,
     "shortDescription": "Курортный проект на Чёрном море: 40 гектаров, 1 200 метров береговой линии, инвестиция $600 млн. Первый в Грузии Café del Mar Beach Club. Апартаменты у моря в сосновом лесу Шекветили.",
@@ -236,7 +236,7 @@
     "lng": 41.7693,
     "address": "Шекветили, побережье Чёрного моря",
     "videoId": "iysxeXK6Kwc",
-    "brochure": "/naviora-website/assets/brochures/vr-shekvetili-forest-beach.pdf",
+    "brochure": "/assets/brochures/vr-shekvetili-forest-beach.pdf",
     "videos": [
       {
         "id": "iysxeXK6Kwc",
@@ -268,13 +268,13 @@
     "bedrooms": null,
     "handover": "2026",
     "images": [
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r1.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r2.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r3.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r4.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r5.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r6.jpg",
-      "/naviora-website/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r7.jpg"
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r1.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r2.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r3.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r4.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r5.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r6.jpg",
+      "/assets/projects/vr-royal-townhouse/vr-royal-townhouse-r7.jpg"
     ],
     "featured": false,
     "shortDescription": "Таунхаусы с приватными дворами в составе курортного комплекса VR Krtsanisi: больше площади и уединения при полной клубной инфраструктуре — бассейны, спорт, охрана 24/7.",
@@ -311,11 +311,11 @@
     "bedrooms": null,
     "handover": "Сдан в 2020",
     "images": [
-      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r1.jpg",
-      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r2.jpg",
-      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r3.jpg",
-      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r4.jpg",
-      "/naviora-website/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r5.jpg"
+      "/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r1.jpg",
+      "/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r2.jpg",
+      "/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r3.jpg",
+      "/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r4.jpg",
+      "/assets/projects/vr-apartments-tbilisi/vr-apartments-tbilisi-r5.jpg"
     ],
     "featured": false,
     "shortDescription": "Завершённый жилой проект VR Holding — готовые квартиры в обжитой части комплекса. Подходит тем, кто хочет въехать сразу и без строительного риска.",
@@ -352,14 +352,14 @@
     "bedrooms": null,
     "handover": "Сдан в 2018",
     "images": [
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r1.jpg",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r2.png",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r3.png",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r4.png",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r5.png",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r6.png",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r7.jpg",
-      "/naviora-website/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r8.jpg"
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r1.jpg",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r2.png",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r3.png",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r4.png",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r5.png",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r6.png",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r7.jpg",
+      "/assets/projects/vr-resort-tbilisi/vr-resort-tbilisi-r8.jpg"
     ],
     "featured": false,
     "shortDescription": "Первая очередь курортной концепции VR — 27 квартир в готовом комплексе с полной инфраструктурой отдыха. Заявленная доходность застройщика ~14% годовых.",
@@ -373,7 +373,7 @@
     "lng": 44.819,
     "address": "Крцаниси, Тбилиси",
     "videoId": "LSZ5PfXRdTs",
-    "brochure": "/naviora-website/assets/brochures/vr-resort-tbilisi.pdf",
+    "brochure": "/assets/brochures/vr-resort-tbilisi.pdf",
     "videos": [
       {
         "id": "LSZ5PfXRdTs",
@@ -397,14 +397,14 @@
     "bedrooms": null,
     "handover": "Сдан",
     "images": [
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r1.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r2.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r3.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r4.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r5.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r6.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r7.jpg",
-      "/naviora-website/assets/projects/sairme-villa-residence/sairme-villa-residence-r8.jpg"
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r1.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r2.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r3.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r4.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r5.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r6.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r7.jpg",
+      "/assets/projects/sairme-villa-residence/sairme-villa-residence-r8.jpg"
     ],
     "featured": false,
     "shortDescription": "Завершённая вилла-резиденция VR Holding: 1 000 м² рекреационной территории, спокойное окружение и приватность в черте Тбилиси.",
@@ -418,7 +418,7 @@
     "lng": 44.8201,
     "address": "Крцаниси, Тбилиси",
     "videoId": "zMlOu1tD1AY",
-    "brochure": "/naviora-website/assets/brochures/sairme-villa-residence.pdf",
+    "brochure": "/assets/brochures/sairme-villa-residence.pdf",
     "videos": [
       {
         "id": "zMlOu1tD1AY",
@@ -442,8 +442,8 @@
     "bedrooms": null,
     "handover": "Сдан",
     "images": [
-      "/naviora-website/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r1.png",
-      "/naviora-website/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r2.jpg"
+      "/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r1.png",
+      "/assets/projects/vr-office-center-apartments/vr-office-center-apartments-r2.jpg"
     ],
     "featured": false,
     "shortDescription": "Готовый офисный центр с жилой составляющей от VR Holding — рабочие площади в сданном здании с действующей инфраструктурой комплекса.",
@@ -470,10 +470,10 @@
     "bedrooms": 0,
     "handover": "Q2 2028",
     "images": [
-      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-3.webp",
-      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-1.webp",
-      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-2.webp",
-      "/naviora-website/assets/projects/samana-barari-avenue/samana-barari-avenue-4.webp"
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-3.webp",
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-1.webp",
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-2.webp",
+      "/assets/projects/samana-barari-avenue/samana-barari-avenue-4.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный бизнес-парк в Majan на Sheikh Mohammed bin Zayed Road: офисы и стрит-ретейл, панорамное остекление, гибкие условия аренды и покупки.",
@@ -490,7 +490,7 @@
     "lat": 25.09181441350646,
     "lng": 55.3107392006333,
     "address": "Majan, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/samana-barari-avenue.pdf",
+    "pdfUrl": "/assets/brochures/samana-barari-avenue.pdf",
     "priceToUsd": 1665989,
     "sizeSqmTo": 218
   },
@@ -510,10 +510,10 @@
     "bedrooms": 0,
     "handover": "Q1 2029",
     "images": [
-      "/naviora-website/assets/projects/hq-by-rove/hq-by-rove-1.webp",
-      "/naviora-website/assets/projects/hq-by-rove/hq-by-rove-2.webp",
-      "/naviora-website/assets/projects/hq-by-rove/hq-by-rove-3.webp",
-      "/naviora-website/assets/projects/hq-by-rove/hq-by-rove-4.webp"
+      "/assets/projects/hq-by-rove/hq-by-rove-1.webp",
+      "/assets/projects/hq-by-rove/hq-by-rove-2.webp",
+      "/assets/projects/hq-by-rove/hq-by-rove-3.webp",
+      "/assets/projects/hq-by-rove/hq-by-rove-4.webp"
     ],
     "featured": false,
     "shortDescription": "Первое офисное здание Дубая под гостиничным брендом Rove. 23 офисных этажа в Marasi Bay, прямой выход к Dubai Canal, полностью готовые и меблированные офисы.",
@@ -530,7 +530,7 @@
     "lat": 25.19159298076273,
     "lng": 55.29165254504418,
     "address": "Business Bay, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/hq-by-rove.pdf",
+    "pdfUrl": "/assets/brochures/hq-by-rove.pdf",
     "priceToUsd": 8695749,
     "sizeSqmTo": 588
   },
@@ -550,9 +550,9 @@
     "bedrooms": 0,
     "handover": "Q1 2028",
     "images": [
-      "/naviora-website/assets/projects/azizi-emerald/azizi-emerald-1.webp",
-      "/naviora-website/assets/projects/azizi-emerald/azizi-emerald-2.webp",
-      "/naviora-website/assets/projects/azizi-emerald/azizi-emerald-3.webp"
+      "/assets/projects/azizi-emerald/azizi-emerald-1.webp",
+      "/assets/projects/azizi-emerald/azizi-emerald-2.webp",
+      "/assets/projects/azizi-emerald/azizi-emerald-3.webp"
     ],
     "featured": false,
     "shortDescription": "Офисное здание 68,5 м в Dubai Healthcare City: 11 офисных этажей, прямой доступ к метро, 8 уровней парковки, ретейл на первом этаже.",
@@ -569,7 +569,7 @@
     "lat": 25.23319098101312,
     "lng": 55.32181080283802,
     "address": "Dubai Healthcare City, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/azizi-emerald.pdf",
+    "pdfUrl": "/assets/brochures/azizi-emerald.pdf",
     "priceToUsd": 5904152,
     "sizeSqmTo": 333
   },
@@ -589,10 +589,10 @@
     "bedrooms": 4,
     "handover": "Q3 2029",
     "images": [
-      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-2.webp",
-      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
-      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-3.webp",
-      "/naviora-website/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-4.webp"
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-2.webp",
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-1.webp",
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-3.webp",
+      "/assets/projects/the-brooks-sobha-sanctuary/the-brooks-sobha-sanctuary-4.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы в Sobha Sanctuary: зелёные коридоры, водные пространства и wellness-инфраструктура. Садовые и патио-виллы с террасами и smart-home.",
@@ -609,7 +609,7 @@
     "lat": 24.995137042300144,
     "lng": 55.426109874413136,
     "address": "Sobha Sanctuary, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/the-brooks-sobha-sanctuary.pdf",
+    "pdfUrl": "/assets/brochures/the-brooks-sobha-sanctuary.pdf",
     "priceToUsd": 2001480,
     "sizeSqmTo": 385,
     "bedroomsTo": 5
@@ -630,11 +630,11 @@
     "bedrooms": 5,
     "handover": "Q1 2029",
     "images": [
-      "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-1.webp",
-      "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-2.webp",
-      "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-3.webp",
-      "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-4.webp",
-      "/naviora-website/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-5.webp"
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-1.webp",
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-2.webp",
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-3.webp",
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-4.webp",
+      "/assets/projects/hayat-6-dubai-south/hayat-6-dubai-south-5.webp"
     ],
     "featured": false,
     "shortDescription": "Закрытое комьюнити в Dubai South: таунхаусы и виллы 4–5 спален с частными садами, крышными террасами и центральным озером.",
@@ -651,7 +651,7 @@
     "lat": 24.85513286368743,
     "lng": 55.1109576901097,
     "address": "Dubai South, Madinat Al Mataar, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/hayat-6-dubai-south.pdf",
+    "pdfUrl": "/assets/brochures/hayat-6-dubai-south.pdf",
     "priceToUsd": 1701838
   },
   {
@@ -670,11 +670,11 @@
     "bedrooms": 5,
     "handover": "Q4 2028",
     "images": [
-      "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-1.webp",
-      "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-2.webp",
-      "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-3.webp",
-      "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-4.webp",
-      "/naviora-website/assets/projects/athlon-by-aldar/athlon-by-aldar-5.webp"
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-1.webp",
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-2.webp",
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-3.webp",
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-4.webp",
+      "/assets/projects/athlon-by-aldar/athlon-by-aldar-5.webp"
     ],
     "featured": false,
     "shortDescription": "Первое в ОАЭ комьюнити с сертификатом LEED Platinum. Более 10 км дорожек для бега, велоспорта и роликов, центральный парк, клубные дома.",
@@ -691,7 +691,7 @@
     "lat": 25.059635802221432,
     "lng": 55.31126319470692,
     "address": "Arabian Ranches 3, Wadi Al Safa 5, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/athlon-by-aldar.pdf",
+    "pdfUrl": "/assets/brochures/athlon-by-aldar.pdf",
     "priceToUsd": 5239784,
     "sizeSqmTo": 855,
     "bedroomsTo": 6
@@ -712,12 +712,12 @@
     "bedrooms": 3,
     "handover": "Q2 2030",
     "images": [
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-1.webp",
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-2.webp",
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-3.webp",
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-4.webp",
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-5.webp",
-      "/naviora-website/assets/projects/serro-2-the-heights/serro-2-the-heights-6.webp"
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-1.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-2.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-3.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-4.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-5.webp",
+      "/assets/projects/serro-2-the-heights/serro-2-the-heights-6.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы 3–5 спален в The Heights: средиземноморские мотивы, белые фасады с терракотовыми акцентами, wellness-центр и клубный дом в центре комьюнити.",
@@ -734,7 +734,7 @@
     "lat": 24.959075925346017,
     "lng": 55.24372557291918,
     "address": "The Heights, Al Yalayis 5, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/serro-2-the-heights.pdf",
+    "pdfUrl": "/assets/brochures/serro-2-the-heights.pdf",
     "priceToUsd": 2272536,
     "sizeSqmTo": 400,
     "bedroomsTo": 4
@@ -755,15 +755,15 @@
     "bedrooms": 1,
     "handover": "Q4 2029",
     "images": [
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-1.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-2.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-3.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-4.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-5.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-8.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-9.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-6.webp",
-      "/naviora-website/assets/projects/residences-difc-zabeel/residences-difc-zabeel-7.webp"
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-1.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-2.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-3.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-4.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-5.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-8.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-9.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-6.webp",
+      "/assets/projects/residences-difc-zabeel/residences-difc-zabeel-7.webp"
     ],
     "featured": false,
     "shortDescription": "Первый жилой проект в новом районе DIFC Zabeel District: две башни, квартиры и дуплекс-пентхаусы, прямая связь с Gate District и Museum of the Future.",
@@ -781,7 +781,7 @@
     "lat": 25.219758,
     "lng": 55.289299,
     "address": "DIFC Zabeel District, Za'abeel 2, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/residences-difc-zabeel.pdf",
+    "pdfUrl": "/assets/brochures/residences-difc-zabeel.pdf",
     "priceToUsd": 1987747,
     "bedroomsTo": 3,
     "sizeSqmTo": 176,
@@ -804,12 +804,12 @@
     "bedrooms": 2,
     "handover": "Q1 2027",
     "images": [
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-4.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-1.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-2.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-3.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-5.webp",
-      "/naviora-website/assets/projects/eywa-business-bay/eywa-business-bay-6.webp"
+      "/assets/projects/eywa-business-bay/eywa-business-bay-4.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-1.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-2.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-3.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-5.webp",
+      "/assets/projects/eywa-business-bay/eywa-business-bay-6.webp"
     ],
     "featured": false,
     "shortDescription": "Архитектурный проект на Dubai Water Canal, вдохновлённый баньяном: висячие сады, водопады, камни и кристаллы. Планировки по принципам васту, террасы с бассейнами.",
@@ -826,7 +826,7 @@
     "lat": 25.182989,
     "lng": 55.273394,
     "address": "Business Bay, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/eywa-business-bay.pdf",
+    "pdfUrl": "/assets/brochures/eywa-business-bay.pdf",
     "priceToUsd": 15688802,
     "sizeSqmTo": 1471,
     "bedroomsTo": 5
@@ -847,10 +847,10 @@
     "bedrooms": 2,
     "handover": "Q3 2027",
     "images": [
-      "/naviora-website/assets/projects/aeon-creek-harbour/aeon-creek-harbour-1.webp",
-      "/naviora-website/assets/projects/aeon-creek-harbour/aeon-creek-harbour-2.webp",
-      "/naviora-website/assets/projects/aeon-creek-harbour/aeon-creek-harbour-3.webp",
-      "/naviora-website/assets/projects/aeon-creek-harbour/aeon-creek-harbour-4.webp"
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-1.webp",
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-2.webp",
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-3.webp",
+      "/assets/projects/aeon-creek-harbour/aeon-creek-harbour-4.webp"
     ],
     "featured": false,
     "shortDescription": "Башни на набережной Dubai Creek Harbour рядом с центральной площадью: виды на канал, парки и скайлайн, выход к Creek Beach.",
@@ -867,7 +867,7 @@
     "lat": 25.20578320965728,
     "lng": 55.352320556841555,
     "address": "Dubai Creek Harbour, Al Kheeran 1, Дубай",
-    "pdfUrl": "/naviora-website/assets/brochures/aeon-creek-harbour.pdf"
+    "pdfUrl": "/assets/brochures/aeon-creek-harbour.pdf"
   },
   {
     "id": "abudhabi-manchester-city-yas-residences",
@@ -885,13 +885,13 @@
     "bedrooms": 2,
     "handover": "Q4 2029",
     "images": [
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-1.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-2.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-3.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-4.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-5.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-6.webp",
-      "/naviora-website/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-7.webp"
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-1.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-2.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-3.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-4.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-5.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-6.webp",
+      "/assets/projects/manchester-city-yas-residences/manchester-city-yas-residences-7.webp"
     ],
     "featured": false,
     "shortDescription": "Первое в мире жильё под брендом Manchester City на Yas Island. Набережная Yas Canal, футбольная академия клуба на территории, более половины площади — зелёные зоны и wellness.",
@@ -908,7 +908,7 @@
     "lat": 24.474158799654298,
     "lng": 54.61283819739584,
     "address": "Yas Island, Yas Canal, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/manchester-city-yas-residences.pdf",
+    "pdfUrl": "/assets/brochures/manchester-city-yas-residences.pdf",
     "priceToUsd": 8441116,
     "sizeSqmTo": 1370
   },
@@ -928,11 +928,11 @@
     "bedrooms": 1,
     "handover": "Сдан · Q2 2021",
     "images": [
-      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-1.webp",
-      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-2.webp",
-      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-3.webp",
-      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-4.webp",
-      "/naviora-website/assets/projects/fairmont-marina-residences/fairmont-marina-residences-5.webp"
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-1.webp",
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-2.webp",
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-3.webp",
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-4.webp",
+      "/assets/projects/fairmont-marina-residences/fairmont-marina-residences-5.webp"
     ],
     "featured": false,
     "shortDescription": "Брендированные резиденции Fairmont на набережной Персидского залива: башни-близнецы с аркой, доступ к инфраструктуре курорта Fairmont Marina и привилегии в 110+ отелях Fairmont, Raffles и Swissôtel.",
@@ -949,7 +949,7 @@
     "lat": 24.481167437110006,
     "lng": 54.32210975242601,
     "address": "Al Kasir, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/fairmont-marina-residences.pdf"
+    "pdfUrl": "/assets/brochures/fairmont-marina-residences.pdf"
   },
   {
     "id": "abudhabi-beach-house-fahid",
@@ -967,11 +967,11 @@
     "bedrooms": 2,
     "handover": "Q3 2029",
     "images": [
-      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-1.webp",
-      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-2.webp",
-      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-3.webp",
-      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-4.webp",
-      "/naviora-website/assets/projects/beach-house-fahid/beach-house-fahid-5.webp"
+      "/assets/projects/beach-house-fahid/beach-house-fahid-1.webp",
+      "/assets/projects/beach-house-fahid/beach-house-fahid-2.webp",
+      "/assets/projects/beach-house-fahid/beach-house-fahid-3.webp",
+      "/assets/projects/beach-house-fahid/beach-house-fahid-4.webp",
+      "/assets/projects/beach-house-fahid/beach-house-fahid-5.webp"
     ],
     "featured": false,
     "shortDescription": "Прибрежный комплекс на Fahid Island в нескольких шагах от берега: два резорт-бассейна, коворкинг-лаунжи, променад Coral Drive с ретейлом и ресторанами.",
@@ -988,7 +988,7 @@
     "lat": 24.509917285621608,
     "lng": 54.55663954374365,
     "address": "Fahid Island, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/beach-house-fahid.pdf",
+    "pdfUrl": "/assets/brochures/beach-house-fahid.pdf",
     "priceToUsd": 1824874,
     "sizeSqmTo": 234,
     "bedroomsTo": 3
@@ -1009,11 +1009,11 @@
     "bedrooms": 3,
     "handover": "Q4 2029",
     "images": [
-      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-1.webp",
-      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-2.webp",
-      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-3.webp",
-      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-4.webp",
-      "/naviora-website/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-5.webp"
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-1.webp",
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-2.webp",
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-3.webp",
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-4.webp",
+      "/assets/projects/river-cove-sobha-city-ad/river-cove-sobha-city-ad-5.webp"
     ],
     "featured": false,
     "shortDescription": "Две башни вдоль променада в Sobha City: виды на каналы и озеленение, панорамное остекление, балконы. Квартиры и дуплексы 1–4 спальни.",
@@ -1030,7 +1030,7 @@
     "lat": 24.495337139018776,
     "lng": 54.635815005725185,
     "address": "Al Bahya, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/river-cove-sobha-city-ad.pdf",
+    "pdfUrl": "/assets/brochures/river-cove-sobha-city-ad.pdf",
     "priceToUsd": 2380742,
     "sizeSqmTo": 319,
     "bedroomsTo": 4
@@ -1051,10 +1051,10 @@
     "bedrooms": 3,
     "handover": "Q4 2029",
     "images": [
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp",
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp",
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp",
-      "/naviora-website/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp"
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-4.webp",
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-1.webp",
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-2.webp",
+      "/assets/projects/the-terraces-sobha-city-ad/the-terraces-sobha-city-ad-3.webp"
     ],
     "featured": false,
     "shortDescription": "Садовые виллы в Sobha City: приватные сады, приподнятые террасы, виды на озеленение и водные элементы. Отдельные виллы с лифтом и бассейном.",
@@ -1071,7 +1071,7 @@
     "lat": 24.49570813958348,
     "lng": 54.63922677558115,
     "address": "Al Bahya, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/the-terraces-sobha-city-ad.pdf"
+    "pdfUrl": "/assets/brochures/the-terraces-sobha-city-ad.pdf"
   },
   {
     "id": "abudhabi-al-ghadeer-gardens",
@@ -1089,11 +1089,11 @@
     "bedrooms": 4,
     "handover": "Q4 2030",
     "images": [
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-5.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-1.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-2.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-3.webp",
-      "/naviora-website/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp"
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-5.webp",
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-1.webp",
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-2.webp",
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-3.webp",
+      "/assets/projects/al-ghadeer-gardens/al-ghadeer-gardens-4.webp"
     ],
     "featured": false,
     "shortDescription": "Виллы и таунхаусы 2–4 спальни на границе Абу-Даби и Дубая: резорт-бассейн, водная горка, падел-корт, школа на территории комьюнити.",
@@ -1110,7 +1110,7 @@
     "lat": 24.837762338425,
     "lng": 55.020485753530124,
     "address": "Al Ghadeer, Абу-Даби",
-    "pdfUrl": "/naviora-website/assets/brochures/al-ghadeer-gardens.pdf",
+    "pdfUrl": "/assets/brochures/al-ghadeer-gardens.pdf",
     "priceToUsd": 950210
   },
   {
@@ -1129,16 +1129,16 @@
     "bedrooms": null,
     "handover": "Q1 2029",
     "images": [
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-2.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-3.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-4.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-5.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-6.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-7.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-8.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg",
-      "/naviora-website/assets/projects/radiant-atrium-towers/radiant-atrium-towers-10.webp"
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-1.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-2.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-3.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-4.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-5.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-6.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-7.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-8.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-9.jpg",
+      "/assets/projects/radiant-atrium-towers/radiant-atrium-towers-10.webp"
     ],
     "featured": false,
     "shortDescription": "Офисная башня на Al Reem Island в периметре ADGM: 133 офиса на 24 этажах, площади от 532 до 2 520 кв. футов. Свободная планировка, фрихолд для иностранных покупателей.",
@@ -1175,8 +1175,8 @@
     "bedrooms": 0,
     "handover": "Сдан",
     "images": [
-      "/naviora-website/assets/projects/addax-port-office-tower/addax-port-office-tower-1.jpg",
-      "/naviora-website/assets/projects/addax-port-office-tower/addax-port-office-tower-2.jpg"
+      "/assets/projects/addax-port-office-tower/addax-port-office-tower-1.jpg",
+      "/assets/projects/addax-port-office-tower/addax-port-office-tower-2.jpg"
     ],
     "featured": false,
     "shortDescription": "Готовая офисная башня на Al Reem Island — самое глубокое предложение офисов в Абу-Даби. Площади от 1 625 до 17 894 кв. футов, около 16 лотов в продаже.",
@@ -1212,9 +1212,9 @@
     "bedrooms": 0,
     "handover": "Сдан · Q4 2024",
     "images": [
-      "/naviora-website/assets/projects/radiant-height/radiant-height-ext-1.webp",
-      "/naviora-website/assets/projects/radiant-height/radiant-height-ext-2.webp",
-      "/naviora-website/assets/projects/radiant-height/radiant-height-3.webp"
+      "/assets/projects/radiant-height/radiant-height-ext-1.webp",
+      "/assets/projects/radiant-height/radiant-height-ext-2.webp",
+      "/assets/projects/radiant-height/radiant-height-3.webp"
     ],
     "featured": false,
     "shortDescription": "Готовое офисное здание на Al Reem Island. Площади от 1 894 до 2 758 кв. футов, диапазон цен 2,9–5,0 млн AED.",
@@ -1251,16 +1251,16 @@
     "bedrooms": 1,
     "handover": "Август 2031",
     "images": [
-      "/naviora-website/assets/projects/five-towers/five-towers-7.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-8.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-9.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-10.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-1.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-2.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-3.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-4.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-5.webp",
-      "/naviora-website/assets/projects/five-towers/five-towers-6.webp"
+      "/assets/projects/five-towers/five-towers-7.webp",
+      "/assets/projects/five-towers/five-towers-8.webp",
+      "/assets/projects/five-towers/five-towers-9.webp",
+      "/assets/projects/five-towers/five-towers-10.webp",
+      "/assets/projects/five-towers/five-towers-1.webp",
+      "/assets/projects/five-towers/five-towers-2.webp",
+      "/assets/projects/five-towers/five-towers-3.webp",
+      "/assets/projects/five-towers/five-towers-4.webp",
+      "/assets/projects/five-towers/five-towers-5.webp",
+      "/assets/projects/five-towers/five-towers-6.webp"
     ],
     "featured": false,
     "shortDescription": "Комплекс из пяти корпусов по 23 этажа. В четырёх из пяти зданий предусмотрено по три коммерческих этажа — магазины, супермаркеты и сервисы прямо в комплексе.",
@@ -1297,14 +1297,14 @@
     "bedrooms": 1,
     "handover": "",
     "images": [
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-7.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-8.jpeg",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-1.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-2.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-3.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-4.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-5.webp",
-      "/naviora-website/assets/projects/atlantis-prime/atlantis-prime-6.webp"
+      "/assets/projects/atlantis-prime/atlantis-prime-7.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-8.jpeg",
+      "/assets/projects/atlantis-prime/atlantis-prime-1.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-2.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-3.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-4.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-5.webp",
+      "/assets/projects/atlantis-prime/atlantis-prime-6.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный комплекс в Арабкире рядом с Atlantis Yerevan: 17 надземных этажей, панорамное остекление в пол, виды на Арарат, проспект Комитаса и Разданское ущелье.",
@@ -1339,9 +1339,9 @@
     "bedrooms": 2,
     "handover": "Август 2028",
     "images": [
-      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-1.webp",
-      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-2.webp",
-      "/naviora-website/assets/projects/atlantis-yerevan/atlantis-yerevan-3.webp"
+      "/assets/projects/atlantis-yerevan/atlantis-yerevan-1.webp",
+      "/assets/projects/atlantis-yerevan/atlantis-yerevan-2.webp",
+      "/assets/projects/atlantis-yerevan/atlantis-yerevan-3.webp"
     ],
     "featured": false,
     "shortDescription": "Три корпуса премиум-класса в Арабкире с крупными витражными окнами. Проект позиционируется и как жильё, и как инвестиционный объект.",
@@ -1378,7 +1378,7 @@
     "bedrooms": 3,
     "handover": "Сдан (сентябрь 2025)",
     "images": [
-      "/naviora-website/assets/projects/komitas-60/komitas-60-1.webp"
+      "/assets/projects/komitas-60/komitas-60-1.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный жилой комплекс на проспекте Комитаса — одной из главных магистралей Еревана, в сложившемся районе Арабкир.",
@@ -1414,10 +1414,10 @@
     "bedrooms": 2,
     "handover": "Сдан (декабрь 2025)",
     "images": [
-      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-1.webp",
-      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-2.webp",
-      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-3.webp",
-      "/naviora-website/assets/projects/davit-bek-290/davit-bek-290-4.webp"
+      "/assets/projects/davit-bek-290/davit-bek-290-1.webp",
+      "/assets/projects/davit-bek-290/davit-bek-290-2.webp",
+      "/assets/projects/davit-bek-290/davit-bek-290-3.webp",
+      "/assets/projects/davit-bek-290/davit-bek-290-4.webp"
     ],
     "featured": false,
     "shortDescription": "Комплекс в самом высоком жилом районе Еревана — 5-й массив Нор Норка. Высокая сейсмоустойчивость, чистый воздух, виды на Арарат и церковь Сурб Саркис.",
@@ -1454,12 +1454,12 @@
     "bedrooms": 2,
     "handover": "",
     "images": [
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-1.webp",
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-2.webp",
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-3.webp",
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-4.webp",
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-5.webp",
-      "/naviora-website/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-6.webp"
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-1.webp",
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-2.webp",
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-3.webp",
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-4.webp",
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-5.webp",
+      "/assets/projects/slavik-chiloyan-17/slavik-chiloyan-17-6.webp"
     ],
     "featured": false,
     "shortDescription": "Жилой комплекс в Арабкире на улице Славика Чилояна.",
@@ -1492,8 +1492,8 @@
     "bedrooms": 2,
     "handover": "Декабрь 2026",
     "images": [
-      "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-1.webp",
-      "/naviora-website/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-2.webp"
+      "/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-1.webp",
+      "/assets/projects/zoravar-andranik-121-6/zoravar-andranik-121-6-2.webp"
     ],
     "featured": false,
     "shortDescription": "Премиальный жилой комплекс в районе Малатия-Себастия на улице Зоравара Андраника.",
@@ -1528,18 +1528,18 @@
     "bedrooms": 0,
     "handover": "Q4 2028",
     "images": [
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-1.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-2.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-3.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-ext-4.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-1.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-2.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-3.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-4.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-5.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-6.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-7.webp",
-      "/naviora-website/assets/projects/skyline-yerevan/skyline-yerevan-8.webp"
+      "/assets/projects/skyline-yerevan/skyline-yerevan-ext-1.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-ext-2.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-ext-3.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-ext-4.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-1.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-2.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-3.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-4.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-5.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-6.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-7.webp",
+      "/assets/projects/skyline-yerevan/skyline-yerevan-8.webp"
     ],
     "featured": true,
     "shortDescription": "Крупнейший проект «город в городе» в Ереване: 35 000 м² участка, более 250 000 м² застройки, пять корпусов, 20 000 м² озеленения. Архитектура Laguarda.Low (Нью-Йорк), конструктив Arup, интерьеры 1508 London.",
@@ -1559,7 +1559,7 @@
     "lng": 44.4943577,
     "address": "Arabkir, Orbeli Brothers 23/27/29, Ереван",
     "videoId": "I9kxiFpYyxk",
-    "brochure": "/naviora-website/assets/brochures/skyline-yerevan-permit.pdf",
+    "brochure": "/assets/brochures/skyline-yerevan-permit.pdf",
     "brochureLabel": "Разрешение на строительство (N ՇԹ/3/7681-25) — PDF"
   },
   {
@@ -1579,12 +1579,12 @@
     "handover": "Q1 2029",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-1.webp",
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-2.webp",
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-3.webp",
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-4.webp",
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-5.webp",
-      "/naviora-website/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-6.webp"
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-1.webp",
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-2.webp",
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-3.webp",
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-4.webp",
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-5.webp",
+      "/assets/projects/hillsedge-dubai-hills/hillsedge-dubai-hills-6.webp"
     ],
     "featured": false,
     "shortDescription": "Hillsedge это премиальный жилой комплекс, расположенный в оживленном Dubai Hills Estate, уникальном районе в сердце Дубая.",
@@ -1621,7 +1621,7 @@
     "handover": "Q3 2030",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/valia-creek-harbour/valia-creek-harbour-1.webp"
+      "/assets/projects/valia-creek-harbour/valia-creek-harbour-1.webp"
     ],
     "featured": false,
     "shortDescription": "Valia от Emaar Properties представляет собой жилой шедевр, который возвышается как изящный скульптурный силуэт, легко очерчивая современный ландшафт высотных зданий своей утонченной вертикальностью, ритмичными вертикальн",
@@ -1658,23 +1658,23 @@
     "handover": "Q4 2028",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-1.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-2.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-3.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-4.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-5.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-6.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-7.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-8.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-9.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-10.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-11.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-12.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-13.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-14.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-15.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-16.webp",
-      "/naviora-website/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-17.webp"
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-1.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-2.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-3.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-4.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-5.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-6.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-7.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-8.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-9.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-10.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-11.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-12.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-13.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-14.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-15.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-16.webp",
+      "/assets/projects/damac-bay-2-dubai-harbour/damac-bay-2-dubai-harbour-17.webp"
     ],
     "featured": false,
     "shortDescription": "Проектные данные и общее описание: Damac Bay 2 это вторая очередь набережного комплекса DAMAC Bay.",
@@ -1711,7 +1711,7 @@
     "handover": "Q3 2030",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/palm-central-palm-jebel-ali/palm-central-palm-jebel-ali-1.webp"
+      "/assets/projects/palm-central-palm-jebel-ali/palm-central-palm-jebel-ali-1.webp"
     ],
     "featured": false,
     "shortDescription": "Palm Central Private Residences Phase 2 от известного застройщика Nakheel представляет собой шедевр прибрежного дизайна, предлагая курортный образ жизни, воплощающий утонченность и изысканность.",
@@ -1746,7 +1746,7 @@
     "handover": "Q4 2030",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/sei-saadiyat/sei-saadiyat-1.webp"
+      "/assets/projects/sei-saadiyat/sei-saadiyat-1.webp"
     ],
     "featured": false,
     "shortDescription": "Sei Saadiyat, реализованный застройщиком Aldar и спроектированный Jacobs, представляет собой уникальный портфель одно- и двухкомнатных апартаментов, фирменных трехкомнатных резиденций Kanso и двухкомнатных лофтов Kanso.",
@@ -1783,18 +1783,18 @@
     "handover": "Q2 2028",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-1.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-2.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-3.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-4.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-5.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-6.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-7.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-8.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-9.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-10.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-11.webp",
-      "/naviora-website/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-12.webp"
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-1.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-2.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-3.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-4.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-5.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-6.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-7.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-8.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-9.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-10.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-11.webp",
+      "/assets/projects/vida-residences-saadiyat/vida-residences-saadiyat-12.webp"
     ],
     "featured": false,
     "shortDescription": "Vida Residences Saadiyat Island — это не просто жилой проект, а тщательно продуманное пространство для тех, кто ценит стиль, вдохновение и гармонию в повседневной жизни.",
@@ -1831,7 +1831,7 @@
     "handover": "Q3 2030",
     "paymentPlan": "",
     "images": [
-      "/naviora-website/assets/projects/canopies-yas-point/canopies-yas-point-1.webp"
+      "/assets/projects/canopies-yas-point/canopies-yas-point-1.webp"
     ],
     "featured": false,
     "shortDescription": "Проект The Canopies at Yas Point имеет генеральный план, ориентированный на парк, и включает шесть зданий, расположенных вокруг большой центральной зеленой зоны, что способствует прогулочному образу жизни и сочетанию вну",

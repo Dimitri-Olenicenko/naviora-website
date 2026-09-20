@@ -164,4 +164,4 @@ aside div.bg-deep:has(> h2.t-h3),
   box-shadow: 0 0 0 4px rgba(0, 55, 255, .55) !important;
 }
 
-a[href*="/naviora-website/armenia/"],a[href*="/naviora-website/georgia/"],span:has(+a[href*="/naviora-website/armenia/"]),span:has(+a[href*="/naviora-website/georgia/"]){display:none!important}
+a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}

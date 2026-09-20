@@ -15,7 +15,7 @@
 (function () {
   "use strict";
 
-  var BASE = "/naviora-website";
+  var BASE = "";
   var COUNTRY = { dubai: "Дубай", abudhabi: "Абу-Даби", armenia: "Ереван", georgia: "Тбилиси" };
   var PURPOSE = { residential: "Жилая", commercial: "Коммерческая" };
   var TYPE_RU = { apartment: "Апартаменты", serviced: "Сервисные апартаменты", villa: "Вилла", office: "Офис", retail: "Ритейл", townhouse: "Таунхаус" };

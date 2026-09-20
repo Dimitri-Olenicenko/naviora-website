@@ -178,7 +178,7 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 </head>
 <body data-nv-slug="" data-nv-fp="">
 <div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb">
-<a href="/naviora-website/">Главная</a> <span id="nv-crumb-tail"></span>
+<a href="/">Главная</a> <span id="nv-crumb-tail"></span>
 </nav></div></div>
 
 <div id="nv-hero-zone"></div>
@@ -196,7 +196,7 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
   <div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem"></div>
   <p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">
     Пришлём полные материалы, актуальные планировки и условия оплаты.</p>
-  <a class="nv-btn" href="/naviora-website/contacts/">Запросить подборку</a>
+  <a class="nv-btn" href="/contacts/">Запросить подборку</a>
   <div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76">
     <div>Телефон</div>
     <a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a>
@@ -211,10 +211,10 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
 
 <footer class="nv-foot"><div class="nv-wrap">
   <strong>MARK FINGERMAN</strong> · Real Estate Through Numbers ·
-  <a href="/naviora-website/">на главную</a>
+  <a href="/">на главную</a>
 </div></footer>
 
-<script src="/naviora-website/assets/nv-detail.js" defer></script>
+<script src="/assets/nv-detail.js" defer></script>
 <script>
 (function () {
   var m = location.pathname.match(
@@ -223,10 +223,10 @@ h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
     document.getElementById('nv-404-msg').textContent = 'Страница не найдена';
     var b = document.getElementById('nv-body');
     b.innerHTML = '<p class="nv-desc">Такого объекта нет или адрес изменился. ' +
-      '<a href="/naviora-website/" style="color:#0037FF">Вернуться на главную →</a></p>';
+      '<a href="/" style="color:#0037FF">Вернуться на главную →</a></p>';
   }
   if (!m) { notFound(); return; }
-  fetch('/naviora-website/listings.json?ts=' + Date.now(), { cache: 'no-store' })
+  fetch('/listings.json?ts=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (all) {
       var x = null;

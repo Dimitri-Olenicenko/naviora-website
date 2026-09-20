@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /naviora-website/backoffice/
+Disallow: /backoffice/
 
-Sitemap: https://olenicenko.com/naviora-website/sitemap.xml
+Sitemap: https://fingermancapital.com/sitemap.xml

@@ -36,7 +36,7 @@ var CSS=".nv-cur-btn{display:inline-flex;align-items:stretch;border:1px solid rg
  ".nv-cur-btn.nv-cur-m{display:none;margin-left:auto}"+
  "@media(max-width:1023.98px){.nv-cur-btn.nv-cur-m{display:inline-flex}}"+
  /* phones: the header cannot hold wordmark + switch + CTA/menu (measured 428 px at 375) → icon-only logo */
- "@media(max-width:479.98px){header a[href$='/naviora-website/'] .t-h3,.nv-site-wrap .nv-logo span{display:none}}"+
+ "@media(max-width:479.98px){header a[href$='/'] .t-h3,.nv-site-wrap .nv-logo span{display:none}}"+
  "html[data-nv-cur=AED] .nv-eq{display:none}";
 function make(extra){var b=document.createElement("div");b.className="nv-cur-btn"+(extra?" "+extra:"");b.setAttribute("role","group");b.setAttribute("aria-label","Валюта");
  ["USD","AED"].forEach(function(c){var s=document.createElement("button");s.type="button";s.setAttribute("data-c",c);s.textContent=c;s.title=c==="USD"?"Цены в долларах США":"Цены в дирхамах ОАЭ";s.addEventListener("click",function(){setCur(c)});b.appendChild(s)});return b}
