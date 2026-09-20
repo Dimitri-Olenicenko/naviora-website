@@ -44,7 +44,7 @@ var CSS=".nv-cur-btn{display:inline-flex;align-items:stretch;border:1px solid rg
  "html[data-nv-cur=AED] .nv-eq{display:none}";
 function make(extra){var b=document.createElement("div");b.className="nv-cur-btn"+(extra?" "+extra:"");b.setAttribute("role","group");b.setAttribute("aria-label","Currency");
  ["USD","AED"].forEach(function(c){var s=document.createElement("button");s.type="button";s.setAttribute("data-c",c);s.textContent=c;s.title=c==="USD"?"Prices in US dollars":"Prices in UAE dirhams";s.addEventListener("click",function(){setCur(c)});b.appendChild(s)});return b}
-function wanted(){return !!document.querySelector(".nv-site-wrap")||/^(?:\/en)?\/(dubai|abudhabi|armenia|georgia)\/(residential|commercial)\/?$/.test(location.pathname)}  /* only where prices are listed */
+function wanted(){return !!document.querySelector(".nv-site-wrap")||/^(?:\/en)?\/(dubai|abudhabi|rak|armenia|georgia)\/(residential|commercial)\/?$/.test(location.pathname)}  /* only where prices are listed */
 function mount(){
  if(!document.getElementById("nv-cur-css")){var st=document.createElement("style");st.id="nv-cur-css";st.textContent=CSS;document.head.appendChild(st)}
  if(!wanted()){var old=document.querySelectorAll(".nv-cur-btn");for(var i=0;i<old.length;i++)old[i].parentNode.removeChild(old[i]);return}

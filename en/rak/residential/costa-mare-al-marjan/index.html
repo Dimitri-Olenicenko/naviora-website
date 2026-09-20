@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- nv-generated-detail-page --> <!-- nv-template-v2 --> <!-- nv-reelly-v1: listing + Reelly API summary, 19.09.2026 -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Costa Mare — Ras Al Khaimah | Mark Fingerman</title><meta name="description" content="Costa Mare is a striking waterfront development on Al Marjan Island, composed of four architecturally distinctive towers that harmonize with their natural…"><link rel="canonical" href="https://fingermancapital.com/en/rak/residential/costa-mare-al-marjan/"<meta property="og:type" content="website"><meta property="og:site_name" content="Mark Fingerman"><meta property="og:locale" content="en_US"><meta property="og:title" content="Costa Mare — Ras Al Khaimah"><meta property="og:description" content="Costa Mare is a striking waterfront development on Al Marjan Island, composed of four architecturally distinctive towers that harmonize with their natural…"><meta property="og:url" content="https://fingermancapital.com/en/rak/residential/costa-mare-al-marjan/"><meta property="og:image" content="https://fingermancapital.com/assets/projects/costa-mare-al-marjan/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Costa Mare — Ras Al Khaimah"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Costa Mare — Ras Al Khaimah"><meta name="twitter:description" content="Costa Mare is a striking waterfront development on Al Marjan Island, composed of four architecturally distinctive towers that harmonize with their natural…"><meta name="twitter:image" content="https://fingermancapital.com/assets/projects/costa-mare-al-marjan/og.jpg">><link rel="alternate" hreflang="ru" href="https://fingermancapital.com/rak/residential/costa-mare-al-marjan/"><link rel="alternate" hreflang="en" href="https://fingermancapital.com/en/rak/residential/costa-mare-al-marjan/"><link rel="alternate" hreflang="x-default" href="https://fingermancapital.com/rak/residential/costa-mare-al-marjan/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateListing", "name": "Costa Mare", "url": "https://fingermancapital.com/en/rak/residential/costa-mare-al-marjan/", "offers": {"@type": "Offer", "price": 698932, "priceCurrency": "USD"}}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous"><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" defer></script><style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#141414;
+ font-family:'Gerbera','Suisse Intl','Helvetica Neue','Segoe UI',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased}
+.nv-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.nv-top{border-bottom:1px solid rgba(20,20,20,.1);padding:.8rem 0;font-size:.8rem}
+.nv-crumb a{color:#6b6f76;text-decoration:none}
+.nv-crumb a:hover{color:#0037FF}
+
+/* full-bleed hero */
+.nv-hero{position:relative;width:100%;background:#f2f2f0}
+.nv-hero img{display:block;width:100%;height:clamp(340px,56vh,640px);object-fit:cover}
+.nv-film{display:flex;gap:.5rem;overflow-x:auto;padding:.6rem 1.5rem;
+ max-width:1200px;margin:0 auto;scrollbar-width:thin}
+.nv-film img{height:72px;width:104px;object-fit:cover;cursor:pointer;flex:none;
+ opacity:.75;transition:opacity .2s ease;border:2px solid transparent}
+.nv-film img:hover{opacity:1}
+.nv-film img.is-on{opacity:1;border-color:#0037FF}
+
+/* header block — location first, price quiet */
+.nv-head{padding:2.2rem 0 0}
+.nv-eyeloc{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;
+ color:#6b6f76;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}
+.nv-chip{background:rgba(0,55,255,.08);color:#0037FF;font-weight:700;
+ padding:.2rem .55rem;letter-spacing:.1em}
+h1{font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.12;margin:.55rem 0 .7rem;
+ letter-spacing:-.02em}
+.nv-price-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:1rem}
+.nv-price{font-size:2rem;font-weight:500;letter-spacing:-.015em}
+.nv-price small{font-size:1rem;color:#6b6f76;font-weight:400}
+.nv-psm{color:#6b6f76;font-size:1rem}
+
+/* key facts band */
+.nv-facts{display:flex;flex-wrap:wrap;background:#fff;
+ border:1px solid rgba(20,20,20,.12);margin:1.8rem 0 0}
+.nv-facts>div{flex:1 1 150px;min-width:150px;background:#fff;padding:1rem 1.1rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-facts span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.4rem}
+.nv-facts b{font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
+
+/* layout */
+.nv-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem;padding:2.5rem 0 0}
+@media(min-width:960px){.nv-grid{grid-template-columns:minmax(0,1fr) 340px;gap:3.5rem}}
+.nv-side{align-self:start}
+@media(min-width:960px){.nv-side{position:sticky;top:1.5rem}}
+.nv-card{border:1px solid rgba(20,20,20,.12);padding:1.5rem;background:#fff}
+.nv-btn{display:block;text-align:center;background:#0037FF;color:#fff;font-weight:700;
+ text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;padding:.95rem;
+ text-decoration:none;margin-top:1.1rem}
+.nv-btn:hover{background:#2a5bff}
+
+/* sections — the site's own heading grammar */
+.nv-sec{margin-top:3.5rem}
+.s-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
+.s-num{font-size:.72rem;letter-spacing:.16em;color:#0037FF;font-weight:700}
+.s-head h2{font-size:1.15rem;margin:0;font-weight:600;letter-spacing:.06em;
+ text-transform:uppercase}
+.nv-desc{color:rgba(20,20,20,.78);line-height:1.7;max-width:64ch}
+
+.nv-hl{list-style:none;padding:0;margin:0;display:grid;
+ grid-template-columns:1fr;gap:.1rem}
+@media(min-width:720px){.nv-hl{grid-template-columns:1fr 1fr;column-gap:2.5rem}}
+.nv-hl li{display:flex;gap:.75rem;padding:.55rem 0;color:rgba(20,20,20,.78)}
+.nv-hl li::before{content:"";margin-top:.5rem;flex:none;width:7px;height:7px;
+ background:#0037FF}
+
+/* finance */
+.nv-fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+ border:1px solid rgba(20,20,20,.12)}
+.nv-fin-cell{background:#fff;padding:1.1rem 1.2rem;
+ box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}
+.nv-fin-cell span{display:block;font-size:.68rem;letter-spacing:.13em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}
+.nv-fin-cell b{font-size:1.1rem;font-weight:600;letter-spacing:-.01em}
+.nv-fin-cell.is-accent b{color:#0037FF}
+.nv-fin-wide{grid-column:1/-1}
+.nv-fin-wide b{font-size:.98rem;font-weight:500;line-height:1.55}
+.nv-calc{margin-top:1.25rem;border:1px solid rgba(20,20,20,.12);padding:1.5rem;
+ background:#FAFAF9}
+.nv-calc-t{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+ color:#6b6f76;margin-bottom:1rem;font-weight:700}
+.nv-calc-in{display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.25rem}
+.nv-calc-in label{font-size:.8rem;color:#6b6f76;display:flex;flex-direction:column;gap:.4rem}
+.nv-calc-in input{width:120px;min-height:44px;padding:.6rem .7rem;
+ border:1px solid rgba(20,20,20,.2);
+ font-size:1rem;font-weight:600;color:#141414;background:#fff}
+.nv-calc-in input:focus{outline:2px solid #0037FF;outline-offset:1px}
+.nv-calc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+ gap:1rem;padding-top:1.25rem;border-top:1px solid rgba(20,20,20,.12)}
+.nv-calc-out span{display:block;font-size:.68rem;letter-spacing:.12em;
+ text-transform:uppercase;color:#6b6f76;margin-bottom:.35rem}
+.nv-calc-out b{font-size:1.3rem;font-weight:600;color:#0037FF;letter-spacing:-.01em}
+.nv-note{font-size:.78rem;line-height:1.5;color:#6b6f76;margin:1.1rem 0 0}
+
+/* video facade */
+.nv-yt{position:relative;width:100%;padding-top:56.25%;cursor:pointer;
+ background:#141414;overflow:hidden}
+.nv-yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.nv-yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ width:68px;height:48px;background:#0037FF;border-radius:10px;
+ display:flex;align-items:center;justify-content:center}
+.nv-yt .play span{border-left:18px solid #fff;border-top:11px solid transparent;
+ border-bottom:11px solid transparent;margin-left:4px}
+
+.nv-doc a{display:inline-flex;align-items:center;gap:.5rem;
+ border-bottom:1px solid #0037FF;padding-bottom:2px;font-weight:600;
+ text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#0037FF;
+ text-decoration:none}
+
+.nv-map{width:100%;height:360px;border:1px solid rgba(20,20,20,.12);display:block}
+.nv-loc-foot{font-size:.85rem;color:#6b6f76;margin:.8rem 0 0}
+.nv-loc-foot a{color:#0037FF;text-decoration:none;font-weight:600}
+
+/* similar */
+.nv-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
+.nv-rel{text-decoration:none;color:inherit;border:1px solid rgba(20,20,20,.12);
+ display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease}
+.nv-rel:hover{transform:translateY(-2px);border-color:rgba(20,20,20,.3)}
+.nv-rel-i{aspect-ratio:4/3;overflow:hidden;background:#f2f2f0}
+.nv-rel-i img{width:100%;height:100%;object-fit:cover;display:block;
+ transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.nv-rel:hover .nv-rel-i img{transform:scale(1.03)}
+.nv-rel-b{padding:1rem 1.1rem 1.2rem}
+.nv-rel-t{font-weight:600;font-size:.98rem;line-height:1.3;margin-bottom:.3rem}
+.nv-rel-d{font-size:.8rem;color:#6b6f76;margin-bottom:.6rem}
+.nv-rel-p{font-size:1.05rem;font-weight:600}
+
+
+/* Site chrome. Opening a listing used to drop the header and footer entirely
+   — no logo, no navigation, no way back. Rebuilt as static markup styled to
+   match the grid pages. The React header's country dropdown is a JS widget,
+   so it becomes plain links to the same destinations. */
+.nv-site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);
+ backdrop-filter:blur(8px);border-bottom:1px solid rgba(20,20,20,.1)}
+.nv-site-wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem;
+ display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.nv-logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#141414;
+ font-weight:700;letter-spacing:.06em;font-size:.95rem;white-space:nowrap}
+.nv-nav{display:none;gap:1.6rem}
+@media(min-width:860px){.nv-nav{display:flex}}
+.nv-nav a{color:#141414;text-decoration:none;font-size:.78rem;font-weight:600;
+ letter-spacing:.08em;text-transform:uppercase}
+.nv-nav a:hover{color:#0037FF}
+.nv-head-cta{background:#0037FF;color:#fff;text-decoration:none;font-weight:700;
+ font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;
+ padding:.75rem 1.1rem;white-space:nowrap;min-height:44px;
+ display:inline-flex;align-items:center}
+.nv-head-cta:hover{background:#2a5bff}
+.nv-site-foot{background:#000032;color:#fff;margin-top:4rem;padding:3rem 0 1.5rem}
+.nv-site-foot .nv-site-wrap{display:block}
+.nv-foot-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:720px){.nv-foot-grid{grid-template-columns:2fr 1fr 1fr}}
+.nv-foot-brand{font-weight:700;letter-spacing:.06em}
+.nv-foot-tag{color:rgba(255,255,255,.55);font-size:.85rem;margin:.4rem 0 0}
+.nv-foot-h{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+ color:rgba(255,255,255,.5);margin-bottom:.7rem}
+.nv-site-foot a{display:block;color:rgba(255,255,255,.85);text-decoration:none;
+ font-size:.88rem;padding:.22rem 0}
+.nv-site-foot a:hover{color:#8fa8ff}
+.nv-foot-btm{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;
+ padding-top:1.2rem;font-size:.8rem;color:rgba(255,255,255,.62)}
+
+.nv-foot{border-top:1px solid rgba(20,20,20,.1);background:#141414;color:#fff;
+ padding:2rem 0;margin-top:4rem;font-size:.85rem}
+.nv-foot a{color:#8fa8ff}
+@media (prefers-reduced-motion:reduce){
+ .nv-rel,.nv-rel-i img,.nv-film img{transition:none!important;transform:none!important}}
+.nv-film-btn{padding:0;border:2px solid transparent;background:none;cursor:pointer;flex:none;line-height:0;border-radius:4px}.nv-film-btn img{opacity:.55;cursor:pointer;height:72px;width:104px;object-fit:cover;display:block}.nv-film-btn:hover img,.nv-film-btn.is-on img{opacity:1}.nv-film-btn.is-on{border-color:#0037FF}.nv-film-btn:focus-visible{outline:2px solid #0037FF;outline-offset:2px}.nv-skip{position:absolute;left:-9999px;top:0;background:#0037FF;color:#fff;padding:.6rem 1rem;z-index:9999;text-decoration:none}.nv-skip:focus{left:0}
+.nv-range{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border:1px solid rgba(20,20,20,.12)}.nv-range>div{padding:1.1rem 1.2rem;box-shadow:-1px -1px 0 0 rgba(20,20,20,.12)}.nv-range span{display:block;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#6b6f76;margin-bottom:.42rem}.nv-range b{font-size:1.05rem;font-weight:600}
+.nv-pp{display:flex;gap:3px;margin:.2rem 0 1rem}.nv-pp-seg{background:rgba(0,55,255,.08);padding:.7rem .6rem;min-width:0;flex-basis:auto}.nv-pp-seg:first-child{min-width:150px}.nv-pp-seg:first-child{background:#0037FF;color:#fff}.nv-pp-seg b{display:block;font-size:1.05rem}.nv-pp-seg span{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.nv-units{width:100%;border-collapse:collapse;font-size:.95rem}.nv-units th{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#6b6f76;text-align:left;font-weight:600;padding:.6rem 0;border-bottom:1px solid rgba(20,20,20,.12)}.nv-units td{padding:.75rem 0;border-bottom:1px solid rgba(20,20,20,.08)}.nv-units td:first-child{font-weight:600}
+.nv-poi{list-style:none;padding:0;margin:0 0 1rem;display:grid;grid-template-columns:1fr;gap:.1rem}@media(min-width:720px){.nv-poi{grid-template-columns:1fr 1fr;column-gap:2.5rem}}.nv-poi li{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px solid rgba(20,20,20,.08);font-size:.95rem}.nv-poi li b{font-weight:600}.nv-poi li span{color:#6b6f76;white-space:nowrap}
+.nv-rel-grid{grid-template-columns:repeat(auto-fill,minmax(240px,360px))}
+.nv-prog{margin:1rem 0 0}.nv-prog-t{display:flex;justify-content:space-between;gap:1rem;font-size:.82rem;color:#6b6f76;margin-bottom:.4rem}.nv-prog-bar{height:8px;background:#F2F2F2;border:1px solid rgba(20,20,20,.12);overflow:hidden}#nv-prog-fill{height:100%;width:0;background:#0037FF;transition:width .6s ease}
+.nv-cash{margin:1rem 0 0;padding:.9rem 0 0;border-top:1px solid rgba(20,20,20,.12);display:grid;gap:.45rem}.nv-cash div{display:flex;justify-content:space-between;gap:1rem;font-size:.85rem}.nv-cash dt{color:#6b6f76}.nv-cash dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}.nv-range b .nw{white-space:nowrap}
+.nv-units td,.nv-units th{padding-right:.8rem}.nv-units td:last-child,.nv-units th:last-child{padding-right:0}.nv-units td:nth-child(2),.nv-units td:nth-child(3){white-space:nowrap}@media(max-width:719px){.nv-pp-seg span{white-space:normal;line-height:1.25}.nv-pp-seg:first-child{min-width:0}.nv-units{font-size:.88rem}}
+.nv-tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1rem}.nv-tab{border:1px solid rgba(20,20,20,.2);background:#fff;padding:.55rem .9rem;font:inherit;font-size:.82rem;font-weight:600;cursor:pointer;min-height:44px}.nv-tab.is-on{background:#0037FF;color:#fff;border-color:#0037FF}
+.nv-plan{border:1px solid rgba(20,20,20,.12);background:#FAFAF9;margin:0 0 1.25rem}.nv-plan img{display:block;width:100%;max-width:640px;height:auto;margin:0 auto}.nv-plan-empty{padding:1.4rem;font-size:.9rem;color:#6b6f76}.nv-plan-empty a{color:#0037FF;font-weight:600;text-decoration:none}
+.nv-map{background:#eef0f3}.nv-map .leaflet-control-attribution{font-size:10px}
+.leaflet-tooltip.nv-poi-lbl{background:rgba(10,10,24,.88);color:#fff;border:1px solid rgba(255,255,255,.28);border-radius:3px;padding:2px 6px;font:600 11px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-poi-lbl::before{display:none}
+.leaflet-tooltip.nv-prj-lbl{background:#0037FF;color:#fff;border:1px solid #fff;border-radius:3px;padding:3px 8px;font:700 11.5px/1.2 'Suisse Intl','Helvetica Neue',Arial,sans-serif;white-space:nowrap;box-shadow:none}.leaflet-tooltip.nv-prj-lbl::before{display:none}
+a[href*="/armenia/"],a[href*="/georgia/"],span:has(+a[href*="/armenia/"]),span:has(+a[href*="/georgia/"]){display:none!important}.nv-lang{color:#0037FF;text-decoration:none;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}.nv-lang:hover{text-decoration:underline}</style></head>
+<body data-nv-slug="costa-mare-al-marjan" data-nv-static="1">
+<a class="nv-skip" href="#main">Skip to content</a>
+<header class="nv-site-head"><div class="nv-site-wrap"><a class="nv-logo" href="/" aria-label="MARK FINGERMAN"><svg viewBox="0 0 44 48" fill="#0037FF" width="22" height="24" aria-hidden="true"><polygon points="0,48 0,10 14,0 14,38"></polygon><polygon points="30,48 30,10 44,0 44,38"></polygon><polygon points="12,2 24,44 34,44 22,2"></polygon></svg><span>MARK FINGERMAN</span></a>
+<nav class="nv-nav"><a href="/en/rak/residential/">Residential</a><a href="/en/rak/commercial/">Commercial</a><a href="/en/contacts/">Contacts</a></nav><a class="nv-lang" href="/rak/residential/costa-mare-al-marjan/" hreflang="ru">RU</a><a class="nv-head-cta" href="/en/contacts/">Contact</a></div></header>
+<div class="nv-top"><div class="nv-wrap"><nav class="nv-crumb"><a href="/">Home</a> / <a href="/en/rak/residential/">Ras Al Khaimah</a> / <a href="/en/rak/residential/">Residential</a> / Costa Mare</nav></div></div>
+<main id="main" tabindex="-1">
+<div id="nv-hero-zone"><div class="nv-hero"><img id="nv-main-img" src="/assets/projects/costa-mare-al-marjan/costa-mare-al-marjan-1.webp" alt="Costa Mare"></div></div>
+<div class="nv-wrap">
+<header class="nv-head" id="nv-head"><p class="nv-eyeloc"><span>Al Marjan Island · Ras Al Khaimah</span> <span class="nv-chip">Primary market</span> <span>Ellington</span></p>
+<h1>Costa Mare</h1>
+<div class="nv-price-row"><div class="nv-price"><small>from</small> $ 698 932</div><span class="nv-psm">≈ $ 10 106 / m²</span></div></header>
+<div id="nv-facts-zone"><div class="nv-facts"><div><span>Area</span><b>69–134 m²</b></div><div><span>Bedrooms</span><b>1–2</b></div><div><span>Property type</span><b>Apartments</b></div><div><span>Handover</span><b>Q3 2028</b></div><div><span>Developer</span><b>Ellington</b></div><div><span>Status</span><b>Under construction · on sale</b></div></div><div class="nv-prog" data-start="2025-02-27" data-end="2028-09-30"><div class="nv-prog-t"><span>Construction start — February 2025</span><span id="nv-prog-lbl">handover — Q3 2028</span></div><div class="nv-prog-bar"><div id="nv-prog-fill"></div></div></div></div>
+<div class="nv-grid"><div id="nv-body">
+<section class="nv-sec"><div class="s-head"><span class="s-num">01</span><h2>Overview</h2></div><p class="nv-desc">Costa Mare is a striking waterfront development on Al Marjan Island, composed of four architecturally distinctive towers that harmonize with their natural surroundings. The design draws inspiration from both the sea and the nearby mountains, expressed through fluid forms, soft earthy tones, and expansive glazing that captures panoramic views. Each residence is thoughtfully planned to maximize light, space, and tranquility, creating a refined coastal environment that balances elegance with a sense of calm exclusivity.</p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">02</span><h2>Highlights</h2></div><ul class="nv-hl"><li>Ellington · Al Marjan Island — four front-line towers with sea and mountain views</li><li>1–2 bedroom apartments from 69 m², floor-to-ceiling glazing</li><li>Resort amenities: direct water access, pools, spa</li><li>25 units available as of September 2026</li><li>Wynn Al Marjan Island — the UAE&#x27;s first integrated resort, 5 minutes away</li><li>Construction start — February 2025, handover — Q3 2028</li></ul></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">03</span><h2>Layouts and prices</h2></div><div class="nv-range" style="margin:0 0 1rem"><div><span>Area</span><b>69–134 m²</b></div><div><span>Price</span><b>from <span class="nw">$ 698 932</span><br>to <span class="nw">$ 1 404 174</span></b></div><div><span>Per m²</span><b>≈ $ 10 106</b></div><div><span>Bedrooms</span><b>1–2</b></div></div>
+<p class="nv-note">Price and area ranges — developer data (Reelly API) as of 19.09.2026. Floor plans, prices by unit type and the current list of available units — on request; we will send the developer's latest price list. <a href="/en/contacts/" style="color:#0037FF;font-weight:600;text-decoration:none">Request →</a></p></section>
+
+
+<section class="nv-sec"><div class="s-head"><span class="s-num">04</span><h2>About Al Marjan Island</h2></div><p class="nv-desc">Al Marjan Island is an exciting resort area located in the Emirate of Ras Al Khaimah. This island is the perfect place to relax and unwind on the shores of the Persian Gulf. Al Marjan is famous for its white-sand beaches, crystal clear waters and luxurious hotel complexes.</p><p class="nv-desc" style="margin-top:.9rem">Al Marjan Island is a stunning man-made archipelago located in the emirate of Ras Al Khaimah. It is one of the most prominent tourist destinations in the region, known for its picturesque beaches, luxurious resorts, and upscale residential developments. Al Marjan Island is situated along the Arabian Gulf coastline and offers breathtaking views of the sea. The island is shaped like a coral reef and is made up of four primary coral-shaped islands, connected by a central boulevard.</p></section>
+<section class="nv-sec" id="nv-loc-sec"><div class="s-head"><span class="s-num">05</span><h2>Location</h2></div><ul class="nv-poi"><li><b>Al Marjan Island · Wynn Resort</b><span>1 min · 0.8 km</span></li><li><b>RKT airport (Ras Al Khaimah)</b><span>38 min · 42.7 km</span></li><li><b>DXB Airport, T3</b><span>62 min · 82.6 km</span></li><li><b>Al Hamra Mall</b><span>18 min · 11.6 km</span></li><li><b>Mina Al Arab · waterfront</b><span>29 min · 27.8 km</span></li><li><b>Ras Al Khaimah centre · RAK Corniche</b><span>33 min · 33.3 km</span></li></ul><p class="nv-note">Driving time without traffic.</p><div class="nv-map" id="nv-map" role="img" aria-label="Map: Costa Mare" data-lat="25.68038930449365" data-lng="55.744604289682655" data-title="Costa Mare" data-pois='[[25.679, 55.752, "Al Marjan Island · Wynn Resort"], [25.6135, 55.9388, "RKT airport (Ras Al Khaimah)"], [25.2528, 55.3644, "DXB Airport, T3"], [25.6919, 55.7853, "Al Hamra Mall"], [25.7176, 55.8343, "Mina Al Arab · waterfront"], [25.7896, 55.9431, "Ras Al Khaimah centre · RAK Corniche"]]' data-poly='[[25.679857, 55.745388], [25.679837, 55.745501], [25.67988, 55.745509], [25.679896, 55.745399], [25.679857, 55.745388]]'></div><p class="nv-loc-foot">Al Marjan Island, Ras Al Khaimah · <a href="https://www.google.com/maps/search/?api=1&query=25.68038930449365,55.744604289682655" target="_blank" rel="noopener noreferrer">Open in Google Maps →</a></p></section>
+<section class="nv-sec"><div class="s-head"><span class="s-num">06</span><h2>Materials</h2></div><div class="nv-doc" style="margin-bottom:.7rem"><a href="https://ellingtonproperties.ae/" target="_blank" rel="noopener noreferrer">Developer's official website — ellingtonproperties.ae →</a></div><div class="nv-doc"><a href="/en/contacts/">Full brochure, floor plans and price list — request →</a></div></section>
+</div>
+<aside class="nv-side"><div class="nv-card"><div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6f76">Price from</div><div id="nv-side-price" style="font-size:1.7rem;font-weight:600;letter-spacing:-.015em;margin-top:.2rem">$ 698 932</div>
+<dl class="nv-cash"><div><dt>Status</dt><dd>Under construction · on sale</dd></div><div><dt>Handover</dt><dd>Q3 2028</dd></div></dl>
+<p style="font-size:.85rem;color:#6b6f76;margin:.75rem 0 0">We will send the full materials, current floor plans and payment terms.</p><a class="nv-btn" href="/en/contacts/">Request a selection</a>
+<div style="margin-top:1.25rem;font-size:.85rem;color:#6b6f76"><div>Phone</div><a href="tel:+971547928468" style="color:#141414;text-decoration:none">+971 547 928 468</a><div style="margin-top:.75rem">E-mail</div><a href="mailto:fingermanmark2017@gmail.com" style="color:#141414;text-decoration:none">fingermanmark2017@gmail.com</a></div></div></aside>
+</div></div>
+<div class="nv-wrap" id="nv-rel-zone"><section class="nv-sec" id="nv-rel-sec"><div class="s-head"><span class="s-num">07</span><h2>Similar properties</h2></div><div class="nv-rel-grid"><a class="nv-rel" href="/en/rak/residential/john-richmond-mira-coral-bay/"><div class="nv-rel-i"><img src="/assets/projects/john-richmond-mira-coral-bay/john-richmond-mira-coral-bay-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">John Richmond Residences at Mira Coral Bay</div><div class="nv-rel-d">Mira Coral Bay</div><div class="nv-rel-p">$ 149 762</div></div></a><a class="nv-rel" href="/en/rak/residential/solera-downtown-mina/"><div class="nv-rel-i"><img src="/assets/projects/solera-downtown-mina/solera-downtown-mina-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">Solera Downtown Mina</div><div class="nv-rel-d">Mina Al Arab</div><div class="nv-rel-p">$ 220 286</div></div></a><a class="nv-rel" href="/en/rak/residential/one-central-rak/"><div class="nv-rel-i"><img src="/assets/projects/one-central-rak/one-central-rak-1.webp" alt="" loading="lazy"></div><div class="nv-rel-b"><div class="nv-rel-t">One Central</div><div class="nv-rel-d">RAK Central · Al Hamra</div><div class="nv-rel-p">$ 236 869</div></div></a></div></section>
+</div>
+</main>
+<footer class="nv-site-foot"><div class="nv-site-wrap nv-foot-grid"><div><div class="nv-foot-brand">MARK FINGERMAN</div><p class="nv-foot-tag">Real Estate Through Numbers</p></div><div><div class="nv-foot-h">Markets</div><a href="/en/dubai/residential/">Dubai</a><a href="/en/abudhabi/residential/">Abu Dhabi</a><a href="/en/rak/residential/">Ras Al Khaimah</a></div><div><div class="nv-foot-h">Contacts</div><a href="tel:+971547928468">+971 547 928 468</a><a href="mailto:fingermanmark2017@gmail.com">fingermanmark2017@gmail.com</a></div></div><div class="nv-site-wrap nv-foot-btm">© 2026 Mark Fingerman</div></footer>
+<script>(function(){var main=document.getElementById('nv-main-img');Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(b){b.addEventListener('click',function(){var im=b.querySelector('img');if(main&&im){main.src=im.src;main.alt=b.getAttribute('aria-label')||main.alt;}Array.prototype.forEach.call(document.querySelectorAll('.nv-film-btn'),function(o){o.classList.remove('is-on');o.setAttribute('aria-pressed','false');});b.classList.add('is-on');b.setAttribute('aria-pressed','true');});});var pr=document.querySelector('.nv-prog');if(pr){var rd=pr.getAttribute('data-readiness');if(rd){document.getElementById('nv-prog-fill').style.width=rd+'%';}else{var s0=new Date(pr.getAttribute('data-start')),e0=new Date(pr.getAttribute('data-end')),n0=new Date(),pc=Math.max(0,Math.min(100,Math.round(100*(n0-s0)/(e0-s0))));document.getElementById('nv-prog-fill').style.width=pc+'%';document.getElementById('nv-prog-lbl').textContent='Built '+pc+' % of the schedule · handover — '+"Q3 2028";}}function money(v){return '$ '+Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,' ');}var U=[],S=[];function pick(k){var u=U.filter(function(x){return x.key===k})[0];if(!u)return;document.getElementById('nv-u-m2').textContent=(u.m2_to?u.m2+'–'+u.m2_to:'≈ '+u.m2)+' m² · '+u.sqft.toLocaleString('ru-RU')+' sq ft';document.getElementById('nv-u-price').innerHTML='from '+money(u.usd)+'<span class="nv-eq"> · AED '+u.aed.toLocaleString('ru-RU')+'</span>';document.getElementById('nv-u-ppsm').textContent='≈ '+money(u.usd/u.m2);var pl=document.getElementById('nv-u-plan');pl.innerHTML=u.plan?'<img src="'+u.plan+'" alt="Floor plan: '+u.label+'" loading="lazy">':'<div class="nv-plan-empty">Floor plan for this type — on request. <a href="/en/contacts/">Request →</a></div>';var sh=document.getElementById('nv-sched-h');if(sh&&S.length){sh.textContent=u.label+' · from '+money(u.usd);document.getElementById('nv-sched').innerHTML=S.map(function(r){return '<tr><td>'+r[0].charAt(0).toUpperCase()+r[0].slice(1)+'</td><td>'+r[1]+' %</td><td>'+money(u.usd*r[1]/100)+'</td></tr>'}).join('');}Array.prototype.forEach.call(document.querySelectorAll('.nv-cash [data-pct]'),function(d){d.textContent=money(u.usd*parseFloat(d.getAttribute('data-pct'))/100)});Array.prototype.forEach.call(document.querySelectorAll('.nv-tab'),function(b){var on=b.getAttribute('data-unit')===k;b.classList.toggle('is-on',on);b.setAttribute('aria-pressed',on?'true':'false')});}Array.prototype.forEach.call(document.querySelectorAll('.nv-tab'),function(b){b.addEventListener('click',function(){pick(b.getAttribute('data-unit'))})});if(U.length)pick(U[0].key);})();</script><script>(function(){function init(){var el=document.getElementById('nv-map');if(!el||!window.L||el.dataset.ready)return;el.dataset.ready='1';var lat=+el.getAttribute('data-lat'),lng=+el.getAttribute('data-lng');var m=L.map(el,{zoomControl:true,scrollWheelZoom:false,attributionControl:true}).setView([lat,lng],14);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, USGS, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(m);var ic=L.divIcon({className:'',html:'<span style="display:block;width:14px;height:14px;transform:rotate(45deg);border:2px solid #ffffff;background:#0037FF;box-shadow:0 0 0 3px rgba(0,55,255,.45),0 2px 6px rgba(0,0,0,.35)"></span>',iconSize:[14,14],iconAnchor:[7,7]});L.marker([lat,lng],{icon:ic,title:el.getAttribute('data-title')||'',alt:el.getAttribute('data-title')||''}).addTo(m).bindTooltip(el.getAttribute('data-title')||'',{permanent:true,direction:'bottom',offset:[0,10],className:'nv-prj-lbl'});var ps=el.getAttribute('data-pois');if(ps){var pts=[[lat,lng]];JSON.parse(ps).forEach(function(q){pts.push([q[0],q[1]]);L.circleMarker([q[0],q[1]],{radius:5,color:'#fff',weight:1.5,fillColor:'#8F7FFF',fillOpacity:.95}).addTo(m).bindTooltip(q[2],{permanent:true,direction:'top',offset:[0,-6],className:'nv-poi-lbl'});});m.fitBounds(L.latLngBounds(pts),{padding:[28,28],maxZoom:15});}var pg=el.getAttribute('data-poly');if(pg){L.polygon(JSON.parse(pg),{color:'#0037FF',weight:2,fillColor:'#0037FF',fillOpacity:.15}).addTo(m);}}if(window.L)init();else{var t=setInterval(function(){if(window.L){clearInterval(t);init();}},60);setTimeout(function(){clearInterval(t)},15000);}})();</script><script src="/assets/nv-currency.js" defer></script>
+</body></html>
